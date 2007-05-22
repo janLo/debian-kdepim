@@ -1,0 +1,25 @@
+Source: kdepim
+Section: kde
+Priority: optional
+Maintainer: Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
+ libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
+ kdepimlibs4-dev (>=4:3.90.1), libfam-dev, libbz2-dev, libpcre++-dev, 
+ libungif4-dev | libgif-dev, libopensync0-dev, libgpgme11-dev, libboost-dev, 
+ libsasl2-dev, xsltproc, libgnokii3-dev, libxss-dev, libmysqlclient15-dev
+Standards-Version: 3.7.2
+
+Package: kdepim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Personal Information Management apps from the official KDE release
+ KDE (the K Desktop Environment) is a powerful Open Source graphical
+ desktop environment for Unix workstations. It combines ease of use,
+ contemporary functionality, and outstanding graphical design with the
+ technological superiority of the Unix operating system.
+ .
+ This metapackage includes a collection of Personal Information Management
+ (PIM) applications provided with the official release of KDE.
+ .
+  Homepage: http://pim.kde.org/
+
