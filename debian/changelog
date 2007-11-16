@@ -2,10 +2,11 @@ kdepim (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.
   * Add build dependencies on libqca2-dev, libpisock-dev,
-    libstrigiqtdbusclient0 and kdebase-workspace-dev.
+    libstrigiqtdbusclient0, libplasma-dev and
+    kdebase-workspace-dev.
   * Remove unneeded build dependency on kdetoys.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 16 Nov 2007 18:01:59 +0100
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 16 Nov 2007 18:11:50 +0100
 
 kdepim (4:3.90.1-1) unstable; urgency=low
 
