@@ -2,11 +2,12 @@ Source: kdepim
 Section: kde
 Priority: optional
 Maintainer: Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs-dev (>=4:3.96.0),
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=4:3.96.0),
  libopensync0-dev, libgpgme11-dev, libboost-dev,  libsasl2-dev, xsltproc,
  libgnokii3-dev, libxss-dev, libmysqlclient15-dev, libqca2-dev, libpisock-dev,
  libstrigiqtdbusclient0, libplasma-dev
 Standards-Version: 3.7.2
+Homepage: http://pim.kde.org/
 
 Package: kdepim
 Architecture: any
@@ -19,6 +20,3 @@ Description: Personal Information Management apps from the official KDE release
  .
  This metapackage includes a collection of Personal Information Management
  (PIM) applications provided with the official release of KDE.
- .
-  Homepage: http://pim.kde.org/
-
