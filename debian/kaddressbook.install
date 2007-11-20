@@ -105,3 +105,5 @@ usr/share/kde4/servicetypes/kaddressbook_extension.desktop
 usr/share/kde4/servicetypes/kaddressbookimprotocol.desktop
 usr/share/kde4/servicetypes/kaddressbook_view.desktop
 usr/share/kde4/servicetypes/kaddressbook_xxport.desktop
+usr/bin/kabc2mutt
+usr/bin/kabcclient

@@ -72,11 +72,6 @@ Description: RSS feed aggregator for KDE
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: kabcclient
-Section: utils
-Architecture: any
-Depends: ${shlibs:Depends}
-
 Package: kaddressbook
 Section: utils
 Architecture: any
@@ -195,8 +190,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}, kdepim-kio-plugins, kdebase-kio-plugins
 Recommends: procmail
 Suggests: gnupg, gnupg-agent, pinentry-qt | pinentry-x11, kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer
-Replaces: kdepim-dev (<< 4:3.4.0), kdebase-data (<< 4:3.4.0)
+Replaces: kmailcvt (<< 4:3.90.0)
 Provides: imap-client, mail-reader
+Homepage: http://kmail.kde.org/
 Description: KDE Email client
  KMail is a fully-featured email client that fits nicely into the KDE
  desktop. It has features such as support for IMAP, POP3, multiple accounts,
@@ -204,19 +200,6 @@ Description: KDE Email client
  .
  You need to install kdepim-kio-plugins if you want to use IMAP or
  mbox files, and/or kdebase-kio-plugins if you want to use POP3.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
- .
-  Homepage: http://kmail.kde.org/
-
-Package: kmailcvt
-Section: mail
-Architecture: any
-Depends: ${shlibs:Depends}, kmail
-Description: KDE KMail mail folder converter
- Converts mail folders to KMail format.  Formats supported for import
- include Outlook Express, Evolution, and plain mbox.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
