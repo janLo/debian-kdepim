@@ -1,3 +1,7 @@
+usr/lib/libakonadicomponents.so.4
+usr/lib/libakonadicomponents.so.4.0.0
+usr/lib/libakonadiprotocol.so.4
+usr/lib/libakonadiprotocol.so.4.0.0
 usr/lib/libakonadi.so.4
 usr/lib/libakonadi.so.4.0.0
 usr/share/dbus-1/interfaces/org.kde.Akonadi.AgentManager.xml
@@ -6,7 +10,3 @@ usr/share/dbus-1/interfaces/org.kde.Akonadi.NotificationManager.xml
 usr/share/dbus-1/interfaces/org.kde.Akonadi.ProfileManager.xml
 usr/share/dbus-1/interfaces/org.kde.Akonadi.TracerNotification.xml
 usr/share/dbus-1/interfaces/org.kde.Akonadi.Tracer.xml
-usr/lib/libakonadiprotocol.so.4
-usr/lib/libakonadiprotocol.so.4.0.0
-usr/lib/libakonadicomponents.so.4
-usr/lib/libakonadicomponents.so.4.0.0

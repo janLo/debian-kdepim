@@ -47,6 +47,6 @@ usr/include/libakonadi/resourcebase.h
 usr/include/libakonadi/resource.h
 usr/include/libakonadi/session.h
 usr/include/libakonadi/transactionjobs.h
-usr/lib/libakonadi.so
-usr/lib/libakonadiprotocol.so
 usr/lib/libakonadicomponents.so
+usr/lib/libakonadiprotocol.so
+usr/lib/libakonadi.so
