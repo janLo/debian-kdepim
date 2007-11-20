@@ -1,0 +1,11 @@
+usr/bin/egroupwarewizard
+usr/bin/groupwarewizard
+usr/bin/kolabwizard
+usr/bin/scalixwizard
+usr/bin/sloxwizard
+usr/share/applications/kde4/groupwarewizard.desktop
+usr/share/kde4/config.kcfg/egroupware.kcfg
+usr/share/kde4/config.kcfg/groupwise.kcfg
+usr/share/kde4/config.kcfg/kolab.kcfg
+usr/share/kde4/config.kcfg/scalix.kcfg
+usr/share/kde4/config.kcfg/slox.kcfg

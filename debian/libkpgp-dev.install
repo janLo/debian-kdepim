@@ -1,0 +1,7 @@
+usr/include/kpgp/kpgpbase.h
+usr/include/kpgp/kpgpblock.h
+usr/include/kpgp/kpgp.h
+usr/include/kpgp/kpgpkey.h
+usr/include/kpgp/kpgpui.h
+usr/include/kpgp/libkpgp_export.h
+usr/lib/libkpgp.so

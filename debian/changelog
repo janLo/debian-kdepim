@@ -1,13 +1,14 @@
 kdepim (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.
+  * Split source package in all the needed binary packages.
   * Add build dependencies on libqca2-dev, libpisock-dev,
     libstrigiqtdbusclient0, libplasma-dev and
     kdebase-workspace-dev.
   * Remove unneeded build dependency on kdetoys.
   * Move homepage into control field.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sat, 17 Nov 2007 01:04:08 +0100
+ -- Armin Berres <trigger+debian@space-based.de>  Tue, 20 Nov 2007 00:55:16 +0100
 
 kdepim (4:3.90.1-1) unstable; urgency=low
 
