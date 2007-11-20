@@ -22,6 +22,7 @@ usr/lib/kde4/kcm_kabconfig.so
 usr/lib/kde4/kcm_kabcustomfields.so
 usr/lib/kde4/kcm_kabldapconfig.so
 usr/lib/kde4/kontact_kaddressbookplugin.so
+usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/kde4/ldifvcardthumbnail.so
 usr/lib/libkabcommon.so.4
 usr/lib/libkabcommon.so.4.0.0

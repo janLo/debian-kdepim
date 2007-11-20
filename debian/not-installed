@@ -1,0 +1,4 @@
+#useless .so symlinks
+./usr/lib/libkfeed.so
+./usr/lib/libmimelib.so
+./usr/lib/libmaildir.so

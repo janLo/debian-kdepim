@@ -7,8 +7,9 @@ kdepim (4:3.96.0-1) experimental; urgency=low
     kdebase-workspace-dev.
   * Remove unneeded build dependency on kdetoys.
   * Move homepage into control field.
+  * Add not-installed file.
 
- -- Armin Berres <trigger+debian@space-based.de>  Tue, 20 Nov 2007 00:55:16 +0100
+ -- Armin Berres <trigger+debian@space-based.de>  Tue, 20 Nov 2007 13:13:47 +0100
 
 kdepim (4:3.90.1-1) unstable; urgency=low
 
