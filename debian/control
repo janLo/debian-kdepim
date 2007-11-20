@@ -109,17 +109,6 @@ Description: KDE alarm message, command and email scheduler
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: karm
-Section: utils
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: KDE time tracker tool
- KArm is a time tracker for busy people who need to keep track of the amount of
- time they spend on various tasks.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
 Package: kdepim-kio-plugins
 Section: kde
 Architecture: any
@@ -338,9 +327,15 @@ Description: KDE Palm Pilot hot-sync tool
  See the 'kde' and 'kdepim' packages for more information.
 
 Package: ktimetracker
-Section: kde
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
+Description: KDE time tracker tool
+ KTimetracker is a time tracker for busy people who need to keep track of the amount of
+ time they spend on various tasks.
+ .
+ This package is part of KDE, and a component of the KDE PIM module.
+ See the 'kde' and 'kdepim' packages for more information.
 
 Package: ktnef
 Section: kde

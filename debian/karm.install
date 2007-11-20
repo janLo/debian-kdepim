@@ -1,8 +1,0 @@
-usr/bin/karm
-usr/lib/kde4/karmpart.so
-usr/lib/kde4/kontact_karm.so
-usr/share/applications/kde4/karm.desktop
-usr/share/kde4/apps/karmpart/karmui.rc
-usr/share/kde4/apps/ktimetracker/karmui.rc
-usr/share/kde4/services/karm_part.desktop
-usr/share/kde4/services/kontact/karmplugin.desktop
