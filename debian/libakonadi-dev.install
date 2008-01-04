@@ -1,5 +1,8 @@
 usr/include/libakonadi/agentbase.h
+usr/include/libakonadi/agentfilterproxymodel.h
+usr/include/libakonadi/agentinstancemodel.h
 usr/include/libakonadi/agentmanager.h
+usr/include/libakonadi/agenttypemodel.h
 usr/include/libakonadi/akonadi_export.h
 usr/include/libakonadi/collectionattributefactory.h
 usr/include/libakonadi/collectionattribute.h
@@ -31,7 +34,6 @@ usr/include/libakonadi/itemmodel.h
 usr/include/libakonadi/itempayloadinternals_p.h
 usr/include/libakonadi/itemserializerplugin.h
 usr/include/libakonadi/itemstorejob.h
-usr/include/libakonadi/itemsync.h
 usr/include/libakonadi/itemview.h
 usr/include/libakonadi/job.h
 usr/include/libakonadi/kabc/kabcitembrowser.h
@@ -43,6 +45,7 @@ usr/include/libakonadi/libakonadi_export.h
 usr/include/libakonadi/messagecollectionmodel.h
 usr/include/libakonadi/monitor.h
 usr/include/libakonadi/profilemanager.h
+usr/include/libakonadi/profilemodel.h
 usr/include/libakonadi/resourcebase.h
 usr/include/libakonadi/resource.h
 usr/include/libakonadi/session.h

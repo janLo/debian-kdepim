@@ -25,7 +25,6 @@ usr/lib/kde4/akonadi_serializer_mail.so
 usr/lib/kde4/akonadi_serializer_sms.so
 usr/lib/kde4/plasma_applet_plasmobiff.so
 usr/lib/kde4/plasma_engine_akonadi.so
-usr/lib/kde4/plugins/sqldrivers/libqsqlmysqlembedded.so
 usr/lib/libakonadiprivate.so
 usr/lib/libakonadiprivate.so.4
 usr/lib/libakonadiprivate.so.4.0.0

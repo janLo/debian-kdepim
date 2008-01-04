@@ -1,3 +1,14 @@
+kdepim (4:3.98.0~svn755919-1) UNRELEASED; urgency=low
+
+  * Svn snapshot of revision 7555919.
+  * Update installed files.
+  * Raise build-dep to >= 4:3.98.0~svn755919-1.
+  * Build depend on libopensync1exp2 instead of libopensync1exp1. Otherwise we
+    are hit by #458569.
+  * Disable sqlplugin from akonadi. Fails to build with --as-needed.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 04 Jan 2008 12:22:40 +0100
+
 kdepim (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.

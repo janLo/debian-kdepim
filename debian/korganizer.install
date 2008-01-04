@@ -2,7 +2,6 @@ etc/kde4/korganizer.knsrc
 usr/bin/ical2vcal
 usr/bin/korgac
 usr/bin/korganizer
-usr/bin/thememain
 usr/lib/kde4/kcal_blog.so
 usr/lib/kde4/kcal_groupdav.so
 usr/lib/kde4/kcal_kabc.so
@@ -44,8 +43,8 @@ usr/lib/libkorganizer_eventviewer.so.4
 usr/lib/libkorganizer_eventviewer.so.4.0.0
 usr/lib/libkorganizer_interfaces.so.4
 usr/lib/libkorganizer_interfaces.so.4.0.0
-usr/lib/libkorganizer.so.4
-usr/lib/libkorganizer.so.4.0.0
+usr/lib/libkorganizerprivate.so.4
+usr/lib/libkorganizerprivate.so.4.0.0
 usr/lib/libkorg_stdprinting.so.4
 usr/lib/libkorg_stdprinting.so.4.0.0
 usr/share/applications/kde4/korganizer.desktop
@@ -60,7 +59,6 @@ usr/share/icons/hicolor/32x32/apps/korganizer.png
 usr/share/icons/hicolor/48x48/apps/korganizer.png
 usr/share/icons/hicolor/64x64/apps/korganizer.png
 usr/share/kde4/apps/kconf_update/korganizer.upd
-usr/share/kde4/apps/korgac/icons/oxygen/22x22/actions/korgac_disabled.png
 usr/share/kde4/apps/korgac/icons/oxygen/22x22/actions/korgac.png
 usr/share/kde4/apps/korganizer/icons/crystalsvg/16x16/actions/timeline.png
 usr/share/kde4/apps/korganizer/icons/crystalsvg/22x22/actions/timeline.png

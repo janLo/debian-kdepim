@@ -118,7 +118,7 @@ usr/lib/libkontact.so
 usr/lib/libkorganizer_calendar.so
 usr/lib/libkorganizer_eventviewer.so
 usr/lib/libkorganizer_interfaces.so
-usr/lib/libkorganizer.so
+usr/lib/libkorganizerprivate.so
 usr/lib/libkorg_stdprinting.so
 usr/lib/libkpilot.so
 usr/lib/libkpinterfaces.so
