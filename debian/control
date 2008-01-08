@@ -57,6 +57,7 @@ Package: akonadi
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
+Homepage: http://pim.kde.org/akonadi/
 Description:
 
 Package: akregator
@@ -77,7 +78,7 @@ Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: kdepim-kresources, kdebase-kio-plugins
-Description: KDE NG addressbook application
+Description: KDE address book
  KAddressBook is the main address book application for KDE; it enables you
  to manage your contacts efficiently and comfortably. It can load and save
  your contacts to many different locations, including the local file system,
@@ -91,6 +92,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: kmix, kttsd
+Homepage: http://www.astrojar.org.uk/kalarm/
 Description: KDE alarm message, command and email scheduler
  KAlarm provides a graphical interface to schedule personal timed events -
  pop-up alarm messages, command execution and sending emails. There is a
@@ -155,6 +157,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: konqueror
 Conflicts: kdebluetooth-irmcsync (<< 0.99+1.0beta2-4.1)
+Homepage: http://www.opensync.org/wiki/kitchensync
 Description: Synchronization framework
  This package contains a synchronization framework, still under heavy
  development.  Kitchensync uses opensync.
@@ -181,7 +184,7 @@ Recommends: procmail
 Suggests: gnupg, gnupg-agent, pinentry-qt | pinentry-x11, kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer
 Replaces: kmailcvt (<< 4:3.90.0)
 Provides: imap-client, mail-reader
-Homepage: http://kmail.kde.org/
+Homepage: http://kontact.kde.org/kmail/
 Description: KDE Email client
  KMail is a fully-featured email client that fits nicely into the KDE
  desktop. It has features such as support for IMAP, POP3, multiple accounts,
@@ -197,6 +200,7 @@ Package: kmobiletools
 Section: 
 Architecture: any
 Depends: ${shlibs:Depends}
+Homepage: http://www.kmobiletools.org/
 Description: KDE application to control mobile phones
  MobileTools is a KDE application that allows you to control your mobile phone.
  Actually, this application supports: SMS reading/writing/sending/deleting ,
@@ -213,6 +217,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kdepim-dev (<< 4:3.4.0)
 Provides: news-reader
+Homepage: http://kontact.kde.org/knode/
 Description: KDE news reader
  KNode is an easy-to-use, convenient newsreader. It is intended to be usable
  by inexperienced users, but also includes support for such features as
@@ -282,6 +287,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}
 Recommends: kghostview
+Homepage: http://kontact.kde.org/korganizer/
 Description: KDE personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
  .
@@ -317,6 +323,7 @@ Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0
 Suggests: knotes, korganizer
+Homepage: http://cvs.codeyard.net/kpilot/
 Description: KDE Palm Pilot hot-sync tool
  KPilot is an application that synchronizes your Palm Pilot or similar device
  (like the Handspring Visor) with your KDE desktop, much like the Palm HotSync
@@ -353,11 +360,13 @@ Package: libakonadi4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
+Homepage: http://pim.kde.org/akonadi/
 
 Package: libakonadi-dev
 Section: libdevel
 Architecture: any
 Depends: libakonadi4 (= ${binary:Version})
+Homepage: http://pim.kde.org/akonadi/
 
 Package: libkdepim4
 Section: libs
