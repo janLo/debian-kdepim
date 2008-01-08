@@ -1,3 +1,11 @@
+kdepim (4:4.0.0-1) UNRELEASED; urgency=low
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Add Homepage: to control.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Jan 2008 12:24:22 -0500
+
 kdepim (4:3.98.0~svn755919-1) UNRELEASED; urgency=low
 
   * Svn snapshot of revision 7555919.
