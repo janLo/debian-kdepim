@@ -1,5 +1,12 @@
-kdepim (4:4.0.0-1) UNRELEASED; urgency=low
+kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
 
+  * First KDE 4.1 snapshot packaged.
+
+  +++ Changes by Matthew Rosewarne:
+  
+  * Remove no longer need patch 04 to disable sqlplugin for akonadi.
+  * Update build depends lines.
+  
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
