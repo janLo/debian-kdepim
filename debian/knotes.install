@@ -11,6 +11,7 @@ usr/lib/libknotes_xmlrpc.so.4
 usr/lib/libknotes_xmlrpc.so.4.1.0
 usr/share/applications/kde4/knotes.desktop
 usr/share/dbus-1/interfaces/org.kde.KNotes.xml
+usr/share/doc/kde4/HTML/en/knotes/common
 usr/share/icons/hicolor/128x128/apps/knotes.png
 usr/share/icons/hicolor/16x16/apps/knotes.png
 usr/share/icons/hicolor/22x22/apps/knotes.png

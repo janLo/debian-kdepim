@@ -10,6 +10,7 @@ usr/lib/kde4/kaddrbk_bookmark_xxport.so
 usr/lib/kde4/kaddrbk_cardview.so
 usr/lib/kde4/kaddrbk_cryptosettings.so
 usr/lib/kde4/kaddrbk_csv_xxport.so
+usr/lib/kde4/kaddrbk_distributionlistng.so
 usr/lib/kde4/kaddrbk_distributionlist.so
 usr/lib/kde4/kaddrbk_eudora_xxport.so
 usr/lib/kde4/kaddrbk_gmx_xxport.so
@@ -95,6 +96,7 @@ usr/share/kde4/services/kaddressbook/cardview.desktop
 usr/share/kde4/services/kaddressbook/cryptosettings.desktop
 usr/share/kde4/services/kaddressbook/csv_xxport.desktop
 usr/share/kde4/services/kaddressbook/distributionlist.desktop
+usr/share/kde4/services/kaddressbook/distributionlistng.desktop
 usr/share/kde4/services/kaddressbook/eudora_xxport.desktop
 usr/share/kde4/services/kaddressbook/gaduprotocol.desktop
 usr/share/kde4/services/kaddressbook/gmx_xxport.desktop

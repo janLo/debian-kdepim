@@ -5,6 +5,7 @@ usr/lib/libknodecommon.so.4
 usr/lib/libknodecommon.so.4.1.0
 usr/share/applications/kde4/KNode.desktop
 usr/share/dbus-1/interfaces/org.kde.knode.xml
+usr/share/doc/kde4/HTML/en/knode/common
 usr/share/icons/hicolor/128x128/apps/knode2.png
 usr/share/icons/hicolor/128x128/apps/knode.png
 usr/share/icons/hicolor/16x16/apps/knode2.png
