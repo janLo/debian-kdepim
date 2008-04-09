@@ -1,6 +1,6 @@
 usr/lib/kde4/kpartsdesignerplugin.so
 usr/lib/libkdepim.so.4
-usr/lib/libkdepim.so.4.0.0
+usr/lib/libkdepim.so.4.1.0
 usr/share/dbus-1/interfaces/org.kde.addressbook.service.xml
 usr/share/dbus-1/interfaces/org.kde.mailtransport.service.xml
 usr/share/icons/oxygen/22x22/actions/button_fewer.png

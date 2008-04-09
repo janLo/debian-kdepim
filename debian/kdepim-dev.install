@@ -18,10 +18,6 @@ usr/include/kmail/interfaces/bodyparturlhandler.h
 usr/include/kmail/interfaces/htmlwriter.h
 usr/include/kmail/interfaces/observable.h
 usr/include/kmail/interfaces/observer.h
-usr/include/kontact/core.h
-usr/include/kontact/kontact_export.h
-usr/include/kontact/plugin.h
-usr/include/kontact/summary.h
 usr/include/kpilot/kpilotdevicelink.h
 usr/include/kpilot/kpilot_export.h
 usr/include/kpilot/kpilotlink.h
@@ -90,7 +86,6 @@ usr/lib/libkabcscalix.so
 usr/lib/libkabc_slox.so
 usr/lib/libkabc_xmlrpc.so
 usr/lib/libkabinterfaces.so
-usr/lib/libkaddressbook.so
 usr/lib/libkalarm_resources.so
 usr/lib/libkcal_groupdav.so
 usr/lib/libkcalkolab.so
@@ -105,7 +100,6 @@ usr/lib/libkgroupwaredav.so
 usr/lib/libkitchensyncprivate.so
 usr/lib/libkmailprivate.so
 usr/lib/libkmobiletoolsengineui.so
-usr/lib/libkmobiletools_fake.so
 usr/lib/libkmobiletoolslib.so
 usr/lib/libkmtaddressbook_service.so
 usr/lib/libknodecommon.so
@@ -114,7 +108,6 @@ usr/lib/libknotesscalix.so
 usr/lib/libknotes_xmlrpc.so
 usr/lib/libkocorehelper.so
 usr/lib/libkode.so
-usr/lib/libkontact.so
 usr/lib/libkorganizer_calendar.so
 usr/lib/libkorganizer_eventviewer.so
 usr/lib/libkorganizer_interfaces.so

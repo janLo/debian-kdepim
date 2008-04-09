@@ -15,7 +15,7 @@ usr/lib/kde4/kmail_bodypartformatter_text_xdiff.so
 usr/lib/kde4/kmailpart.so
 usr/lib/kde4/kontact_kmailplugin.so
 usr/lib/libkmailprivate.so.4
-usr/lib/libkmailprivate.so.4.0.0
+usr/lib/libkmailprivate.so.4.1.0
 usr/share/applications/kde4/KMail.desktop
 usr/share/applications/kde4/kmail_view.desktop
 usr/share/dbus-1/interfaces/org.kde.kmail.kmailpart.xml

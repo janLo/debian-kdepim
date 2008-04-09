@@ -2,7 +2,7 @@ usr/bin/knode
 usr/lib/kde4/kcm_knode.so
 usr/lib/kde4/knodepart.so
 usr/lib/libknodecommon.so.4
-usr/lib/libknodecommon.so.4.0.0
+usr/lib/libknodecommon.so.4.1.0
 usr/share/applications/kde4/KNode.desktop
 usr/share/dbus-1/interfaces/org.kde.knode.xml
 usr/share/icons/hicolor/128x128/apps/knode2.png

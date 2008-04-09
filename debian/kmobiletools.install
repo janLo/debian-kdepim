@@ -1,13 +1,11 @@
 usr/bin/kmobiletools
 usr/lib/kde4/kmobiletoolsmainpart.so
 usr/lib/libkmobiletoolsengineui.so.4
-usr/lib/libkmobiletoolsengineui.so.4.0.0
-usr/lib/libkmobiletools_fake.so.4
-usr/lib/libkmobiletools_fake.so.4.0.0
+usr/lib/libkmobiletoolsengineui.so.4.1.0
 usr/lib/libkmobiletoolslib.so.4
-usr/lib/libkmobiletoolslib.so.4.0.0
+usr/lib/libkmobiletoolslib.so.4.1.0
 usr/lib/libkmtaddressbook_service.so.4
-usr/lib/libkmtaddressbook_service.so.4.0.0
+usr/lib/libkmtaddressbook_service.so.4.1.0
 usr/share/applications/kde4/kmobiletools.desktop
 usr/share/icons/hicolor/16x16/apps/kmobiletools.png
 usr/share/icons/hicolor/22x22/actions/exportsms.png

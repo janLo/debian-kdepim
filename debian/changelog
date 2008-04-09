@@ -6,6 +6,7 @@ kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
   
   * Remove no longer need patch 04 to disable sqlplugin for akonadi.
   * Update build depends lines.
+  * Update installed files.
   
   +++ Changes by Matthew Rosewarne:
 

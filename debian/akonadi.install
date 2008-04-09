@@ -1,5 +1,4 @@
 etc/kde4/akonadi/mysql-global.conf
-usr/bin/akonadi
 usr/bin/akonadiconsole
 usr/bin/akonadi_control
 usr/bin/akonadictl
@@ -8,7 +7,6 @@ usr/bin/akonadi_knut_resource
 usr/bin/akonadi_localbookmarks_resource
 usr/bin/akonadi_maildir_resource
 usr/bin/akonadi_mailthreader_agent
-usr/bin/akonadi_nepomuk_feeder
 usr/bin/akonadi_nntp_resource
 usr/bin/akonadiserver
 usr/bin/akonadi_strigi_feeder
@@ -16,7 +14,6 @@ usr/bin/akonadi_vcard_resource
 usr/bin/akonamail
 usr/bin/kabceditor
 usr/bin/kabcviewer
-usr/bin/kagenda
 usr/bin/kcontactmanager
 usr/lib/kde4/akonadi_serializer_addressee.so
 usr/lib/kde4/akonadi_serializer_bookmark.so
@@ -25,22 +22,16 @@ usr/lib/kde4/akonadi_serializer_mail.so
 usr/lib/kde4/akonadi_serializer_sms.so
 usr/lib/kde4/plasma_applet_plasmobiff.so
 usr/lib/kde4/plasma_engine_akonadi.so
+usr/lib/libakonadi-kabc.so.4
+usr/lib/libakonadi-kabc.so.4.1.0
 usr/lib/libakonadiprivate.so
 usr/lib/libakonadiprivate.so.4
-usr/lib/libakonadiprivate.so.4.0.0
-usr/lib/libkabcakonadi.so
-usr/lib/libkabcakonadi.so.4
-usr/lib/libkabcakonadi.so.4.0.0
-usr/lib/libkmimeakonadi.so
-usr/lib/libkmimeakonadi.so.4
-usr/lib/libkmimeakonadi.so.4.0.0
+usr/lib/libakonadiprivate.so.4.1.0
 usr/share/akonadi/agents/icalresource.desktop
 usr/share/akonadi/agents/knutresource.desktop
-usr/share/akonadi/agents/knutresource_unittest.desktop
 usr/share/akonadi/agents/localbookmarksresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/mailthreaderagent.desktop
-usr/share/akonadi/agents/nepomukfeeder.desktop
 usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/strigifeeder.desktop
 usr/share/akonadi/agents/vcardresource.desktop

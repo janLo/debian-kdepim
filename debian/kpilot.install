@@ -11,7 +11,7 @@ usr/lib/kde4/kpilot_conduit_todo.so
 usr/lib/kde4/kpilot_conduit_vcal.so
 usr/lib/libkpilot_conduit_base.so
 usr/lib/libkpilot.so.4
-usr/lib/libkpilot.so.4.0.0
+usr/lib/libkpilot.so.4.1.0
 usr/share/applications/kde4/kpilotdaemon.desktop
 usr/share/applications/kde4/kpilot.desktop
 usr/share/icons/hicolor/16x16/actions/kpilot_backup.png

@@ -4,7 +4,7 @@ usr/lib/kde4/kalarm_localdir.so
 usr/lib/kde4/kalarm_local.so
 usr/lib/kde4/kalarm_remote.so
 usr/lib/libkalarm_resources.so.4
-usr/lib/libkalarm_resources.so.4.0.0
+usr/lib/libkalarm_resources.so.4.1.0
 usr/share/applications/kde4/kalarmd.desktop
 usr/share/applications/kde4/kalarm.desktop
 usr/share/autostart/kalarmd.autostart.desktop
@@ -12,12 +12,7 @@ usr/share/autostart/kalarm.tray.desktop
 usr/share/dbus-1/interfaces/org.kde.kalarm.kalarmd.Daemon.xml
 usr/share/dbus-1/interfaces/org.kde.kalarm.kalarm.xml
 usr/share/dbus-1/interfaces/org.kde.kalarm.notify.xml
-usr/share/icons/hicolor/16x16/apps/kalarm.png
-usr/share/icons/hicolor/22x22/apps/kalarm.png
-usr/share/icons/hicolor/32x32/apps/kalarm.png
-usr/share/icons/hicolor/48x48/apps/kalarm.png
 usr/share/icons/oxygen/16x16/actions/document-new-from-template.png
-usr/share/icons/oxygen/16x16/actions/kalarm.png
 usr/share/icons/oxygen/22x22/actions/document-new-from-template.png
 usr/share/kde4/apps/kalarm/kalarmui.rc
 usr/share/kde4/apps/kconf_update/kalarm-1.2.1-general.pl

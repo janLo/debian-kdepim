@@ -1,9 +1,9 @@
 usr/bin/kitchensync
 usr/lib/kde4/kitchensyncpart.so
 usr/lib/libkitchensyncprivate.so.4
-usr/lib/libkitchensyncprivate.so.4.0.0
+usr/lib/libkitchensyncprivate.so.4.1.0
 usr/lib/libqopensync.so.4
-usr/lib/libqopensync.so.4.0.0
+usr/lib/libqopensync.so.4.1.0
 usr/share/applications/kde4/kitchensync.desktop
 usr/share/icons/hicolor/16x16/actions/sync-start.png
 usr/share/icons/hicolor/16x16/apps/kitchensync.png
