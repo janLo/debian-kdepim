@@ -14,6 +14,8 @@ usr/lib/kde4/kontact_specialdatesplugin.so
 usr/lib/kde4/kontact_summaryplugin.so
 usr/lib/kde4/kontact_todoplugin.so
 usr/lib/kde4/kontact_weatherplugin.so
+usr/lib/libkontactprivate.so.4
+usr/lib/libkontactprivate.so.4.1.0
 usr/lib/libkpinterfaces.so.4
 usr/lib/libkpinterfaces.so.4.1.0
 usr/share/applications/kde4/Kontact.desktop

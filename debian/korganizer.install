@@ -2,6 +2,7 @@ etc/kde4/korganizer.knsrc
 usr/bin/ical2vcal
 usr/bin/korgac
 usr/bin/korganizer
+usr/bin/thememain
 usr/lib/kde4/kcal_blog.so
 usr/lib/kde4/kcal_groupdav.so
 usr/lib/kde4/kcal_kabc.so

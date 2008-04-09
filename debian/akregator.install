@@ -26,6 +26,11 @@ usr/share/kde4/apps/akregator/pageviewer.rc
 usr/share/kde4/apps/akregator/pics/kmmsgnew.png
 usr/share/kde4/apps/akregator/pics/kmmsgunseen.png
 usr/share/kde4/config.kcfg/akregator.kcfg
+usr/share/kde4/services/akregator_config_advanced.desktop
+usr/share/kde4/services/akregator_config_appearance.desktop
+usr/share/kde4/services/akregator_config_archive.desktop
+usr/share/kde4/services/akregator_config_browser.desktop
+usr/share/kde4/services/akregator_config_general.desktop
 usr/share/kde4/services/akregator_mk4storage_plugin.desktop
 usr/share/kde4/services/akregator_part.desktop
 usr/share/kde4/services/feed.protocol
