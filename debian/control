@@ -359,17 +359,6 @@ Description: KDE TNEF viewer
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: libakonadi4
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}
-Homepage: http://pim.kde.org/akonadi/
-
-Package: libakonadi-dev
-Section: libdevel
-Architecture: any
-Depends: libakonadi4 (= ${binary:Version})
-Homepage: http://pim.kde.org/akonadi/
 
 Package: libkdepim4
 Section: libs
