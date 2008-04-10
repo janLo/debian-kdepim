@@ -1,11 +1,15 @@
 usr/bin/ktimetracker
+usr/lib/kde4/karmpart.so
+usr/share/applications/kde4/karm.desktop
 usr/share/dbus-1/interfaces/org.kde.ktimetracker.ktimetracker.xml
+usr/share/doc/kde4/HTML/en/ktimetracker/common
 usr/share/icons/hicolor/128x128/apps/ktimetracker.png
 usr/share/icons/hicolor/16x16/apps/ktimetracker.png
 usr/share/icons/hicolor/22x22/apps/ktimetracker.png
 usr/share/icons/hicolor/32x32/apps/ktimetracker.png
 usr/share/icons/hicolor/48x48/apps/ktimetracker.png
 usr/share/icons/hicolor/64x64/apps/ktimetracker.png
+usr/share/kde4/apps/karmpart/karmui.rc
 usr/share/kde4/apps/ktimetracker/icons/oxygen/128x128/actions/subtask-new-ktimetracker.png
 usr/share/kde4/apps/ktimetracker/icons/oxygen/16x16/actions/subtask-new-ktimetracker.png
 usr/share/kde4/apps/ktimetracker/icons/oxygen/22x22/actions/subtask-new-ktimetracker.png
@@ -13,6 +17,7 @@ usr/share/kde4/apps/ktimetracker/icons/oxygen/32x32/actions/subtask-new-ktimetra
 usr/share/kde4/apps/ktimetracker/icons/oxygen/48x48/actions/subtask-new-ktimetracker.png
 usr/share/kde4/apps/ktimetracker/icons/oxygen/64x64/actions/subtask-new-ktimetracker.png
 usr/share/kde4/apps/ktimetracker/icons/oxygen/scalable/actions/subtask-new-ktimetracker.svgz
+usr/share/kde4/apps/ktimetracker/karmui.rc
 usr/share/kde4/apps/ktimetracker/pics/active-icon-0.xpm
 usr/share/kde4/apps/ktimetracker/pics/active-icon-1.xpm
 usr/share/kde4/apps/ktimetracker/pics/active-icon-2.xpm
@@ -35,3 +40,4 @@ usr/share/kde4/apps/ktimetracker/pics/watch-4.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-5.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-6.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-7.xpm
+usr/share/kde4/services/karm_part.desktop

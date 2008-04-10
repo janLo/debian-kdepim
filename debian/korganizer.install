@@ -54,6 +54,7 @@ usr/share/autostart/korgac.desktop
 usr/share/dbus-1/interfaces/org.kde.Korganizer.Calendar.xml
 usr/share/dbus-1/interfaces/org.kde.korganizer.KOrgac.xml
 usr/share/dbus-1/interfaces/org.kde.korganizer.Korganizer.xml
+usr/share/doc/kde4/HTML/en/korganizer/common
 usr/share/icons/hicolor/128x128/apps/korganizer.png
 usr/share/icons/hicolor/16x16/apps/korganizer.png
 usr/share/icons/hicolor/32x32/apps/korganizer.png

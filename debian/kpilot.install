@@ -14,6 +14,7 @@ usr/lib/libkpilot.so.4
 usr/lib/libkpilot.so.4.1.0
 usr/share/applications/kde4/kpilotdaemon.desktop
 usr/share/applications/kde4/kpilot.desktop
+usr/share/doc/kde4/HTML/en/kpilot/common
 usr/share/icons/hicolor/16x16/actions/kpilot_backup.png
 usr/share/icons/hicolor/16x16/actions/kpilot_busysync.png
 usr/share/icons/hicolor/16x16/actions/kpilot_fullsync.png

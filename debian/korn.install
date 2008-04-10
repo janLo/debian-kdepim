@@ -2,6 +2,7 @@ usr/bin/korn
 usr/share/applications/kde4/KOrn.desktop
 usr/share/dbus-1/interfaces/org.kde.korn.BoxContainerItem.xml
 usr/share/dbus-1/interfaces/org.kde.korn.MailDrop.xml
+usr/share/doc/kde4/HTML/en/korn/common
 usr/share/icons/hicolor/16x16/apps/korn.png
 usr/share/icons/hicolor/32x32/apps/korn.png
 usr/share/icons/hicolor/48x48/apps/korn.png

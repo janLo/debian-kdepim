@@ -12,6 +12,7 @@ usr/share/autostart/kalarm.tray.desktop
 usr/share/dbus-1/interfaces/org.kde.kalarm.kalarmd.Daemon.xml
 usr/share/dbus-1/interfaces/org.kde.kalarm.kalarm.xml
 usr/share/dbus-1/interfaces/org.kde.kalarm.notify.xml
+usr/share/doc/kde4/HTML/en/kalarm/common
 usr/share/icons/hicolor/16x16/apps/kalarm.png
 usr/share/icons/hicolor/22x22/apps/kalarm.png
 usr/share/icons/hicolor/32x32/apps/kalarm.png

@@ -3,6 +3,7 @@ usr/lib/kde4/kcm_apptsummary.so
 usr/lib/kde4/kcm_kontactknt.so
 usr/lib/kde4/kcm_kontact.so
 usr/lib/kde4/kcm_kontactsummary.so
+usr/lib/kde4/kcm_planner.so
 usr/lib/kde4/kcm_sdsummary.so
 usr/lib/kde4/kcm_todosummary.so
 usr/lib/kde4/kontact_akregatorplugin.so
@@ -17,12 +18,14 @@ usr/lib/kde4/kontact_specialdatesplugin.so
 usr/lib/kde4/kontact_summaryplugin.so
 usr/lib/kde4/kontact_todoplugin.so
 usr/lib/kde4/kontact_weatherplugin.so
+usr/lib/libkontactprivate.so
 usr/lib/libkontactprivate.so.4
 usr/lib/libkontactprivate.so.4.1.0
 usr/lib/libkpinterfaces.so.4
 usr/lib/libkpinterfaces.so.4.1.0
 usr/share/applications/kde4/Kontact.desktop
 usr/share/dbus-1/interfaces/org.kde.kontact.KNotes.xml
+usr/share/doc/kde4/HTML/en/kontact/common
 usr/share/icons/hicolor/128x128/apps/kontact.png
 usr/share/icons/hicolor/16x16/apps/kontact.png
 usr/share/icons/hicolor/22x22/apps/kontact.png
@@ -84,10 +87,12 @@ usr/share/kde4/config.kcfg/kontact.kcfg
 usr/share/kde4/services/kcmapptsummary.desktop
 usr/share/kde4/services/kcmkontactknt.desktop
 usr/share/kde4/services/kcmkontactsummary.desktop
+usr/share/kde4/services/kcmplanner.desktop
 usr/share/kde4/services/kcmsdsummary.desktop
 usr/share/kde4/services/kcmtodosummary.desktop
 usr/share/kde4/services/kontactconfig.desktop
 usr/share/kde4/services/kontact/journalplugin.desktop
+usr/share/kde4/services/kontact/karmplugin.desktop
 usr/share/kde4/services/kontact/knodeplugin.desktop
 usr/share/kde4/services/kontact/knotesplugin.desktop
 usr/share/kde4/services/kontact/korganizerplugin.desktop

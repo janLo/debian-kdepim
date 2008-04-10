@@ -44,10 +44,12 @@ usr/lib/libkabc_xmlrpc.so.4
 usr/lib/libkabc_xmlrpc.so.4.1.0
 usr/lib/libkabinterfaces.so.4
 usr/lib/libkabinterfaces.so.4.1.0
+usr/lib/libkaddressbookprivate.so
 usr/lib/libkaddressbookprivate.so.4
 usr/lib/libkaddressbookprivate.so.4.1.0
 usr/share/applications/kde4/kaddressbook.desktop
 usr/share/dbus-1/interfaces/org.kde.KAddressbook.Core.xml
+usr/share/doc/kde4/HTML/en/kaddressbook/common
 usr/share/icons/hicolor/128x128/apps/kaddressbook.png
 usr/share/icons/hicolor/16x16/apps/kaddressbook.png
 usr/share/icons/hicolor/32x32/apps/kaddressbook.png

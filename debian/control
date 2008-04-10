@@ -34,17 +34,6 @@ Description: debugging symbols for kdepim
  They will automatically be used by gdb for debugging kdepim-related
  issues.
 
-Package: kdepim-dev
-Section: devel
-Architecture: any
-Depends: kaddressbook (= ${Source-Version}), kalarm (= ${Source-Version}), kdepim-kresources (= ${Source-Version}), kitchensync (= ${Source-Version}), kmail (= ${Source-Version}), knotes (= ${Source-Version}), kontact (= ${Source-Version}), korganizer (= ${Source-Version}), kpilot (= ${Source-Version}), libkpimidentities1 (= ${Source-Version}), libkcal2-dev (= ${Source-Version}), libkdepim1-dev (= ${Source-Version}), libkgantt0-dev (= ${Source-Version}), libkleopatra1-dev (= ${Source-Version}), libkpimexchange1-dev (= ${Source-Version}), libksieve0-dev (= ${Source-Version}), libktnef1-dev (= ${Source-Version}), libmimelib1-dev (= ${Source-Version})
-Replaces: libkcal2-dev (<< 4:3.4.1), libmimelib1-dev (<< 4:3.4.2)
-Description: KDE Personal Information Management [development]
- This package contains development files needed to compile kdepim applications.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
 Package: kdepim-doc
 Section: doc
 Architecture: all
@@ -372,18 +361,6 @@ Description: KDE PIM library
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: libkdepim4-dev
-Section: libdevel
-Architecture: any
-Depends: libkdepim4 (= ${binary:Version}), kdepimlibs5-dev (>= 4:3.96.0)
-Replaces: libkdepim1a-dev
-Description: KDE PIM library [development]
- This is the development package which contains the headers for the libkdepim
- library.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
 Package: libkfeed4
 Section: libs
 Architecture: any
@@ -400,19 +377,9 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
 
-Package: libkleo-dev
-Section: libdevel
-Architecture: all
-Depends: ${shlibs:Depends}
-
 Package: libkpgp4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}
-
-Package: libkpgp-dev
-Section: libdevel
-Architecture: all
 Depends: ${shlibs:Depends}
 
 Package: libksieve4
@@ -423,19 +390,6 @@ Replaces: libksieve0
 Conflicts: libksieve0
 Description: KDE mail/news message filtering library
  This is the runtime package for programs that use the libksieve library.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
-Package: libksieve4-dev
-Section: libdevel
-Architecture: any
-Depends: libksieve4 (= ${binary:Version}), libkdepim4-dev (>= ${source:Version})
-Replaces: libksieve0-dev
-Conflicts: libksieve0-dev
-Description: KDE mail/news message filtering library [development]
- This is the development package which contains the headers for the libksieve
- library.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.

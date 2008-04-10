@@ -21,6 +21,7 @@ usr/share/applications/kde4/kmail_view.desktop
 usr/share/dbus-1/interfaces/org.kde.kmail.kmailpart.xml
 usr/share/dbus-1/interfaces/org.kde.kmail.kmail.xml
 usr/share/dbus-1/interfaces/org.kde.kmail.mailcomposer.xml
+usr/share/doc/kde4/HTML/en/kmail/common
 usr/share/icons/hicolor/128x128/apps/kmail.png
 usr/share/icons/hicolor/16x16/apps/kmail.png
 usr/share/icons/hicolor/22x22/apps/kmail.png

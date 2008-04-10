@@ -6,24 +6,18 @@ kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
   
   * Remove no longer need patch 04 to disable sqlplugin for akonadi.
   * Update build depends lines.
-  * Update installed files.
-  
-  +++ Changes by Matthew Rosewarne:
-
   * Add Homepage: to control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Jan 2008 12:24:22 -0500
+  +++ Changes by Armin Berres:
 
-kdepim (4:3.98.0~svn755919-1) UNRELEASED; urgency=low
-
-  * Svn snapshot of revision 7555919.
   * Update installed files.
-  * Raise build-dep to >= 4:3.98.0~svn755919-1.
-  * Build depend on libopensync1exp2 instead of libopensync1exp1. Otherwise we
-    are hit by #458569.
-  * Disable sqlplugin from akonadi. Fails to build with --as-needed.
+  * Build depend on libopensync1exp2 instead of libopensync1exp1. Otherwise
+    we are hit by #458569.
+  * Remove all development packages with include files and .so links.
+    Everything which should be used by external programms belongs into
+    kdepimlibs according to upstream.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 04 Jan 2008 12:22:40 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Apr 2008 19:42:29 +0200
 
 kdepim (4:3.96.0-1) experimental; urgency=low
 

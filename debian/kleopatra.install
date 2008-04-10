@@ -27,3 +27,4 @@ usr/share/kde4/apps/libkleopatra/pics/key_unknown.png
 usr/share/kde4/services/kleopatra_config_appear.desktop
 usr/share/kde4/services/kleopatra_config_dirserv.desktop
 usr/share/kde4/services/kleopatra_config_dnorder.desktop
+usr/share/kde4/services/kleopatra_config_smimevalidation.desktop
