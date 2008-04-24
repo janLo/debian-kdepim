@@ -3,12 +3,12 @@ Section: kde
 Priority: optional
 Maintainer: Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, 
- kdepimlibs5-dev (>=4:4.0.68), libphonon-dev (>=4:4.0.68), libplasma-dev (>=4:4.0.68), 
+ kdepimlibs5-dev (>=4:4.0.68+svn798657), libphonon-dev (>=4:4.0.68)
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0-5),
  libpisock-dev, libopensync1exp3-dev, libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,  
- libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, 
+ libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
 Standards-Version: 3.7.2
 Homepage: http://pim.kde.org/
 
