@@ -1,4 +1,4 @@
-kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
+kdepim (4:4.0.71+svn802208-1~pre1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged.
 
@@ -16,6 +16,8 @@ kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
   * Remove all development packages with include files and .so links.
     Everything which should be used by external programms belongs into
     kdepimlibs according to upstream.
+  * Add 97_fix_target_link_libraries.diff which fixes linkage problems with
+    recent kdelibs5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Apr 2008 11:14:37 +0000
 
