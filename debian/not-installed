@@ -139,6 +139,8 @@
 ./usr/include/libkmobiletoolsengineui/engineui_export.h
 ./usr/include/libkmobiletoolsengineui/scanprogressPage.h
 ./usr/lib/kde4/plugins/designer/kdepimwidgets.so
+./usr/lib/libakonadi-kabc.so
+./usr/lib/libakonadi-kcal.so
 ./usr/lib/libakregatorinterfaces.so
 ./usr/lib/libakregatorprivate.so
 ./usr/lib/libimap.so

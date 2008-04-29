@@ -29,10 +29,8 @@ usr/lib/kde4/kcal_akonadi.so
 usr/lib/kde4/kcm_akonadi_resources.so
 usr/lib/kde4/plasma_applet_plasmobiff.so
 usr/lib/kde4/plasma_engine_akonadi.so
-usr/lib/libakonadi-kabc.so
 usr/lib/libakonadi-kabc.so.4
 usr/lib/libakonadi-kabc.so.4.1.0
-usr/lib/libakonadi-kcal.so
 usr/lib/libakonadi-kcal.so.4
 usr/lib/libakonadi-kcal.so.4.1.0
 usr/lib/libimap.so.4                 
