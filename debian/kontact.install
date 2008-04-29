@@ -1,7 +1,8 @@
+usr/share/kde4/apps/kontact/about/top-left-kontact.png
 usr/bin/kontact
 usr/lib/kde4/kcm_apptsummary.so
-usr/lib/kde4/kcm_kontactknt.so
 usr/lib/kde4/kcm_kontact.so
+usr/lib/kde4/kcm_kontactknt.so
 usr/lib/kde4/kcm_kontactsummary.so
 usr/lib/kde4/kcm_planner.so
 usr/lib/kde4/kcm_sdsummary.so
@@ -38,8 +39,8 @@ usr/share/icons/oxygen/16x16/actions/kontact_journal.png
 usr/share/icons/oxygen/16x16/actions/kontact_mail.png
 usr/share/icons/oxygen/16x16/actions/kontact_news.png
 usr/share/icons/oxygen/16x16/actions/kontact_notes.png
-usr/share/icons/oxygen/16x16/actions/kontact_summary_green.png
 usr/share/icons/oxygen/16x16/actions/kontact_summary.png
+usr/share/icons/oxygen/16x16/actions/kontact_summary_green.png
 usr/share/icons/oxygen/16x16/actions/kontact_todo.png
 usr/share/icons/oxygen/22x22/actions/kontact_contacts.png
 usr/share/icons/oxygen/22x22/actions/kontact_date.png
@@ -47,8 +48,8 @@ usr/share/icons/oxygen/22x22/actions/kontact_journal.png
 usr/share/icons/oxygen/22x22/actions/kontact_mail.png
 usr/share/icons/oxygen/22x22/actions/kontact_news.png
 usr/share/icons/oxygen/22x22/actions/kontact_notes.png
-usr/share/icons/oxygen/22x22/actions/kontact_summary_green.png
 usr/share/icons/oxygen/22x22/actions/kontact_summary.png
+usr/share/icons/oxygen/22x22/actions/kontact_summary_green.png
 usr/share/icons/oxygen/22x22/actions/kontact_todo.png
 usr/share/icons/oxygen/32x32/actions/kontact_contacts.png
 usr/share/icons/oxygen/32x32/actions/kontact_date.png
@@ -56,8 +57,8 @@ usr/share/icons/oxygen/32x32/actions/kontact_journal.png
 usr/share/icons/oxygen/32x32/actions/kontact_mail.png
 usr/share/icons/oxygen/32x32/actions/kontact_news.png
 usr/share/icons/oxygen/32x32/actions/kontact_notes.png
-usr/share/icons/oxygen/32x32/actions/kontact_summary_green.png
 usr/share/icons/oxygen/32x32/actions/kontact_summary.png
+usr/share/icons/oxygen/32x32/actions/kontact_summary_green.png
 usr/share/icons/oxygen/32x32/actions/kontact_todo.png
 usr/share/icons/oxygen/48x48/actions/kontact_contacts.png
 usr/share/icons/oxygen/48x48/actions/kontact_date.png
@@ -65,8 +66,8 @@ usr/share/icons/oxygen/48x48/actions/kontact_journal.png
 usr/share/icons/oxygen/48x48/actions/kontact_mail.png
 usr/share/icons/oxygen/48x48/actions/kontact_news.png
 usr/share/icons/oxygen/48x48/actions/kontact_notes.png
-usr/share/icons/oxygen/48x48/actions/kontact_summary_green.png
 usr/share/icons/oxygen/48x48/actions/kontact_summary.png
+usr/share/icons/oxygen/48x48/actions/kontact_summary_green.png
 usr/share/icons/oxygen/48x48/actions/kontact_todo.png
 usr/share/icons/oxygen/64x64/actions/kontact_contacts.png
 usr/share/icons/oxygen/64x64/actions/kontact_date.png
@@ -74,12 +75,11 @@ usr/share/icons/oxygen/64x64/actions/kontact_journal.png
 usr/share/icons/oxygen/64x64/actions/kontact_mail.png
 usr/share/icons/oxygen/64x64/actions/kontact_news.png
 usr/share/icons/oxygen/64x64/actions/kontact_notes.png
-usr/share/icons/oxygen/64x64/actions/kontact_summary_green.png
 usr/share/icons/oxygen/64x64/actions/kontact_summary.png
+usr/share/icons/oxygen/64x64/actions/kontact_summary_green.png
 usr/share/icons/oxygen/64x64/actions/kontact_todo.png
 usr/share/kde4/apps/kontact/about/kontact.css
 usr/share/kde4/apps/kontact/about/main.html
-usr/share/kde4/apps/kontact/about/top-right-kontact.png
 usr/share/kde4/apps/kontact/kontact.setdlg
 usr/share/kde4/apps/kontact/kontactui.rc
 usr/share/kde4/apps/kontactsummary/kontactsummary_part.rc
@@ -90,7 +90,6 @@ usr/share/kde4/services/kcmkontactsummary.desktop
 usr/share/kde4/services/kcmplanner.desktop
 usr/share/kde4/services/kcmsdsummary.desktop
 usr/share/kde4/services/kcmtodosummary.desktop
-usr/share/kde4/services/kontactconfig.desktop
 usr/share/kde4/services/kontact/journalplugin.desktop
 usr/share/kde4/services/kontact/karmplugin.desktop
 usr/share/kde4/services/kontact/knodeplugin.desktop
@@ -102,4 +101,5 @@ usr/share/kde4/services/kontact/specialdatesplugin.desktop
 usr/share/kde4/services/kontact/summaryplugin.desktop
 usr/share/kde4/services/kontact/todoplugin.desktop
 usr/share/kde4/services/kontact/weatherplugin.desktop
+usr/share/kde4/services/kontactconfig.desktop
 usr/share/kde4/servicetypes/kontactplugin.desktop

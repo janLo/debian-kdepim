@@ -1,11 +1,13 @@
-usr/lib/libkholidays.so
 usr/lib/libkholidays.so.4
 usr/lib/libkholidays.so.4.1.0
+usr/share/kde4/apps/libkholidays/holiday_BelgiumDutch
+usr/share/kde4/apps/libkholidays/holiday_BelgiumFrench
+usr/share/kde4/apps/libkholidays/holiday_BelgiumWalloon
+usr/share/kde4/apps/libkholidays/holiday_Suedtirol
 usr/share/kde4/apps/libkholidays/holiday_ar
 usr/share/kde4/apps/libkholidays/holiday_at
 usr/share/kde4/apps/libkholidays/holiday_au
 usr/share/kde4/apps/libkholidays/holiday_bavarian
-usr/share/kde4/apps/libkholidays/holiday_be
 usr/share/kde4/apps/libkholidays/holiday_br
 usr/share/kde4/apps/libkholidays/holiday_ca
 usr/share/kde4/apps/libkholidays/holiday_catalan
@@ -41,7 +43,6 @@ usr/share/kde4/apps/libkholidays/holiday_ro
 usr/share/kde4/apps/libkholidays/holiday_ru
 usr/share/kde4/apps/libkholidays/holiday_se
 usr/share/kde4/apps/libkholidays/holiday_si
-usr/share/kde4/apps/libkholidays/holiday_Suedtirol
 usr/share/kde4/apps/libkholidays/holiday_th
 usr/share/kde4/apps/libkholidays/holiday_ua
 usr/share/kde4/apps/libkholidays/holiday_us

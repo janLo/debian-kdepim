@@ -51,9 +51,9 @@ usr/share/kde4/apps/kmobiletools/about/top-middle.png
 usr/share/kde4/apps/kmobiletools/about/top-right-kmobiletools.png
 usr/share/kde4/apps/kmobiletools/bticon.png
 usr/share/kde4/apps/kmobiletools/kmobilebtwizard.png
+usr/share/kde4/apps/kmobiletools/kmobiletools.notifyrc
 usr/share/kde4/apps/kmobiletools/kmobiletools_devicepart.rc
 usr/share/kde4/apps/kmobiletools/kmobiletools_mainpart.rc
-usr/share/kde4/apps/kmobiletools/kmobiletools.notifyrc
 usr/share/kde4/apps/kmobiletools/kmobiletoolsui.rc
 usr/share/kde4/apps/kmobiletools/kmobilewizard.png
 usr/share/kde4/apps/kmobiletools/operatorsdata
