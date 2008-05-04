@@ -111,6 +111,5 @@ usr/share/kde4/services/kmail_config_composer.desktop
 usr/share/kde4/services/kmail_config_identity.desktop
 usr/share/kde4/services/kmail_config_misc.desktop
 usr/share/kde4/services/kmail_config_security.desktop
-usr/share/kde4/services/kontact/kmailplugin.desktop
 usr/share/kde4/servicetypes/dbusimap.desktop
 usr/share/kde4/servicetypes/dbusmail.desktop

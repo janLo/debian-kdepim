@@ -3,12 +3,13 @@ Section: kde
 Priority: optional
 Maintainer: Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, 
- kdepimlibs5-dev (>=4:4.0.68+svn798657), libphonon-dev (>=4:4.0.68)
+ kdepimlibs5-dev (>=4:4.0.72), libphonon-dev (>=4:4.0.72), libplasma-dev ((>=4:4.0.72),
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0-5),
  libpisock-dev, libopensync1exp3-dev, libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,  
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
+ libakonadi-dev
 Standards-Version: 3.7.2
 Homepage: http://pim.kde.org/
 
@@ -69,7 +70,7 @@ Package: kaddressbook
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
-Suggests: kdepim-kresources, kdebase-kio-plugins
+Suggests: kdepim-kresources
 Description: KDE address book
  KAddressBook is the main address book application for KDE; it enables you
  to manage your contacts efficiently and comfortably. It can load and save
@@ -103,23 +104,10 @@ Description: KDE alarm message, command and email scheduler
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: kdepim-kio-plugins
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Replaces: kdebase-kio-plugins (<< 4:3.4.0)
-Description: KDE pim I/O Slaves
- This package includes the pim kioslaves. This includes imap4, sieve,
- and mbox.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
 Package: kdepim-kresources
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: libkcal2a (<< 4:3.4.1), kaddressbook (<< 4:3.4.1), knotes (<< 4:3.4.1)
 Recommends: korganizer
 Suggests: knotes
 Description: KDE pim resource plugins
@@ -134,7 +122,6 @@ Package: kdepim-wizards
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: kdepim-dev (<< 4:3.4.1-2)
 Suggests: egroupware
 Description: KDE server configuration wizards
  This package contains KDE-based wizards for configuring eGroupware,
@@ -171,7 +158,7 @@ Description: KDE Certificate Manager
 Package: kmail
 Section: mail
 Architecture: any
-Depends: ${shlibs:Depends}, ${perl:Depends}, kdepim-kio-plugins, kdebase-kio-plugins
+Depends: ${shlibs:Depends}, ${perl:Depends}
 Recommends: procmail
 Suggests: gnupg, gnupg-agent, pinentry-qt | pinentry-x11, kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer
 Replaces: kmailcvt (<< 4:3.90.0)
@@ -181,9 +168,6 @@ Description: KDE Email client
  KMail is a fully-featured email client that fits nicely into the KDE
  desktop. It has features such as support for IMAP, POP3, multiple accounts,
  mail filtering and sorting, PGP/GnuPG privacy, and inline attachments.
- .
- You need to install kdepim-kio-plugins if you want to use IMAP or
- mbox files, and/or kdebase-kio-plugins if you want to use POP3.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
@@ -262,8 +246,6 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: kitchensync, kmail, knode, knotes
 Suggests: akregator, knewsticker, kweather, gnokii
-Replaces: akregator (<< 4:3.4.0), akregator-kontact-plugin
-Conflicts: akregator-kontact-plugin
 Homepage: http://kontact.kde.org/
 Description: KDE pim application
  Kontact is the integrated solution to your personal information management
@@ -298,7 +280,7 @@ Description: KDE personal organizer
 Package: korn
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdepim-kio-plugins, kdebase-kio-plugins
+Depends: ${shlibs:Depends}
 Description: KDE mail checker
  Korn is a KDE mail checker that can display a small summary in the Kicker
  tray.  It supports checking mbox, pop3, imap4, and nntp sources.
@@ -353,8 +335,6 @@ Package: libkdepim4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
-Conflicts: libkdepim1a
-Replaces: libkdepim1a
 Description: KDE PIM library
  This is the runtime package for programs that use the libkdepim library.
  .
@@ -386,8 +366,6 @@ Package: libksieve4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: libksieve0
-Conflicts: libksieve0
 Description: KDE mail/news message filtering library
  This is the runtime package for programs that use the libksieve library.
  .
@@ -403,8 +381,6 @@ Package: libmimelib4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
-Conflicts: libmimelib1c2a
-Replaces: libmimelib1c2a, libmimelib1-dev
 Description: KDE mime library
  This library is used by several KDE applications to handle mime types.
  .

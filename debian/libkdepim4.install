@@ -1,3 +1,5 @@
+usr/lib/kde4/kio_akonadi.so
+usr/lib/kde4/kio_scalix.so
 usr/lib/kde4/kpartsdesignerplugin.so
 usr/lib/libkdepim.so.4
 usr/lib/libkdepim.so.4.1.0
@@ -61,3 +63,5 @@ usr/share/kde4/apps/libkdepim/about/kde_infopage.css
 usr/share/kde4/apps/libkdepim/about/kde_infopage_rtl.css
 usr/share/kde4/apps/libkdepim/about/top-left.png
 usr/share/kde4/apps/libkdepim/about/top-middle.png
+usr/share/kde4/services/scalix.protocol
+usr/share/kde4/services/scalixs.protocol

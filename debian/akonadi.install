@@ -1,4 +1,3 @@
-usr/share/applications/kde4/akonaditray.desktop
 usr/bin/akonadi_ical_resource
 usr/bin/akonadi_imaplib_resource
 usr/bin/akonadi_kabc_resource
@@ -49,6 +48,7 @@ usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/strigifeeder.desktop
 usr/share/akonadi/agents/vcardresource.desktop
 usr/share/applications/kde4/akonadiconsole.desktop
+usr/share/applications/kde4/akonaditray.desktop
 usr/share/applications/kde4/kcontactmanager.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_addressee.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_bookmark.desktop

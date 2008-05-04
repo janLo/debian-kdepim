@@ -1,4 +1,4 @@
-kdepim (4:4.0.71+svn802208-1~pre1) experimental; urgency=low
+kdepim (4:4.0.72) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged.
 
@@ -18,8 +18,16 @@ kdepim (4:4.0.71+svn802208-1~pre1) experimental; urgency=low
     kdepimlibs according to upstream.
   * Add 97_fix_target_link_libraries.diff which fixes linkage problems with
     recent kdelibs5.
+  * Add build dependency on libakonadi-dev and libplasma-dev.
+  * Remove package kdepim-kio-plugins and all the dependencies on it. The
+    residual kio slaves live in libkdepim4 now.
+  * Remove dependencies on kdebase-kio-plugins, this package is KDE 3 only.
+  * Remove conflicts and replaces from pre-etch times.
+  * Remove some useless conflicts and replaces for libraries with a raised
+    soname.
+  * Move kmail and korganizer kontact plugins into the kontact package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Apr 2008 11:14:37 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2008 00:06:13 +0200
 
 kdepim (4:3.96.0-1) experimental; urgency=low
 

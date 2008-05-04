@@ -27,7 +27,6 @@ usr/lib/kde4/kaddressbookpart.so
 usr/lib/kde4/kcm_kabconfig.so
 usr/lib/kde4/kcm_kabcustomfields.so
 usr/lib/kde4/kcm_kabldapconfig.so
-usr/lib/kde4/kontact_kaddressbookplugin.so
 usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/kde4/ldifvcardthumbnail.so
 usr/lib/libkabc_groupdav.so.4
@@ -120,7 +119,6 @@ usr/share/kde4/services/kaddressbook/smsprotocol.desktop
 usr/share/kde4/services/kaddressbook/tableview.desktop
 usr/share/kde4/services/kaddressbook/vcard_xxport.desktop
 usr/share/kde4/services/kaddressbook/yahooprotocol.desktop
-usr/share/kde4/services/kontact/kaddressbookplugin.desktop
 usr/share/kde4/services/kresources/kabc/kabc_groupdav.desktop
 usr/share/kde4/services/kresources/kabc/kabc_opengroupware.desktop
 usr/share/kde4/services/kresources/kabc/kabc_ox.desktop
