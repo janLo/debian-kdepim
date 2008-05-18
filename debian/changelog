@@ -1,4 +1,4 @@
-kdepim (4:4.0.72) experimental; urgency=low
+kde4pim (4:4.0.74) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged.
 
@@ -7,7 +7,7 @@ kdepim (4:4.0.72) experimental; urgency=low
   * Copyright file
 
   +++ Changes by Matthew Rosewarne:
-  
+
   * Remove no longer need patch 04 to disable sqlplugin for akonadi.
   * Update build depends lines.
   * Add Homepage: to control.
@@ -31,7 +31,7 @@ kdepim (4:4.0.72) experimental; urgency=low
     soname.
   * Move kmail and korganizer kontact plugins into the kontact package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2008 00:06:13 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 May 2008 14:55:52 +0200
 
 kdepim (4:3.96.0-1) experimental; urgency=low
 
