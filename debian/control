@@ -352,7 +352,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: feed managing library for KDE
- This is runtime feed library.
+ This is the runtime feed library.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
@@ -372,9 +372,9 @@ Package: libkleo4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: certificate based crypto library for kde
+Description: certificate based crypto library for KDE
  This package contains libkleo, a library for kleopatra and other parts
- of kde that does certificate based crypto.
+ of KDE using certificate based crypto.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
@@ -385,7 +385,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Description: gpg based crypto library for KDE
  This package contains libkgpg4, a gnupg-library for kmail and other parts of 
- kdepim that uses gpg-based crypto.
+ kdepim using gpg-based crypto.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
@@ -405,7 +405,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: maildir library for kdepim
- THis package provides maildir handling for kdepim programs.
+ This package provides maildir handling for kdepim programs.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
@@ -427,8 +427,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: PIM file format plugins for Strigi Desktop Search
- This packages contains plugins to have Strigi Desktop Search easily index
- your PIM-data (calendar, contacts, emails, ...)
+ This packages contains plugins to allow Strigi Desktop Search to easily
+ index your PIM-data (calendar, contacts, emails, ...).
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
