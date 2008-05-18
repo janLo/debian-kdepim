@@ -4,8 +4,7 @@ kde4pim (4:4.0.74) experimental; urgency=low
 
   +++ Changes by Sune Vuorela:
 
-  * Copyright file
-  * Descriptions
+  * Update copyright file and descriptions in control file.
 
   +++ Changes by Matthew Rosewarne:
 

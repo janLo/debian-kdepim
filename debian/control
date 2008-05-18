@@ -179,7 +179,7 @@ Description: KDE Email client
  See the 'kde' and 'kdepim' packages for more information.
 
 Package: kmobiletools
-Section: 
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Homepage: http://www.kmobiletools.org/
