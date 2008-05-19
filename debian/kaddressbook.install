@@ -61,6 +61,13 @@ usr/share/kde4/apps/kaddressbook/csv_xxportui.rc
 usr/share/kde4/apps/kaddressbook/eudora_xxportui.rc
 usr/share/kde4/apps/kaddressbook/gmx_xxportui.rc
 usr/share/kde4/apps/kaddressbook/gnokii_xxportui.rc
+usr/share/kde4/apps/kaddressbook/icons/hicolor/128x128/apps/kaddressbook.png
+usr/share/kde4/apps/kaddressbook/icons/hicolor/16x16/apps/kaddressbook.png
+usr/share/kde4/apps/kaddressbook/icons/hicolor/22x22/apps/kaddressbook.png
+usr/share/kde4/apps/kaddressbook/icons/hicolor/32x32/apps/kaddressbook.png
+usr/share/kde4/apps/kaddressbook/icons/hicolor/48x48/apps/kaddressbook.png
+usr/share/kde4/apps/kaddressbook/icons/hicolor/64x64/apps/kaddressbook.png
+usr/share/kde4/apps/kaddressbook/icons/hicolor/scalable/apps/kaddressbook.svgz
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/actions/ldap_lookup.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/aim_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/gadu_protocol.png

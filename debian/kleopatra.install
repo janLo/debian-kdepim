@@ -1,6 +1,7 @@
 etc/kde4/libkleopatrarc
 usr/bin/kgpgconf
 usr/bin/kleopatra
+usr/bin/kwatchgnupg
 usr/lib/kde4/kcm_kleopatra.so
 usr/share/applications/kde4/kleopatra_import.desktop
 usr/share/doc/kde4/HTML/en/kleopatra/common
@@ -18,6 +19,9 @@ usr/share/kde4/apps/kleopatra/pics/kleopatra_splashscreen.png
 usr/share/kde4/apps/kleopatra/pics/kleopatra_splashscreen.svgz
 usr/share/kde4/apps/kleopatra/pics/kleopatra_wizard.png
 usr/share/kde4/apps/kleopatra/pics/kleopatra_wizard.svgz
+usr/share/kde4/apps/kwatchgnupg/kwatchgnupgui.rc
+usr/share/kde4/apps/kwatchgnupg/pics/kwatchgnupg.png
+usr/share/kde4/apps/kwatchgnupg/pics/kwatchgnupg2.png
 usr/share/kde4/apps/libkleopatra/pics/chiasmus_chi.png
 usr/share/kde4/apps/libkleopatra/pics/key.png
 usr/share/kde4/apps/libkleopatra/pics/key_bad.png

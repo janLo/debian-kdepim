@@ -60,6 +60,8 @@ usr/share/kde4/apps/desktoptheme/default/widgets/akonadi.svg
 usr/share/kde4/apps/kcontactmanager/kcontactmanagerui.rc
 usr/share/kde4/apps/nepomuk/ontologies/nco.desktop
 usr/share/kde4/apps/nepomuk/ontologies/nco.trig
+usr/share/kde4/apps/nepomuk/ontologies/nmo.desktop
+usr/share/kde4/apps/nepomuk/ontologies/nmo.trig
 usr/share/kde4/services/akonadi.protocol
 usr/share/kde4/services/kcm_akonadi_resources.desktop
 usr/share/kde4/services/kresources/kabc/akonadi.desktop

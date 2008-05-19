@@ -13,7 +13,6 @@ usr/lib/kde4/kmail_bodypartformatter_text_calendar.so
 usr/lib/kde4/kmail_bodypartformatter_text_vcard.so
 usr/lib/kde4/kmail_bodypartformatter_text_xdiff.so
 usr/lib/kde4/kmailpart.so
-usr/lib/kde4/kontact_kmailplugin.so
 usr/lib/libkmailprivate.so.4
 usr/lib/libkmailprivate.so.4.1.0
 usr/share/applications/kde4/KMail.desktop
@@ -55,6 +54,13 @@ usr/share/kde4/apps/kconf_update/upgrade-transport.pl
 usr/share/kde4/apps/kmail/about/kmail.css
 usr/share/kde4/apps/kmail/about/main.html
 usr/share/kde4/apps/kmail/about/top-left-kmail.png
+usr/share/kde4/apps/kmail/icons/hicolor/128x128/apps/kmail.png
+usr/share/kde4/apps/kmail/icons/hicolor/16x16/apps/kmail.png
+usr/share/kde4/apps/kmail/icons/hicolor/22x22/apps/kmail.png
+usr/share/kde4/apps/kmail/icons/hicolor/32x32/apps/kmail.png
+usr/share/kde4/apps/kmail/icons/hicolor/48x48/apps/kmail.png
+usr/share/kde4/apps/kmail/icons/hicolor/64x64/apps/kmail.png
+usr/share/kde4/apps/kmail/icons/hicolor/scalable/apps/kmail.svgz
 usr/share/kde4/apps/kmail/kmail.notifyrc
 usr/share/kde4/apps/kmail/kmail_part.rc
 usr/share/kde4/apps/kmail/kmcomposerui.rc

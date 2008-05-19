@@ -1,4 +1,6 @@
-# we donn't install any headers ans .so links for the moment. if there's need for this files one day we can reconsider thid decision. backed up upstream...
+# we don't install any headers and .so links for the moment.
+# if there's need for these files one day, we can reconsider thid decision.
+# backed up upstream...
 ./usr/include/akregator/akregator_export.h
 ./usr/include/akregator/article.h
 ./usr/include/akregator/command.h
@@ -54,6 +56,7 @@
 ./usr/include/kleo/ui/keylistview.h
 ./usr/include/kleo/ui/keyrequester.h
 ./usr/include/kleo/ui/keyselectiondialog.h
+./usr/include/kleo/ui/messagebox.h
 ./usr/include/kleo/ui/progressbar.h
 ./usr/include/kleo/ui/progressdialog.h
 ./usr/include/kleo/verifydetachedjob.h
@@ -85,14 +88,13 @@
 ./usr/include/kpilot/pluginfactory.h
 ./usr/include/kpilot/syncAction.h
 ./usr/include/ksieve/error.h
-./usr/include/ksieve/error.h        
 ./usr/include/ksieve/lexer.h
-./usr/include/ksieve/lexer.h        
 ./usr/include/ksieve/libksieve_export.h
 ./usr/include/ksieve/parser.h
-./usr/include/ksieve/parser.h          
 ./usr/include/ksieve/scriptbuilder.h
-./usr/include/ksieve/scriptbuilder.h   
+./usr/include/libkleopatraclient/core/command.h
+./usr/include/libkleopatraclient/core/initialization.h
+./usr/include/libkleopatraclient/kleopatraclient_export.h
 ./usr/include/libkmobiletools/addressbook.h
 ./usr/include/libkmobiletools/addressbookentry.h
 ./usr/include/libkmobiletools/baseerror.h
@@ -144,7 +146,6 @@
 ./usr/lib/libakregatorinterfaces.so
 ./usr/lib/libakregatorprivate.so
 ./usr/lib/libimap.so
-./usr/lib/libimap.so                   
 ./usr/lib/libkabc_groupdav.so
 ./usr/lib/libkabc_slox.so
 ./usr/lib/libkabc_xmlrpc.so
@@ -168,6 +169,7 @@
 ./usr/lib/libkholidays.so
 ./usr/lib/libkitchensyncprivate.so
 ./usr/lib/libkleo.so
+./usr/lib/libkleopatraclientcore.so
 ./usr/lib/libkmailprivate.so
 ./usr/lib/libkmobiletoolsengineui.so
 ./usr/lib/libkmobiletoolslib.so

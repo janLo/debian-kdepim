@@ -11,6 +11,7 @@ usr/lib/kde4/kontact_journalplugin.so
 usr/lib/kde4/kontact_kaddressbookplugin.so
 usr/lib/kde4/kontact_karmplugin.so
 usr/lib/kde4/kontact_kmailplugin.so
+usr/lib/kde4/kontact_kmobiletoolsplugin.so
 usr/lib/kde4/kontact_knodeplugin.so
 usr/lib/kde4/kontact_knotesplugin.so
 usr/lib/kde4/kontact_korganizerplugin.so
@@ -91,10 +92,13 @@ usr/share/kde4/services/kcmkontactsummary.desktop
 usr/share/kde4/services/kcmplanner.desktop
 usr/share/kde4/services/kcmsdsummary.desktop
 usr/share/kde4/services/kcmtodosummary.desktop
+usr/share/kde4/services/kontact/akregatorplugin.desktop
+usr/share/kde4/services/kontact/akregatorplugin3.2.desktop
 usr/share/kde4/services/kontact/journalplugin.desktop
 usr/share/kde4/services/kontact/kaddressbookplugin.desktop
 usr/share/kde4/services/kontact/karmplugin.desktop
 usr/share/kde4/services/kontact/kmailplugin.desktop
+usr/share/kde4/services/kontact/kmobiletools.desktop
 usr/share/kde4/services/kontact/knodeplugin.desktop
 usr/share/kde4/services/kontact/knotesplugin.desktop
 usr/share/kde4/services/kontact/korganizerplugin.desktop
