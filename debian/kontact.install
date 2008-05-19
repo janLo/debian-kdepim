@@ -19,7 +19,6 @@ usr/lib/kde4/kontact_plannerplugin.so
 usr/lib/kde4/kontact_specialdatesplugin.so
 usr/lib/kde4/kontact_summaryplugin.so
 usr/lib/kde4/kontact_todoplugin.so
-usr/lib/kde4/kontact_weatherplugin.so
 usr/lib/libkontactprivate.so
 usr/lib/libkontactprivate.so.4
 usr/lib/libkontactprivate.so.4.1.0
@@ -104,6 +103,5 @@ usr/share/kde4/services/kontact/plannerplugin.desktop
 usr/share/kde4/services/kontact/specialdatesplugin.desktop
 usr/share/kde4/services/kontact/summaryplugin.desktop
 usr/share/kde4/services/kontact/todoplugin.desktop
-usr/share/kde4/services/kontact/weatherplugin.desktop
 usr/share/kde4/services/kontactconfig.desktop
 usr/share/kde4/servicetypes/kontactplugin.desktop

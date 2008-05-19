@@ -10,7 +10,6 @@ usr/lib/kde4/kaddrbk_bookmark_xxport.so
 usr/lib/kde4/kaddrbk_cardview.so
 usr/lib/kde4/kaddrbk_cryptosettings.so
 usr/lib/kde4/kaddrbk_csv_xxport.so
-usr/lib/kde4/kaddrbk_distributionlist.so
 usr/lib/kde4/kaddrbk_distributionlistng.so
 usr/lib/kde4/kaddrbk_eudora_xxport.so
 usr/lib/kde4/kaddrbk_gmx_xxport.so
@@ -63,7 +62,6 @@ usr/share/kde4/apps/kaddressbook/eudora_xxportui.rc
 usr/share/kde4/apps/kaddressbook/gmx_xxportui.rc
 usr/share/kde4/apps/kaddressbook/gnokii_xxportui.rc
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/actions/ldap_lookup.png
-usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/actions/smallcal.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/aim_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/gadu_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/groupwise_protocol.png
@@ -75,7 +73,6 @@ usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/msn_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/skype_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/sms_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/yahoo_protocol.png
-usr/share/kde4/apps/kaddressbook/icons/oxygen/32x32/actions/homepage.png
 usr/share/kde4/apps/kaddressbook/kaddressbook_part.rc
 usr/share/kde4/apps/kaddressbook/kaddressbookui.rc
 usr/share/kde4/apps/kaddressbook/kde2_xxportui.rc
@@ -96,7 +93,6 @@ usr/share/kde4/services/kaddressbook/bookmark_xxport.desktop
 usr/share/kde4/services/kaddressbook/cardview.desktop
 usr/share/kde4/services/kaddressbook/cryptosettings.desktop
 usr/share/kde4/services/kaddressbook/csv_xxport.desktop
-usr/share/kde4/services/kaddressbook/distributionlist.desktop
 usr/share/kde4/services/kaddressbook/distributionlistng.desktop
 usr/share/kde4/services/kaddressbook/eudora_xxport.desktop
 usr/share/kde4/services/kaddressbook/gaduprotocol.desktop

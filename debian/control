@@ -2,7 +2,7 @@ Source: kde4pim
 Section: kde
 Priority: optional
 Maintainer: Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake (>= 2.6.0), quilt,
+Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.6.0), quilt,
  kdepimlibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72), libplasma-dev (>= 4:4.0.72),
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
@@ -10,7 +10,7 @@ Build-Depends: cdbs, debhelper (>= 5), cmake (>= 2.6.0), quilt,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
  libakonadi-dev
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
 Homepage: http://pim.kde.org/
 
 Package: kdepim
@@ -343,16 +343,6 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Description: KDE PIM library
  This is the runtime package for programs that use the libkdepim library.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
-Package: libkfeed4
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: feed managing library for KDE
- This is the runtime feed library.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
