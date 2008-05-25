@@ -11,7 +11,7 @@
  install(TARGETS schema  DESTINATION ${LIB_INSTALL_DIR})
 --- a/libkdepim/CMakeLists.txt
 +++ b/libkdepim/CMakeLists.txt
-@@ -94,7 +94,7 @@
+@@ -92,7 +92,7 @@
  
  kde4_add_library(kdepim SHARED ${kdepim_LIB_SRCS})
  
@@ -44,7 +44,7 @@
  install(TARGETS imap DESTINATION ${LIB_INSTALL_DIR})
 --- a/libkleo/CMakeLists.txt
 +++ b/libkleo/CMakeLists.txt
-@@ -105,7 +105,7 @@
+@@ -107,7 +107,7 @@
  if(WIN32)
  target_link_libraries(kleo ${kleo_LIB_LIBS}  ${GPGME_VANILLA_LIBRARIES} )
  else(WIN32)
@@ -76,25 +76,25 @@
     ${KDE4_KIO_LIBS}  
 --- a/kontact/plugins/kmail/CMakeLists.txt
 +++ b/kontact/plugins/kmail/CMakeLists.txt
-@@ -36,7 +36,7 @@
+@@ -27,7 +27,7 @@
+ 
  kde4_add_plugin(kcm_kmailsummary ${kcm_kmailsummary_PART_SRCS})
  
+-kdepim4_link_unique_libraries(kcm_kmailsummary ${KDE4_KDEUI_LIBS})
++kdepim4_link_unique_libraries(kcm_kmailsummary ${KDE4_KDEUI_LIBS} ${QT_QTDBUS_LIBRARY})
  
--kdepim4_link_unique_libraries(kcm_kmailsummary  ${KDE4_KDEUI_LIBS})
-+kdepim4_link_unique_libraries(kcm_kmailsummary  ${KDE4_KDEUI_LIBS} ${QT_QTDBUS_LIBRARY})
- 
- install(TARGETS kcm_kmailsummary  DESTINATION ${PLUGIN_INSTALL_DIR})
+ ########### install files ###############
  
 --- a/kontact/plugins/newsticker/CMakeLists.txt
 +++ b/kontact/plugins/newsticker/CMakeLists.txt
-@@ -25,7 +25,7 @@
+@@ -13,7 +13,7 @@
  
+ kde4_add_plugin(kcm_kontactknt ${kcm_kontactknt_PART_SRCS})
  
+-kdepim4_link_unique_libraries(kcm_kontactknt ${KDE4_KDEUI_LIBS} ${KDE4_KDE3SUPPORT_LIBS})
++kdepim4_link_unique_libraries(kcm_kontactknt ${KDE4_KDEUI_LIBS} ${KDE4_KDE3SUPPORT_LIBS} ${QT_QTDBUS_LIBRARY})
  
--kdepim4_link_unique_libraries(kcm_kontactknt  ${KDE4_KDEUI_LIBS} ${KDE4_KDE3SUPPORT_LIBS})
-+kdepim4_link_unique_libraries(kcm_kontactknt  ${KDE4_KDEUI_LIBS} ${KDE4_KDE3SUPPORT_LIBS} ${QT_QTDBUS_LIBRARY})
- 
- install(TARGETS kcm_kontactknt  DESTINATION ${PLUGIN_INSTALL_DIR})
+ ########### install files ###############
  
 --- a/kpilot/conduits/base/CMakeLists.txt
 +++ b/kpilot/conduits/base/CMakeLists.txt

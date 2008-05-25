@@ -1,3 +1,23 @@
+kdepim (4:4.0.80-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development milestone (KDE 4.1 Beta1).
+
+  +++ Changes by Modestas Vainius:
+
+  * Update and refresh 97th patch.
+  * Build-depend on kdepimlibs5-dev (>= 4.0.80). It is needed. Bump other KDE
+    specific build-depends a bit too. Bump akonadi-dev to >= 0.81.0
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2008 18:54:05 +0300
+
+kde4pim (4:4.0.74-2) experimental; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Add proper dependencies for kdepim metapackage.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2008 17:53:31 +0300
+
 kde4pim (4:4.0.74-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged.

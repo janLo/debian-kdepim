@@ -4,19 +4,24 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.4.5), quilt,
- kdepimlibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72), libplasma-dev (>= 4:4.0.72),
+ kdepimlibs5-dev (>= 4:4.0.80), libphonon-dev (>= 4:4.0.80), libplasma-dev (>= 4:4.0.74),
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
  libpisock-dev, libopensync1exp3-dev, libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
- libakonadi-dev
+ libakonadi-dev (>= 0.81.0)
 Standards-Version: 3.7.3
 Homepage: http://pim.kde.org/
 
 Package: kdepim
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: akonadi-kde (>= ${source:Version}), akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), kalarm (>= ${source:Version}),
+ kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}), kitchensync (>= ${source:Version}), kleopatra (>= ${source:Version}),
+ kmail (>= ${source:Version}), kmobiletools (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), kode (>= ${source:Version}),
+ konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}), korn (>= ${source:Version}),
+ kpilot (>= ${source:Version}), ktimetracker (>= ${source:Version}), ktnef (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version})
+Suggests: kdepim-doc
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
