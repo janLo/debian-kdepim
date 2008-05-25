@@ -11,7 +11,7 @@ kde4pim (4:4.0.80-1) UNRELEASED; urgency=low
 
   +++ Changes by Fathi Boudra:
 
-  * Update kmail.install file.
+  * Update kmail.install and kontact.install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2008 18:54:05 +0300
 

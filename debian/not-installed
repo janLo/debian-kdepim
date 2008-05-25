@@ -180,6 +180,7 @@
 ./usr/lib/libknotesscalix.so
 ./usr/lib/libkocorehelper.so
 ./usr/lib/libkode.so
+./usr/lib/libkontactprivate.so
 ./usr/lib/libkorg_stdprinting.so
 ./usr/lib/libkorganizer_calendar.so
 ./usr/lib/libkorganizer_eventviewer.so

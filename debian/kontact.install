@@ -20,11 +20,8 @@ usr/lib/kde4/kontact_plannerplugin.so
 usr/lib/kde4/kontact_specialdatesplugin.so
 usr/lib/kde4/kontact_summaryplugin.so
 usr/lib/kde4/kontact_todoplugin.so
-usr/lib/libkontactprivate.so
 usr/lib/libkontactprivate.so.4
 usr/lib/libkontactprivate.so.4.1.0
-usr/lib/libkpinterfaces.so.4
-usr/lib/libkpinterfaces.so.4.1.0
 usr/share/applications/kde4/Kontact.desktop
 usr/share/dbus-1/interfaces/org.kde.kontact.KNotes.xml
 usr/share/doc/kde4/HTML/en/kontact/common
