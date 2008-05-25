@@ -1,4 +1,4 @@
-kde4pim (4:4.0.80-1~pre1) UNRELEASED; urgency=low
+kde4pim (4:4.0.80-1) UNRELEASED; urgency=low
 
   * New upstream development milestone (KDE 4.1 Beta1).
 
@@ -8,6 +8,10 @@ kde4pim (4:4.0.80-1~pre1) UNRELEASED; urgency=low
   * Build-depend on kdepimlibs5-dev (>= 4.0.80). It is needed. Bump other KDE
     specific build-depends a bit too. Bump akonadi-dev to >= 0.81.0
   * Add proper dependencies for kdepim metapackage.
+
+  +++ Changes by Fathi Boudra:
+
+  * Update kmail.install file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2008 18:54:05 +0300
 
