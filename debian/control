@@ -20,7 +20,8 @@ Depends: akonadi-kde (>= ${source:Version}), akregator (>= ${source:Version}), k
  kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}), kitchensync (>= ${source:Version}), kleopatra (>= ${source:Version}),
  kmail (>= ${source:Version}), kmobiletools (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), kode (>= ${source:Version}),
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}), korn (>= ${source:Version}),
- kpilot (>= ${source:Version}), ktimetracker (>= ${source:Version}), ktnef (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version})
+ kpilot (>= ${source:Version}), ktimetracker (>= ${source:Version}), ktnef (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}),
+ kjots (>= ${source:Version})
 Suggests: kdepim-doc
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
@@ -323,6 +324,8 @@ Package: ktimetracker
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
+Conflicts: karm
+Replaces: karm
 Description: KDE time tracker tool
  KTimetracker is a time tracker for busy people who need to keep track of the amount of
  time they spend on various tasks.
@@ -428,3 +431,11 @@ Description: PIM file format plugins for Strigi Desktop Search
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
+
+Package: kjots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: note-taking utility for KDE 4
+ Kjots is a notebook utility that organizes notes using groups of pages.
+ .
+ This package is part of the KDE 4 utilities module.

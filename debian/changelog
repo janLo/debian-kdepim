@@ -8,12 +8,14 @@ kde4pim (4:4.0.80-1) UNRELEASED; urgency=low
   * Build-depend on kdepimlibs5-dev (>= 4.0.80). It is needed. Bump other KDE
     specific build-depends a bit too. Bump akonadi-dev to >= 0.81.0
   * Add proper dependencies for kdepim metapackage.
+  * ktimetracker conflicts & replaces karm due to /usr/bin/karm.
+  * Add kjots package.
 
   +++ Changes by Fathi Boudra:
 
   * Update kmail.install and kontact.install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2008 18:54:05 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2008 23:54:08 +0300
 
 kde4pim (4:4.0.74-1) experimental; urgency=low
 
