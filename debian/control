@@ -438,4 +438,5 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: note-taking utility for KDE 4
  Kjots is a notebook utility that organizes notes using groups of pages.
  .
- This package is part of the KDE 4 utilities module.
+ This package is part of KDE, and a component of the KDE PIM module.
+ See the 'kde' and 'kdepim' packages for more information.

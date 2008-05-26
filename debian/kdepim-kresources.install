@@ -1,7 +1,11 @@
 usr/bin/scalixadmin
+usr/lib/libgwsoap.so.4
+usr/lib/libgwsoap.so.4.1.0
 usr/lib/libkgroupwarebase.so.4
 usr/lib/libkgroupwarebase.so.4.1.0
 usr/lib/libkgroupwaredav.so.4
 usr/lib/libkgroupwaredav.so.4.1.0
 usr/lib/libkslox.so.4
 usr/lib/libkslox.so.4.1.0
+usr/share/kde4/services/groupwise.protocol
+usr/share/kde4/services/groupwises.protocol
