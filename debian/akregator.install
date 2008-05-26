@@ -28,8 +28,6 @@ usr/share/kde4/apps/akregator/akregator.notifyrc
 usr/share/kde4/apps/akregator/akregator_part.rc
 usr/share/kde4/apps/akregator/akregator_shell.rc
 usr/share/kde4/apps/akregator/articleviewer.rc
-usr/share/kde4/apps/akregator/kpartplugins/akregator_onlinesync_plugin.desktop
-usr/share/kde4/apps/akregator/kpartplugins/akregator_onlinesync_plugin.rc
 usr/share/kde4/apps/akregator/pageviewer.rc
 usr/share/kde4/apps/akregator/pics/kmmsgnew.png
 usr/share/kde4/apps/akregator/pics/kmmsgunseen.png
@@ -39,9 +37,7 @@ usr/share/kde4/services/akregator_config_appearance.desktop
 usr/share/kde4/services/akregator_config_archive.desktop
 usr/share/kde4/services/akregator_config_browser.desktop
 usr/share/kde4/services/akregator_config_general.desktop
-usr/share/kde4/services/akregator_config_onlinesync.desktop
 usr/share/kde4/services/akregator_mk4storage_plugin.desktop
-usr/share/kde4/services/akregator_onlinesync_plugin.desktop
 usr/share/kde4/services/akregator_part.desktop
 usr/share/kde4/services/feed.protocol
 usr/share/kde4/servicetypes/akregator_plugin.desktop

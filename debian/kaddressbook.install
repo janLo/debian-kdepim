@@ -30,8 +30,6 @@ usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/kde4/ldifvcardthumbnail.so
 usr/lib/libkabc_groupdav.so.4
 usr/lib/libkabc_groupdav.so.4.1.0
-usr/lib/libkabc_groupwise.so.4
-usr/lib/libkabc_groupwise.so.4.1.0
 usr/lib/libkabc_slox.so.4
 usr/lib/libkabc_slox.so.4.1.0
 usr/lib/libkabc_xmlrpc.so.4
@@ -125,7 +123,6 @@ usr/share/kde4/services/kaddressbook/tableview.desktop
 usr/share/kde4/services/kaddressbook/vcard_xxport.desktop
 usr/share/kde4/services/kaddressbook/yahooprotocol.desktop
 usr/share/kde4/services/kresources/kabc/kabc_groupdav.desktop
-usr/share/kde4/services/kresources/kabc/kabc_groupwise.desktop
 usr/share/kde4/services/kresources/kabc/kabc_opengroupware.desktop
 usr/share/kde4/services/kresources/kabc/kabc_ox.desktop
 usr/share/kde4/services/kresources/kabc/kabc_slox.desktop

@@ -3,8 +3,6 @@ usr/bin/kgpgconf
 usr/bin/kleopatra
 usr/bin/kwatchgnupg
 usr/lib/kde4/kcm_kleopatra.so
-usr/lib/libkleopatraclientcore.so.0.1.0
-usr/lib/libkleopatraclientgui.so.0.1.0
 usr/share/applications/kde4/kleopatra_import.desktop
 usr/share/doc/kde4/HTML/en/kleopatra/common
 usr/share/doc/kde4/HTML/en/kleopatra/index.cache.bz2

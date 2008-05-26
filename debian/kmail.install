@@ -61,11 +61,6 @@ usr/share/kde4/apps/kmail/icons/hicolor/32x32/apps/kmail.png
 usr/share/kde4/apps/kmail/icons/hicolor/48x48/apps/kmail.png
 usr/share/kde4/apps/kmail/icons/hicolor/64x64/apps/kmail.png
 usr/share/kde4/apps/kmail/icons/hicolor/scalable/apps/kmail.svgz
-usr/share/kde4/apps/kmail/icons/oxygen/16x16/status/mail-task.png
-usr/share/kde4/apps/kmail/icons/oxygen/22x22/status/mail-task.png
-usr/share/kde4/apps/kmail/icons/oxygen/32x32/status/mail-task.png
-usr/share/kde4/apps/kmail/icons/oxygen/48x48/status/mail-task.png
-usr/share/kde4/apps/kmail/icons/oxygen/scalable/status/mail-task.svgz
 usr/share/kde4/apps/kmail/kmail.notifyrc
 usr/share/kde4/apps/kmail/kmail_part.rc
 usr/share/kde4/apps/kmail/kmcomposerui.rc
