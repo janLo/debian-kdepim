@@ -22,7 +22,6 @@ usr/lib/kde4/korg_yearprint.so
 usr/lib/kde4/korganizerpart.so
 usr/lib/libkcal_groupdav.so.4
 usr/lib/libkcal_groupdav.so.4.1.0
-usr/lib/libkcal_groupwise.so.*
 usr/lib/libkcal_resourceblog.so.4
 usr/lib/libkcal_resourceblog.so.4.1.0
 usr/lib/libkcal_resourcefeatureplan.so.4
@@ -104,7 +103,6 @@ usr/share/kde4/services/korganizer_configviews.desktop
 usr/share/kde4/services/kresources/kcal/blog.desktop
 usr/share/kde4/services/kresources/kcal/kabc.desktop
 usr/share/kde4/services/kresources/kcal/kcal_groupdav.desktop
-usr/share/kde4/services/kresources/kcal/kcal_groupwise.desktop
 usr/share/kde4/services/kresources/kcal/kcal_opengroupware.desktop
 usr/share/kde4/services/kresources/kcal/kcal_ox.desktop
 usr/share/kde4/services/kresources/kcal/kcal_resourcefeatureplan.desktop
