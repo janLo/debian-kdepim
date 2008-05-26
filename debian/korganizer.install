@@ -27,8 +27,6 @@ usr/lib/libkcal_resourceblog.so.4
 usr/lib/libkcal_resourceblog.so.4.1.0
 usr/lib/libkcal_resourcefeatureplan.so.4
 usr/lib/libkcal_resourcefeatureplan.so.4.1.0
-usr/lib/libkcal_resourceremote.so.4
-usr/lib/libkcal_resourceremote.so.4.1.0
 usr/lib/libkcal_slox.so.4
 usr/lib/libkcal_slox.so.4.1.0
 usr/lib/libkcal_xmlrpc.so.4
@@ -86,6 +84,9 @@ usr/share/kde4/config.kcfg/korganizer.kcfg
 usr/share/kde4/config.kcfg/memofileconduit.kcfg
 usr/share/kde4/config.kcfg/timeconduit.kcfg
 usr/share/kde4/config.kcfg/vcalconduitbase.kcfg
+usr/share/kde4/services/kontact/journalplugin.desktop
+usr/share/kde4/services/kontact/korganizerplugin.desktop
+usr/share/kde4/services/kontact/todoplugin.desktop
 usr/share/kde4/services/korganizer/datenums.desktop
 usr/share/kde4/services/korganizer/hebrew.desktop
 usr/share/kde4/services/korganizer/journalprint.desktop

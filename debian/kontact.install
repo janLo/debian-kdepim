@@ -76,6 +76,9 @@ usr/share/kde4/services/kcmkontactsummary.desktop
 usr/share/kde4/services/kcmplanner.desktop
 usr/share/kde4/services/kcmsdsummary.desktop
 usr/share/kde4/services/kcmtodosummary.desktop
-usr/share/kde4/services/kontact/*
+usr/share/kde4/services/kontact/newstickerplugin.desktop
+usr/share/kde4/services/kontact/plannerplugin.desktop
+usr/share/kde4/services/kontact/specialdatesplugin.desktop
+usr/share/kde4/services/kontact/summaryplugin.desktop
 usr/share/kde4/services/kontactconfig.desktop
 usr/share/kde4/servicetypes/kontactplugin.desktop

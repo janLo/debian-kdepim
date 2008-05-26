@@ -123,6 +123,7 @@ usr/share/kde4/services/kaddressbook/smsprotocol.desktop
 usr/share/kde4/services/kaddressbook/tableview.desktop
 usr/share/kde4/services/kaddressbook/vcard_xxport.desktop
 usr/share/kde4/services/kaddressbook/yahooprotocol.desktop
+usr/share/kde4/services/kontact/kaddressbookplugin.desktop
 usr/share/kde4/services/kresources/kabc/kabc_groupdav.desktop
 usr/share/kde4/services/kresources/kabc/kabc_groupwise.desktop
 usr/share/kde4/services/kresources/kabc/kabc_opengroupware.desktop

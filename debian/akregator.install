@@ -24,4 +24,7 @@ usr/share/kde4/services/akregator_*_plugin.desktop
 usr/share/kde4/services/akregator_config_*.desktop
 usr/share/kde4/services/akregator_part.desktop
 usr/share/kde4/services/feed.protocol
+usr/share/kde4/services/kontact/akregatorplugin.desktop
+
+usr/share/kde4/services/kontact/akregatorplugin3.2.desktop
 usr/share/kde4/servicetypes/akregator_plugin.desktop

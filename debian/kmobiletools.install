@@ -64,6 +64,7 @@ usr/share/kde4/config.kcfg/kmobiletools_devices.kcfg
 usr/share/kde4/services/addressbook_service.desktop
 usr/share/kde4/services/fake_engine.desktop
 usr/share/kde4/services/kmobiletools_mainpart.desktop
+usr/share/kde4/services/kontact/kmobiletools.desktop
 usr/share/kde4/servicetypes/kmobiletoolscoreservice.desktop
 usr/share/kde4/servicetypes/kmobiletoolsengine.desktop
 usr/share/kde4/servicetypes/kmobiletoolsenginexp.desktop

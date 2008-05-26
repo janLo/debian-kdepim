@@ -32,3 +32,4 @@ usr/share/kde4/services/kresources/knotes/kolabresource.desktop
 usr/share/kde4/services/kresources/knotes/local.desktop
 usr/share/kde4/services/kresources/knotes/scalix.desktop
 usr/share/kde4/services/kresources/knotes_manager.desktop
+usr/share/kde4/services/kontact/knotesplugin.desktop

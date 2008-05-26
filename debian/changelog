@@ -15,6 +15,11 @@ kde4pim (4:4.0.80-1) UNRELEASED; urgency=low
 
   * Update installed files.
 
+  +++ Changes by Sune Vuorela:
+
+  * Move libkcal_remote to libkdepim4. ktimetracker also needs this
+  * Move kontact-related desktop files to the apps they provide
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 May 2008 23:54:08 +0300
 
 kde4pim (4:4.0.74-1) experimental; urgency=low
