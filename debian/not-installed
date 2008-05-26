@@ -1,9 +1,16 @@
+# groupwise related files
+./usr/lib/kde4/kio_groupwise.so
+./usr/lib/libgwsoap.so.4
+./usr/lib/libgwsoap.so.4.1.0
+./usr/share/kde4/services/groupwise.protocol
+./usr/share/kde4/services/groupwises.protocol
 # we don't install any headers and .so links for the moment.
 # if there's need for these files one day, we can reconsider thid decision.
 # backed up upstream...
 ./usr/include/akregator/akregator_export.h
 ./usr/include/akregator/article.h
 ./usr/include/akregator/command.h
+./usr/include/akregator/feedlistmanagementinterface.h
 ./usr/include/akregator/feedstorage.h
 ./usr/include/akregator/plugin.h
 ./usr/include/akregator/storage.h
@@ -17,6 +24,7 @@
 ./usr/include/kaddressbook/xxport.h
 ./usr/include/kdepimprotocols.h
 ./usr/include/kleo/changeexpiryjob.h
+./usr/include/kleo/changeownertrustjob.h
 ./usr/include/kleo/cryptobackend.h
 ./usr/include/kleo/cryptobackendfactory.h
 ./usr/include/kleo/cryptoconfig.h
@@ -45,6 +53,7 @@
 ./usr/include/kleo/refreshkeysjob.h
 ./usr/include/kleo/signencryptjob.h
 ./usr/include/kleo/signjob.h
+./usr/include/kleo/signkeyjob.h
 ./usr/include/kleo/specialjob.h
 ./usr/include/kleo/ui/backendconfigwidget.h
 ./usr/include/kleo/ui/cryptoconfigdialog.h
@@ -94,6 +103,7 @@
 ./usr/include/ksieve/scriptbuilder.h
 ./usr/include/libkleopatraclient/core/command.h
 ./usr/include/libkleopatraclient/core/initialization.h
+./usr/include/libkleopatraclient/gui/certificaterequester.h
 ./usr/include/libkleopatraclient/kleopatraclient_export.h
 ./usr/include/libkmobiletools/addressbook.h
 ./usr/include/libkmobiletools/addressbookentry.h
@@ -145,8 +155,10 @@
 ./usr/lib/libakonadi-kcal.so
 ./usr/lib/libakregatorinterfaces.so
 ./usr/lib/libakregatorprivate.so
+./usr/lib/libgwsoap.so
 ./usr/lib/libimap.so
 ./usr/lib/libkabc_groupdav.so
+./usr/lib/libkabc_groupwise.so
 ./usr/lib/libkabc_slox.so
 ./usr/lib/libkabc_xmlrpc.so
 ./usr/lib/libkabckolab.so
@@ -155,6 +167,7 @@
 ./usr/lib/libkabinterfaces.so
 ./usr/lib/libkalarm_resources.so
 ./usr/lib/libkcal_groupdav.so
+./usr/lib/libkcal_groupwise.so
 ./usr/lib/libkcal_resourceblog.so
 ./usr/lib/libkcal_resourcefeatureplan.so
 ./usr/lib/libkcal_resourceremote.so
@@ -170,6 +183,7 @@
 ./usr/lib/libkitchensyncprivate.so
 ./usr/lib/libkleo.so
 ./usr/lib/libkleopatraclientcore.so
+./usr/lib/libkleopatraclientgui.so
 ./usr/lib/libkmailprivate.so
 ./usr/lib/libkmobiletoolsengineui.so
 ./usr/lib/libkmobiletoolslib.so
@@ -180,6 +194,7 @@
 ./usr/lib/libknotesscalix.so
 ./usr/lib/libkocorehelper.so
 ./usr/lib/libkode.so
+./usr/lib/libkontactinterfaces.so
 ./usr/lib/libkontactprivate.so
 ./usr/lib/libkorg_stdprinting.so
 ./usr/lib/libkorganizer_calendar.so

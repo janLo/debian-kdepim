@@ -1,4 +1,5 @@
 usr/bin/kjots
+usr/lib/kde4/kjotspart.so
 usr/share/applications/kde4/Kjots.desktop
 usr/share/applications/kde4/kjotspart.desktop
 usr/share/doc/kde4/HTML/en/kjots/common
