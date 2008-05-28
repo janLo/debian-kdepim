@@ -1,3 +1,9 @@
+kde4pim (4:4.0.80-2) experimental; urgency=low
+
+  * kdepim-dbg must replace kdeutils-dbg after the kjots move.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Thu, 29 May 2008 00:16:51 +0200
+
 kde4pim (4:4.0.80-1) experimental; urgency=low
 
   * New upstream development milestone (KDE 4.1 Beta1).

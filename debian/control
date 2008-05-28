@@ -36,6 +36,7 @@ Package: kdepim-dbg
 Priority: extra
 Section: libdevel
 Depends: kdepimlibs-dbg
+Replaces: kdeutils-dbg (<< 4:4.0.80))
 Architecture: any
 Description: debugging symbols for kdepim
  This package contains the debugging symbols associated with kdepim.
