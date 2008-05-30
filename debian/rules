@@ -2,3 +2,10 @@
 
 include debian/cdbs/kde.mk
 
+DEB_DH_MAKESHLIBS_ARGS_libkdepim4 := -V'libkdepim4 (>= 4:4.0.80)'
+DEB_DH_MAKESHLIBS_ARGS_libkholidays4 := -V'libkholidays4 (>= 4:4.0.80)'
+DEB_DH_MAKESHLIBS_ARGS_libkleo4 :=  -V'libkleo4 (>= 4:4.0.80)'
+DEB_DH_MAKESHLIBS_ARGS_libkpgp4 :=  -V'libkpgp4 (>= 4:4.0.80)'
+DEB_DH_MAKESHLIBS_ARGS_libksieve4 :=  -V'libksieve4 (>= 4:4.0.80)'
+DEB_DH_MAKESHLIBS_ARGS_libmaildir4 :=  -V'libmaildir4 (>= 4:4.0.80)'
+DEB_DH_MAKESHLIBS_ARGS_libmimelib4 :=  -V'libmimelib4 (>= 4:4.0.80)'
