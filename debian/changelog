@@ -1,3 +1,15 @@
+kde4pim (4:4.0.81+svn815101-1) experimental; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r815101 by tstaerk
+    - Date: Sun Jun 1 08:51:12 2008 UTC
+
+  +++ Changes by Fathi Boudra:
+
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Jun 2008 15:54:59 +0200
+
 kde4pim (4:4.0.80-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:

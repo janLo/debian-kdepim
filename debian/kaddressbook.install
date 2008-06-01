@@ -50,9 +50,13 @@ usr/share/dbus-1/interfaces/org.kde.KAddressbook.Core.xml
 usr/share/doc/kde4/HTML/en/kaddressbook/common
 usr/share/icons/hicolor/128x128/apps/kaddressbook.png
 usr/share/icons/hicolor/16x16/apps/kaddressbook.png
+usr/share/icons/hicolor/22x22/apps/kaddressbook.png
+usr/share/icons/hicolor/22x22/apps/korganizer.png
 usr/share/icons/hicolor/32x32/apps/kaddressbook.png
 usr/share/icons/hicolor/48x48/apps/kaddressbook.png
 usr/share/icons/hicolor/64x64/apps/kaddressbook.png
+usr/share/icons/hicolor/scalable/apps/kaddressbook.svgz
+usr/share/icons/oxygen/16x16/actions/ldap_lookup.png
 usr/share/kde4/apps/kaddressbook/bookmark_xxportui.rc
 usr/share/kde4/apps/kaddressbook/csv-templates/kaddressbook.desktop
 usr/share/kde4/apps/kaddressbook/csv-templates/outlook2000.desktop
@@ -61,14 +65,6 @@ usr/share/kde4/apps/kaddressbook/csv_xxportui.rc
 usr/share/kde4/apps/kaddressbook/eudora_xxportui.rc
 usr/share/kde4/apps/kaddressbook/gmx_xxportui.rc
 usr/share/kde4/apps/kaddressbook/gnokii_xxportui.rc
-usr/share/kde4/apps/kaddressbook/icons/hicolor/128x128/apps/kaddressbook.png
-usr/share/kde4/apps/kaddressbook/icons/hicolor/16x16/apps/kaddressbook.png
-usr/share/kde4/apps/kaddressbook/icons/hicolor/22x22/apps/kaddressbook.png
-usr/share/kde4/apps/kaddressbook/icons/hicolor/32x32/apps/kaddressbook.png
-usr/share/kde4/apps/kaddressbook/icons/hicolor/48x48/apps/kaddressbook.png
-usr/share/kde4/apps/kaddressbook/icons/hicolor/64x64/apps/kaddressbook.png
-usr/share/kde4/apps/kaddressbook/icons/hicolor/scalable/apps/kaddressbook.svgz
-usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/actions/ldap_lookup.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/aim_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/gadu_protocol.png
 usr/share/kde4/apps/kaddressbook/icons/oxygen/16x16/apps/groupwise_protocol.png
@@ -92,6 +88,7 @@ usr/share/kde4/apps/kaddressbook/printing/mike-style.png
 usr/share/kde4/apps/kaddressbook/printing/ringbinder-style.png
 usr/share/kde4/apps/kaddressbook/vcard_xxportui.rc
 usr/share/kde4/apps/kaddressbook/zone.tab
+usr/share/kde4/apps/kontact/ksettingsdialog/kaddressbook.setdlg
 usr/share/kde4/services/kabconfig.desktop
 usr/share/kde4/services/kabcustomfields.desktop
 usr/share/kde4/services/kabldapconfig.desktop

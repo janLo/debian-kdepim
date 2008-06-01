@@ -109,6 +109,7 @@
 ./usr/include/ksieve/scriptbuilder.h
 ./usr/include/libkleopatraclient/core/command.h
 ./usr/include/libkleopatraclient/core/initialization.h
+./usr/include/libkleopatraclient/core/selectcertificatecommand.h
 ./usr/include/libkleopatraclient/gui/certificaterequester.h
 ./usr/include/libkleopatraclient/kleopatraclient_export.h
 ./usr/include/libkmobiletools/addressbook.h

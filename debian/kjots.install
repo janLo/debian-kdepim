@@ -13,5 +13,6 @@ usr/share/icons/hicolor/64x64/apps/kjots.png
 usr/share/kde4/apps/kjots/kjotspartui.rc
 usr/share/kde4/apps/kjots/kjotsui.rc
 usr/share/kde4/apps/kjots/pics/filedel.png
+usr/share/kde4/apps/kontact/ksettingsdialog/kjots.setdlg
 usr/share/kde4/config.kcfg/kjots.kcfg
 usr/share/kde4/services/kontact/kjots_plugin.desktop

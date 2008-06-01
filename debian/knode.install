@@ -50,6 +50,7 @@ usr/share/kde4/apps/knode/pics/stat_cncl.png
 usr/share/kde4/apps/knode/pics/stat_edit.png
 usr/share/kde4/apps/knode/pics/stat_saved.png
 usr/share/kde4/apps/knode/pics/stat_sent.png
+usr/share/kde4/apps/kontact/ksettingsdialog/knode.setdlg
 usr/share/kde4/services/knewsservice.protocol
 usr/share/kde4/services/knode_config_accounts.desktop
 usr/share/kde4/services/knode_config_appearance.desktop

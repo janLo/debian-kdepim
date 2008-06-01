@@ -60,6 +60,7 @@ usr/share/kde4/apps/kmobiletools/operatorsdata
 usr/share/kde4/apps/kmobiletools/phone_connection.png
 usr/share/kde4/apps/kmobiletools/progress.gif
 usr/share/kde4/apps/kmobiletools/security.png
+usr/share/kde4/apps/kontact/ksettingsdialog/kmobiletools.setdlg
 usr/share/kde4/config.kcfg/kmobiletools_devices.kcfg
 usr/share/kde4/services/addressbook_service.desktop
 usr/share/kde4/services/fake_engine.desktop
