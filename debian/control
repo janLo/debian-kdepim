@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.4.5), quilt, kdelibs5-dev (>= 4:4.0.80+svn812470),
- kdepimlibs5-dev (>= 4:4.0.80), libphonon-dev (>= 4:4.0.80), libplasma-dev (>= 4:4.0.74),
+ kdepimlibs5-dev (>= 4:4.0.80), libphonon-dev (>= 4:4.0.80), libplasma-dev (>= 4:4.0.80),
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
  libpisock-dev, libopensync1exp3-dev, libassuan-dev,
@@ -18,10 +18,10 @@ Package: kdepim
 Architecture: all
 Depends: akonadi-kde (>= ${source:Version}), akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), kalarm (>= ${source:Version}),
  kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}), kitchensync (>= ${source:Version}), kleopatra (>= ${source:Version}),
- kmail (>= ${source:Version}), kmobiletools (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), kode (>= ${source:Version}),
+ kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), kode (>= ${source:Version}),
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}), korn (>= ${source:Version}),
- kpilot (>= ${source:Version}), ktimetracker (>= ${source:Version}), ktnef (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}),
- kjots (>= ${source:Version})
+ ktimetracker (>= ${source:Version}), ktnef (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version})
+# kmobiletools (>= ${source:Version}), kpilot (>= ${source:Version})
 Suggests: kdepim-doc
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
@@ -186,20 +186,21 @@ Description: KDE Email client
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: kmobiletools
-Section: utils
-Architecture: any
-Depends: ${shlibs:Depends}
-Homepage: http://www.kmobiletools.org/
-Description: KDE application to control mobile phones
- MobileTools is a KDE application that allows you to control your mobile phone.
- Actually, this application supports: SMS reading/writing/sending/deleting ,
- multiple SMS destinations (if supported by the phone), calls handling (dial,
- answer, close), phonebook reading, viw last answered calls and last unanswered
- calls lists.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
+# Enabled for 4.2
+# Package: kmobiletools
+# Section: utils
+# Architecture: any
+# Depends: ${shlibs:Depends}
+# Homepage: http://www.kmobiletools.org/
+# Description: KDE application to control mobile phones
+#  MobileTools is a KDE application that allows you to control your mobile phone.
+#  Actually, this application supports: SMS reading/writing/sending/deleting ,
+#  multiple SMS destinations (if supported by the phone), calls handling (dial,
+#  answer, close), phonebook reading, viw last answered calls and last unanswered
+#  calls lists.
+#  .
+#  This package is part of KDE, and a component of the KDE PIM module.
+#  See the 'kde' and 'kdepim' packages for more information.
 
 Package: knode
 Section: news
@@ -306,20 +307,21 @@ Description: KDE mail checker
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: kpilot
-Section: utils
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0
-Suggests: knotes, korganizer
-Homepage: http://cvs.codeyard.net/kpilot/
-Description: KDE Palm Pilot hot-sync tool
- KPilot is an application that synchronizes your Palm Pilot or similar device
- (like the Handspring Visor) with your KDE desktop, much like the Palm HotSync
- software does for Windows.  KPilot can back-up and restore your Palm Pilot
- and synchronize the built-in applications with their KDE counterparts.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
+# Enabled for 4.2
+# Package: kpilot
+# Section: utils
+# Architecture: any
+# Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0
+# Suggests: knotes, korganizer
+# Homepage: http://cvs.codeyard.net/kpilot/
+# Description: KDE Palm Pilot hot-sync tool
+#  KPilot is an application that synchronizes your Palm Pilot or similar device
+#  (like the Handspring Visor) with your KDE desktop, much like the Palm HotSync
+#  software does for Windows.  KPilot can back-up and restore your Palm Pilot
+#  and synchronize the built-in applications with their KDE counterparts.
+#  .
+#  This package is part of KDE, and a component of the KDE PIM module.
+#  See the 'kde' and 'kdepim' packages for more information.
 
 Package: ktimetracker
 Section: utils
