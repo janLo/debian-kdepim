@@ -1,5 +1,5 @@
-etc/kde4/kmail.antispamrc
-etc/kde4/kmail.antivirusrc
+usr/share/kde4/config/kmail.antispamrc
+usr/share/kde4/config/kmail.antivirusrc
 usr/bin/kmail
 usr/bin/kmail_antivir.sh
 usr/bin/kmail_clamav.sh

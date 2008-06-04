@@ -1,4 +1,4 @@
-etc/kde4/korganizer.knsrc
+usr/share/kde4/config/korganizer.knsrc
 usr/bin/ical2vcal
 usr/bin/korgac
 usr/bin/korganizer

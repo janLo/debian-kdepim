@@ -1,4 +1,4 @@
-etc/kde4/libkleopatrarc
+usr/share/kde4/config/libkleopatrarc
 usr/bin/kgpgconf
 usr/bin/kleopatra
 usr/bin/kwatchgnupg
