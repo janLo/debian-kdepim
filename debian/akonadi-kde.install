@@ -22,7 +22,7 @@ usr/lib/kde4/akonadi_serializer_addressee.so
 usr/lib/kde4/akonadi_serializer_bookmark.so
 usr/lib/kde4/akonadi_serializer_kcal.so
 usr/lib/kde4/akonadi_serializer_mail.so
-usr/lib/kde4/akonadi_serializer_sms.so
+# usr/lib/kde4/akonadi_serializer_sms.so
 usr/lib/kde4/kabc_akonadi.so
 usr/lib/kde4/kcal_akonadi.so
 usr/lib/kde4/kcm_akonadi_resources.so
@@ -54,7 +54,7 @@ usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_addressee.desk
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_bookmark.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_kcal.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
-usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_sms.desktop
+# usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_sms.desktop
 usr/share/kde4/apps/akonadiconsole/akonadiconsoleui.rc
 usr/share/kde4/apps/desktoptheme/default/widgets/akonadi.svg
 usr/share/kde4/apps/kcontactmanager/kcontactmanagerui.rc

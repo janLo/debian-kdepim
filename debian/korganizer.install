@@ -73,11 +73,7 @@ usr/share/kde4/apps/korganizer/sounds/lightmag.wav
 usr/share/kde4/apps/korganizer/sounds/onscreen.wav
 usr/share/kde4/apps/korganizer/sounds/spinout.wav
 usr/share/kde4/apps/korganizer/tips
-usr/share/kde4/config.kcfg/keyringconduit.kcfg
 usr/share/kde4/config.kcfg/korganizer.kcfg
-usr/share/kde4/config.kcfg/memofileconduit.kcfg
-usr/share/kde4/config.kcfg/timeconduit.kcfg
-usr/share/kde4/config.kcfg/vcalconduitbase.kcfg
 usr/share/kde4/services/kontact/journalplugin.desktop
 usr/share/kde4/services/kontact/korganizerplugin.desktop
 usr/share/kde4/services/kontact/todoplugin.desktop

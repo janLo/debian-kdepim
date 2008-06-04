@@ -1,6 +1,6 @@
 --- a/korganizer/CMakeLists.txt
 +++ b/korganizer/CMakeLists.txt
-@@ -224,7 +224,7 @@
+@@ -225,7 +225,7 @@
  
  add_dependencies(korganizerprivate kmail)
  
@@ -11,7 +11,7 @@
  
 --- a/ktimetracker/CMakeLists.txt
 +++ b/ktimetracker/CMakeLists.txt
-@@ -73,7 +73,7 @@
+@@ -74,7 +74,7 @@
  
  kde4_add_plugin(karmpart ${karmpart_PART_SRCS})
  
@@ -33,7 +33,7 @@
  install(TARGETS akregatorprivate DESTINATION ${LIB_INSTALL_DIR})
 --- a/libkdepim/CMakeLists.txt
 +++ b/libkdepim/CMakeLists.txt
-@@ -94,7 +94,7 @@
+@@ -87,7 +87,7 @@
  
  kde4_add_library(kdepim SHARED ${kdepim_LIB_SRCS})
  

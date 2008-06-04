@@ -11,7 +11,7 @@
  install(TARGETS schema  DESTINATION ${LIB_INSTALL_DIR})
 --- a/libkdepim/CMakeLists.txt
 +++ b/libkdepim/CMakeLists.txt
-@@ -92,7 +92,7 @@
+@@ -87,7 +87,7 @@
  
  kde4_add_library(kdepim SHARED ${kdepim_LIB_SRCS})
  

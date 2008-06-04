@@ -1,8 +1,6 @@
-kde4pim (4:4.0.81+svn815101-1) experimental; urgency=low
+kde4pim (4:4.0.81+svn816084-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r815101 by tstaerk
-    - Date: Sun Jun 1 08:51:12 2008 UTC
+  * New upstream development snapshot.
 
   +++ Changes by Fathi Boudra:
 
