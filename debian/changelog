@@ -13,7 +13,11 @@ kde4pim (4:4.0.81+svn818892-1~pre1) UNRELEASED; urgency=low
 
   * Bump build depends to 4.0.81 and higher.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 08:16:49 +0300
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove Recommends: kghostview from korganizer. It does not exist in KDE4.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 16:58:09 +0200
 
 kde4pim (4:4.0.80-2) experimental; urgency=low
 

@@ -276,7 +276,6 @@ Package: korganizer
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}
-Recommends: kghostview
 Homepage: http://kontact.kde.org/korganizer/
 Description: KDE personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
