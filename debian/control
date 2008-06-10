@@ -3,8 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.4.5), quilt, kdelibs5-dev (>= 4:4.0.80+svn812470),
- kdepimlibs5-dev (>= 4:4.0.80), libphonon-dev (>= 4:4.0.80), libplasma-dev (>= 4:4.0.80),
+Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.4.5), quilt,
+ kdelibs5-dev (>= 4:4.0.81+svn818551), kdepimlibs5-dev (>= 4:4.0.81),
+ libphonon-dev (>= 4:4.2~), libplasma-dev (>= 4:4.0.81),
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
  libpisock-dev, libopensync1exp3-dev, libassuan-dev,

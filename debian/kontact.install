@@ -1,7 +1,6 @@
 usr/bin/kontact
 usr/lib/kde4/kcm_apptsummary.so
 usr/lib/kde4/kcm_kontact.so
-usr/lib/kde4/kcm_kontactknt.so
 usr/lib/kde4/kcm_kontactsummary.so
 usr/lib/kde4/kcm_sdsummary.so
 usr/lib/kde4/kcm_todosummary.so
@@ -20,17 +19,14 @@ usr/share/icons/hicolor/64x64/apps/kontact.png
 usr/share/kde4/apps/kontact/about/kontact.css
 usr/share/kde4/apps/kontact/about/main.html
 usr/share/kde4/apps/kontact/about/top-left-kontact.png
-usr/share/kde4/apps/kontact/ksettingsdialog/newsticker.setdlg
 usr/share/kde4/apps/kontact/ksettingsdialog/specialdates.setdlg
 usr/share/kde4/apps/kontact/ksettingsdialog/summary.setdlg
 usr/share/kde4/apps/kontactsummary/kontactsummary_part.rc
 usr/share/kde4/config.kcfg/kontact.kcfg
 usr/share/kde4/services/kcmapptsummary.desktop
-usr/share/kde4/services/kcmkontactknt.desktop
 usr/share/kde4/services/kcmkontactsummary.desktop
 usr/share/kde4/services/kcmsdsummary.desktop
 usr/share/kde4/services/kcmtodosummary.desktop
-usr/share/kde4/services/kontact/newstickerplugin.desktop
 usr/share/kde4/services/kontact/specialdatesplugin.desktop
 usr/share/kde4/services/kontact/summaryplugin.desktop
 usr/share/kde4/services/kontactconfig.desktop
