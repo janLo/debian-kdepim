@@ -19,6 +19,7 @@ usr/share/icons/hicolor/64x64/apps/kontact.png
 usr/share/kde4/apps/kontact/about/kontact.css
 usr/share/kde4/apps/kontact/about/main.html
 usr/share/kde4/apps/kontact/about/top-left-kontact.png
+usr/share/kde4/apps/kontact/kontactui.rc
 usr/share/kde4/apps/kontact/ksettingsdialog/specialdates.setdlg
 usr/share/kde4/apps/kontact/ksettingsdialog/summary.setdlg
 usr/share/kde4/apps/kontactsummary/kontactsummary_part.rc
