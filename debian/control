@@ -1,4 +1,4 @@
-Source: kde4pim
+Source: kdepim
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
