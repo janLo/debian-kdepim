@@ -30,7 +30,6 @@ usr/share/icons/hicolor/64x64/apps/kmail.png
 usr/share/icons/hicolor/scalable/apps/kmail.svgz
 usr/share/icons/oxygen/16x16/actions/mail-forwarded-replied.png
 usr/share/icons/oxygen/16x16/actions/mail-forwarded.png
-usr/share/icons/oxygen/16x16/actions/mail-replied.png
 usr/share/icons/oxygen/16x16/actions/mail-signed-part.png
 usr/share/icons/oxygen/16x16/actions/mail-signed-verified.png
 usr/share/icons/oxygen/16x16/actions/mail-signed.png
@@ -42,11 +41,15 @@ usr/share/icons/oxygen/32x32/apps/kmailcvt.png
 usr/share/icons/oxygen/48x48/apps/kmailcvt.png
 usr/share/icons/oxygen/scalable/actions/mail-forwarded-replied.svgz
 usr/share/icons/oxygen/scalable/actions/mail-forwarded.svgz
-usr/share/icons/oxygen/scalable/actions/mail-replied.svgz
 usr/share/icons/oxygen/scalable/actions/mail-signed-part.svgz
 usr/share/icons/oxygen/scalable/actions/mail-signed-verified.svgz
 usr/share/icons/oxygen/scalable/actions/mail-signed.svgz
 usr/share/icons/oxygen/scalable/status/mail-task.svgz
+usr/share/icons/oxygen/16x16/mimetypes/x-mail-distribution-list.png
+usr/share/icons/oxygen/22x22/mimetypes/x-mail-distribution-list.png
+usr/share/icons/oxygen/32x32/mimetypes/x-mail-distribution-list.png
+usr/share/icons/oxygen/48x48/mimetypes/x-mail-distribution-list.png
+usr/share/icons/oxygen/scalable/mimetypes/x-mail-distribution-list.svgz
 usr/share/kde4/apps/kconf_update/kmail-3.1-update-new-mail-notification-settings.pl
 usr/share/kde4/apps/kconf_update/kmail-3.1-use-UOID-for-identities.pl
 usr/share/kde4/apps/kconf_update/kmail-3.1.4-dont-use-UOID-0-for-any-identity.pl

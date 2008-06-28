@@ -6,10 +6,10 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.4.5), quilt,
  kdelibs5-dev (>= 4:4.0.82), kdepimlibs5-dev (>= 4:4.0.82),
- libphonon-dev (>= 4:4.2~), libplasma-dev (>= 4:4.0.82),
+ libphonon-dev (>= 4:4.2~), 
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
- libpisock-dev, libopensync1exp3-dev, libassuan-dev,
+ libopensync1exp3-dev, libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
  libakonadi-dev (>= 0.81.0)

@@ -13,11 +13,6 @@ usr/bin/akonadi_strigi_feeder
 usr/bin/akonadi_vcard_resource
 usr/bin/akonadiconsole
 usr/bin/akonaditray
-usr/bin/akonalendar
-usr/bin/akonamail
-usr/bin/kabceditor
-usr/bin/kabcviewer
-usr/bin/kcontactmanager
 usr/lib/kde4/akonadi_serializer_addressee.so
 usr/lib/kde4/akonadi_serializer_bookmark.so
 usr/lib/kde4/akonadi_serializer_kcal.so
@@ -26,8 +21,6 @@ usr/lib/kde4/akonadi_serializer_mail.so
 usr/lib/kde4/kabc_akonadi.so
 usr/lib/kde4/kcal_akonadi.so
 usr/lib/kde4/kcm_akonadi_resources.so
-usr/lib/kde4/plasma_applet_plasmobiff.so
-usr/lib/kde4/plasma_engine_akonadi.so
 usr/lib/libakonadi-kabc.so.4
 usr/lib/libakonadi-kabc.so.4.1.0
 usr/lib/libakonadi-kcal.so.4
@@ -49,15 +42,12 @@ usr/share/akonadi/agents/strigifeeder.desktop
 usr/share/akonadi/agents/vcardresource.desktop
 usr/share/applications/kde4/akonadiconsole.desktop
 usr/share/applications/kde4/akonaditray.desktop
-usr/share/applications/kde4/kcontactmanager.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_addressee.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_bookmark.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_kcal.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 # usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_sms.desktop
 usr/share/kde4/apps/akonadiconsole/akonadiconsoleui.rc
-usr/share/kde4/apps/desktoptheme/default/widgets/akonadi.svg
-usr/share/kde4/apps/kcontactmanager/kcontactmanagerui.rc
 usr/share/kde4/apps/nepomuk/ontologies/nco.desktop
 usr/share/kde4/apps/nepomuk/ontologies/nco.trig
 usr/share/kde4/apps/nepomuk/ontologies/nmo.desktop
@@ -66,5 +56,3 @@ usr/share/kde4/services/akonadi.protocol
 usr/share/kde4/services/kcm_akonadi_resources.desktop
 usr/share/kde4/services/kresources/kabc/akonadi.desktop
 usr/share/kde4/services/kresources/kcal/akonadi.desktop
-usr/share/kde4/services/plasma-applet-plasmobiff.desktop
-usr/share/kde4/services/plasma-engine-akonadi.desktop

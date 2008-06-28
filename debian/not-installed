@@ -29,6 +29,7 @@
 ./usr/include/kaddressbook/kaddressbook_export.h
 ./usr/include/kaddressbook/xxport.h
 ./usr/include/kdepimprotocols.h
+./usr/include/kleo/adduseridjob.h
 ./usr/include/kleo/changeexpiryjob.h
 ./usr/include/kleo/changeownertrustjob.h
 ./usr/include/kleo/cryptobackend.h
@@ -110,6 +111,7 @@
 ./usr/include/libkleopatraclient/core/command.h
 ./usr/include/libkleopatraclient/core/initialization.h
 ./usr/include/libkleopatraclient/core/selectcertificatecommand.h
+./usr/include/libkleopatraclient/core/signencryptfilescommand.h
 ./usr/include/libkleopatraclient/gui/certificaterequester.h
 ./usr/include/libkleopatraclient/kleopatraclient_export.h
 ./usr/include/libkmobiletools/addressbook.h
