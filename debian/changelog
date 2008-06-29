@@ -1,7 +1,16 @@
+kdepim (4:4.0.84-2) experimental; urgency=low
+
+  * Add 30_debianize_akregator_default.diff to include planet debian 
+    and debian times as default in akregator.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 29 Jun 2008 21:53:44 +0200
+
 kdepim (4:4.0.84-1) experimental; urgency=low
 
-  * New upstream snapshot
-  * Remove some unneeded build-dependencies. Plasmoid is gone. kpilot is disabled
+  * New upstream snapshot.
+  * Remove some unneeded build-dependencies: 
+    -libplas-dev because plasmoid is gone. 
+    -libpisock-dev because kpilot is disabled.
 
  -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 16:14:02 +0000
 
