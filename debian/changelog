@@ -1,5 +1,6 @@
-kdepim (4:4.0.84-2) experimental; urgency=low
+kdepim (4:4.0.98-0) UNRELEASED; urgency=low
 
+  * New upstream release, Release Candidate 1.
   * Add 30_debianize_akregator_default.diff to include planet debian 
     and debian times as default in akregator.
 
