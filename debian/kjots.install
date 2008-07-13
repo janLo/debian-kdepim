@@ -15,3 +15,9 @@ usr/share/kde4/apps/kjots/kjotsui.rc
 usr/share/kde4/apps/kontact/ksettingsdialog/kjots.setdlg
 usr/share/kde4/config.kcfg/kjots.kcfg
 usr/share/kde4/services/kontact/kjots_plugin.desktop
+usr/share/icons/oxygen/16x16/actions/edit-delete-page.png
+usr/share/icons/oxygen/22x22/actions/edit-delete-page.png
+usr/share/icons/oxygen/32x32/actions/edit-delete-page.png
+usr/share/icons/oxygen/48x48/actions/edit-delete-page.png
+usr/share/icons/oxygen/scalable/actions/edit-delete-page.svgz
+
