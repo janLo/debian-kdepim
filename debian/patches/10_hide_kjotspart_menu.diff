@@ -1,0 +1,8 @@
+--- a/kjots/kjotspart.desktop
++++ b/kjots/kjotspart.desktop
+@@ -8,4 +8,4 @@
+ ServiceTypes=KParts/ReadOnlyPart
+ X-KDE-Library=kjotspart
+ Type=Service
+-
++NoDisplay=true
