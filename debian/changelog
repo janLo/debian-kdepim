@@ -7,9 +7,10 @@ kdepim (4:4.1.0-1) experimental; urgency=low
   * Update installed files and build depend versions.
   * Bump shlibs to 4:4.1.0 in debian/rules.
   * Disable korn that has been removed upstream.
-  * kjots is now a service and it does not shown in the menu anymore.
+  * kjots is now a service and it is not shown in the menu anymore. 
+    (Closes: #491112)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 21:18:47 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Jul 2008 20:14:50 +0200
 
 kdepim (4:4.0.98-1) experimental; urgency=low
 
