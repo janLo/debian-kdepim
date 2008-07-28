@@ -4,15 +4,15 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.4.5), quilt,
- kdelibs5-dev (>= 4:4.0.98), kdepimlibs5-dev (>= 4:4.0.98),
- libphonon-dev (>= 4:4.2~), 
+Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.6.0), quilt,
+ kdelibs5-dev (>= 4:4.1.0), kdepimlibs5-dev (>= 4:4.1.0),
+ libphonon-dev (>= 4:4.2.0), 
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
  libopensync1exp3-dev, libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
- libakonadi-dev (>= 0.81.0)
+ libakonadi-dev (>= 1.0.0)
 Standards-Version: 3.7.3
 Homepage: http://pim.kde.org/
 
@@ -21,8 +21,9 @@ Architecture: all
 Depends: akonadi-kde (>= ${source:Version}), akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), kalarm (>= ${source:Version}),
  kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}), kitchensync (>= ${source:Version}), kleopatra (>= ${source:Version}),
  kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), kode (>= ${source:Version}),
- konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}), korn (>= ${source:Version}),
+ konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}),
  ktimetracker (>= ${source:Version}), ktnef (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version})
+#korn (>= ${source:Version}),
 # kmobiletools (>= ${source:Version}), kpilot (>= ${source:Version})
 Suggests: kdepim-doc
 Description: Personal Information Management apps from the official KDE release
@@ -293,20 +294,20 @@ Description: KDE personal organizer
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: korn
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: KDE mail checker
- Korn is a KDE mail checker that can display a small summary in the Kicker
- tray.  It supports checking mbox, pop3, imap4, and nntp sources.
- .
- Once mail is received you can have Korn run a third party program or change
- the color/icon of the Kicker display.  In addition to this you can have
- Korn run a program once you click on the docked icon in Kicker.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
+#Package: korn
+#Section: kde
+#Architecture: any
+#Depends: ${shlibs:Depends}
+#Description: KDE mail checker
+# Korn is a KDE mail checker that can display a small summary in the Kicker
+# tray.  It supports checking mbox, pop3, imap4, and nntp sources.
+# .
+# Once mail is received you can have Korn run a third party program or change
+# the color/icon of the Kicker display.  In addition to this you can have
+# Korn run a program once you click on the docked icon in Kicker.
+# .
+# This package is part of KDE, and a component of the KDE PIM module.
+# See the 'kde' and 'kdepim' packages for more information.
 
 # Enabled for 4.2
 # Package: kpilot

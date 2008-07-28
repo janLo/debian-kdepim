@@ -17,7 +17,6 @@ usr/share/icons/hicolor/64x64/apps/akregator.png
 usr/share/icons/hicolor/scalable/apps/akregator.svgz
 usr/share/kde4/apps/akregator/*
 usr/share/kde4/apps/akregator/about/*
-usr/share/kde4/apps/akregator/kpartplugins/*
 usr/share/kde4/apps/akregator/pics/*
 usr/share/kde4/apps/kontact/ksettingsdialog/akregator.setdlg
 usr/share/kde4/config.kcfg/akregator.kcfg

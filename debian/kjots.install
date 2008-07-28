@@ -1,7 +1,6 @@
 usr/bin/kjots
 usr/lib/kde4/kjotspart.so
 usr/share/applications/kde4/Kjots.desktop
-usr/share/applications/kde4/kjotspart.desktop
 usr/share/doc/kde4/HTML/en/kjots/common
 usr/share/doc/kde4/HTML/en/kjots/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kjots/index.docbook
@@ -15,9 +14,9 @@ usr/share/kde4/apps/kjots/kjotsui.rc
 usr/share/kde4/apps/kontact/ksettingsdialog/kjots.setdlg
 usr/share/kde4/config.kcfg/kjots.kcfg
 usr/share/kde4/services/kontact/kjots_plugin.desktop
+usr/share/kde4/services/kjotspart.desktop
 usr/share/icons/oxygen/16x16/actions/edit-delete-page.png
 usr/share/icons/oxygen/22x22/actions/edit-delete-page.png
 usr/share/icons/oxygen/32x32/actions/edit-delete-page.png
 usr/share/icons/oxygen/48x48/actions/edit-delete-page.png
 usr/share/icons/oxygen/scalable/actions/edit-delete-page.svgz
-

@@ -1,8 +1,15 @@
-kdepim (4:4.0.99-1) UNRELEASED; urgency=low
+kdepim (4:4.1.0-1) experimental; urgency=low
 
-  * 10_hide_kjotspart_menu.diff (Closes: #491112)
+  * New upstream release.
 
- -- Xavier Vello <xavier.vello@gmail.com>  Mon, 21 Jul 2008 16:18:27 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Update installed files and build depend versions.
+  * Bump shlibs to 4:4.1.0 in debian/rules.
+  * Disable korn that has been removed upstream.
+  * kjots is now a service and it does not shown in the menu anymore.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 21:18:47 +0200
 
 kdepim (4:4.0.98-1) experimental; urgency=low
 
