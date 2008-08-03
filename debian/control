@@ -440,6 +440,7 @@ Description: PIM file format plugins for Strigi Desktop Search
 Package: kjots
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Section: utils
 Description: note-taking utility for KDE 4
  Kjots is a notebook utility that organizes notes using groups of pages.
  .

@@ -1,3 +1,11 @@
+kdepim (4:4.1.0-2) experimental; urgency=low
+
+  +++ Changes by Sune Vuorela:
+
+  * KJots is section utils.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Aug 2008 16:11:19 +0200
+
 kdepim (4:4.1.0-1) experimental; urgency=low
 
   * New upstream release.
