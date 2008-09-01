@@ -1,8 +1,6 @@
-Index: kdepim-4.0.84/akregator/src/akregator_part.cpp
-===================================================================
---- kdepim-4.0.84.orig/akregator/src/akregator_part.cpp	2008-06-18 14:42:07.000000000 +0200
-+++ kdepim-4.0.84/akregator/src/akregator_part.cpp	2008-06-29 21:46:11.000000000 +0200
-@@ -342,6 +342,20 @@
+--- a/akregator/src/akregator_part.cpp
++++ b/akregator/src/akregator_part.cpp
+@@ -344,6 +344,20 @@
      look.setAttribute("xmlUrl","http://www.kde.org/kde-look-content.rdf");
      mainFolder.appendChild(look);
  
