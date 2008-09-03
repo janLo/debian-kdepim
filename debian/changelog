@@ -1,8 +1,6 @@
-kdepim (4:4.1.1-0) UNRELEASED; urgency=low
+kdepim (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release
-  * Add patches to fix upstream build system. Also committed upstream. Maybe
-    there comes new tarballs.
   * File in libkholidays renamed
   * groupwarewizard is problematic. we probably need to go thru NEW, so hold
     on a bit.

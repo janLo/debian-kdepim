@@ -1,4 +1,2 @@
-01_reenable_strigi.diff
-02_fix_akonadi_feeders.diff
 30_debianize_akregator_default.diff
 97_fix_target_link_libraries.diff
