@@ -1,3 +1,9 @@
+kdepim (4:4.1.1-2) experimental; urgency=low
+
+  * opensync dev package name change and soname bump.
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 08 Sep 2008 22:23:58 +0200
+
 kdepim (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release
