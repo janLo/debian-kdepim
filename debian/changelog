@@ -9,9 +9,9 @@ kdepim (4:4.1.1-2) experimental; urgency=low
   * Change shlibs to enforce a strict dependency on the libraries which
     are shipped with kdepim (Closes: #498371).
   * Add patch to at least build against latest opensync. Functionality
-    of Kitchensync is not guaranteed anymore.
+    of Kitchensync is not guaranteed anymore (Closes: #498402).
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 11 Sep 2008 00:21:47 +0200
+ -- Armin Berres <trigger+debian@space-based.de>  Thu, 11 Sep 2008 00:32:32 +0200
 
 kdepim (4:4.1.1-1) experimental; urgency=low
 
