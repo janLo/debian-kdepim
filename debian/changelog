@@ -1,8 +1,15 @@
 kdepim (4:4.1.1-2) experimental; urgency=low
 
+  +++ Changes by Sune Vuorela
+
   * opensync dev package name change and soname bump.
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 08 Sep 2008 22:23:58 +0200
+  +++ Changes by Armin Berres:
+
+  * Change shlibs to enforce a strict dependency on the libraries which
+    are shipped with kdepim (Closes: #498371).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Sep 2008 00:15:16 +0200
 
 kdepim (4:4.1.1-1) experimental; urgency=low
 
