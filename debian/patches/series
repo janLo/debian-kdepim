@@ -1,3 +1,2 @@
-01_at_least_build_against_new_opensync.diff
 30_debianize_akregator_default.diff
 97_fix_target_link_libraries.diff

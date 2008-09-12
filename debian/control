@@ -9,7 +9,7 @@ Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.6.0), quilt,
  libphonon-dev (>= 4:4.2.0), 
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
- libopensync1exp5-dev, libassuan-dev,
+ libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
  libakonadi-dev (>= 1.0.0)

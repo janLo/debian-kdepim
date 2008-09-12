@@ -2,14 +2,12 @@ kdepim (4:4.1.1-2) experimental; urgency=low
 
   +++ Changes by Sune Vuorela
 
-  * opensync dev package name change and soname bump.
+  * Ship empty kitchensync package for now. (Closes: 498402)
 
   +++ Changes by Armin Berres:
 
   * Change shlibs to enforce a strict dependency on the libraries which
     are shipped with kdepim (Closes: #498371).
-  * Add patch to at least build against latest opensync. Functionality
-    of Kitchensync is not guaranteed anymore (Closes: #498402).
 
  -- Armin Berres <trigger+debian@space-based.de>  Thu, 11 Sep 2008 00:32:32 +0200
 
