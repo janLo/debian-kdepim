@@ -1,15 +1,20 @@
 # groupwise related files
+./usr/bin/groupwisewizard
 ./usr/share/kde4/services/kresources/kabc/kabc_groupwise.desktop
 ./usr/share/kde4/services/kresources/kcal/kcal_groupwise.desktop
 ./usr/lib/kde4/kio_groupwise.so
 ./usr/lib/libgwsoap.so.4
 ./usr/lib/libgwsoap.so.4.1.0
-./usr/lib/libkabc_groupwise.so.4
-./usr/lib/libkabc_groupwise.so.4.1.0
-./usr/lib/libkcal_groupwise.so.4
-./usr/lib/libkcal_groupwise.so.4.1.0
 ./usr/share/kde4/services/groupwise.protocol
 ./usr/share/kde4/services/groupwises.protocol
+./usr/lib/kde4/kabc_groupwise.so
+./usr/lib/kde4/kcal_groupwise.so
+./usr/lib/libkabcgroupwise.so.4
+./usr/lib/libkabcgroupwise.so.4.1.0
+./usr/lib/libkcalgroupwise.so
+./usr/lib/libkcalgroupwise.so.4
+./usr/lib/libkcalgroupwise.so.4.1.0
+
 # we don't install any headers and .so links for the moment.
 # if there's need for these files one day, we can reconsider thid decision.
 # backed up upstream...

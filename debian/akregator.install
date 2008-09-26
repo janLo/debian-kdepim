@@ -26,3 +26,5 @@ usr/share/kde4/services/akregator_part.desktop
 usr/share/kde4/services/feed.protocol
 usr/share/kde4/services/kontact/akregatorplugin.desktop
 usr/share/kde4/servicetypes/akregator_plugin.desktop
+usr/share/kde4/apps/akregator_onlinesync_plugin/akregator_onlinesync_plugin.rc
+

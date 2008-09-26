@@ -1,7 +1,7 @@
 kdepim (4:4.1.2-0) UNRELEASED; urgency=low
 
   * New upstream release.
-  * TODO: update new files.
+  * Update installed files (and not-installed files too).
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:11:28 +0200
 

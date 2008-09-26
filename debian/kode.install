@@ -21,3 +21,7 @@ usr/lib/libwsdl.so.4.1.0
 usr/share/applications/kde4/kwsdl_compiler.desktop
 usr/share/kde4/apps/kxforms/kxformsui.rc
 usr/share/kde4/config.kcfg/kxforms.kcfg
+usr/share/doc/kde4/HTML/en/kwsdl_compiler/common
+usr/share/doc/kde4/HTML/en/kwsdl_compiler/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kwsdl_compiler/index.docbook
+
