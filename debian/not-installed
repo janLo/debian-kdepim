@@ -10,6 +10,7 @@
 ./usr/share/kde4/services/groupwises.protocol
 ./usr/lib/kde4/kabc_groupwise.so
 ./usr/lib/kde4/kcal_groupwise.so
+./usr/lib/libkabcgroupwise.so
 ./usr/lib/libkabcgroupwise.so.4
 ./usr/lib/libkabcgroupwise.so.4.1.0
 ./usr/lib/libkcalgroupwise.so
