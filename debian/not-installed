@@ -1,5 +1,6 @@
 # groupwise related files
 ./usr/bin/groupwisewizard
+./usr/bin/groupwarewizard
 ./usr/share/kde4/services/kresources/kabc/kabc_groupwise.desktop
 ./usr/share/kde4/services/kresources/kcal/kcal_groupwise.desktop
 ./usr/lib/kde4/kio_groupwise.so
