@@ -1,9 +1,9 @@
-kdepim (4:4.1.2-0) UNRELEASED; urgency=low
+kdepim (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update installed files (and not-installed files too).
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:11:28 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 30 Sep 2008 15:31:08 +0200
 
 kdepim (4:4.1.1-2) experimental; urgency=low
 
