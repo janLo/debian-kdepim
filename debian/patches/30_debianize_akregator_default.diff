@@ -1,6 +1,6 @@
 --- a/akregator/src/akregator_part.cpp
 +++ b/akregator/src/akregator_part.cpp
-@@ -344,6 +344,20 @@
+@@ -345,6 +345,20 @@
      look.setAttribute("xmlUrl","http://www.kde.org/kde-look-content.rdf");
      mainFolder.appendChild(look);
  
