@@ -11,7 +11,6 @@ usr/bin/akonadi_nepomuk_email_feeder
 usr/bin/akonadi_nntp_resource
 usr/bin/akonadi_strigi_feeder
 usr/bin/akonadi_vcard_resource
-usr/bin/akonadiconsole
 usr/bin/akonaditray
 usr/lib/kde4/akonadi_serializer_addressee.so
 usr/lib/kde4/akonadi_serializer_bookmark.so
@@ -40,14 +39,12 @@ usr/share/akonadi/agents/nepomukemailfeeder.desktop
 usr/share/akonadi/agents/nntpresource.desktop
 usr/share/akonadi/agents/strigifeeder.desktop
 usr/share/akonadi/agents/vcardresource.desktop
-usr/share/applications/kde4/akonadiconsole.desktop
 usr/share/applications/kde4/akonaditray.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_addressee.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_bookmark.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_kcal.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 # usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_sms.desktop
-usr/share/kde4/apps/akonadiconsole/akonadiconsoleui.rc
 usr/share/kde4/apps/nepomuk/ontologies/nco.desktop
 usr/share/kde4/apps/nepomuk/ontologies/nco.trig
 usr/share/kde4/apps/nepomuk/ontologies/nmo.desktop
@@ -56,3 +53,4 @@ usr/share/kde4/services/akonadi.protocol
 usr/share/kde4/services/kcm_akonadi_resources.desktop
 usr/share/kde4/services/kresources/kabc/akonadi.desktop
 usr/share/kde4/services/kresources/kcal/akonadi.desktop
+usr/lib/kde4/kio_akonadi.so

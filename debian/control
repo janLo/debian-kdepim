@@ -61,6 +61,7 @@ Package: akonadi-kde
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
+Replaces: libkdepim4 (<< 4:4.1.3)
 Homepage: http://pim.kde.org/akonadi/
 Description: akonadi resources for KDE
  This package contains the akonadi resources and connectors for KDE.
@@ -178,7 +179,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}
 Recommends: procmail
 Suggests: gnupg, gnupg-agent, pinentry-qt | pinentry-x11, kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer
-Replaces: kmailcvt (<< 4:3.90.0)
+Replaces: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: KDE Email client

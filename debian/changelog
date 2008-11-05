@@ -1,8 +1,11 @@
-kdepim (4:4.1.3-0) experimental; urgency=low
+kdepim (4:4.1.3-1) experimental; urgency=low
 
   * New upstream
     - bump b-d
     - refresh patches
+  * Shuffle around akonadi-files as pr upstream instructions
+    - akonadiconsole currently put in kmail - but that should maybe be
+      revisited.
 
  -- Sune Vuorela <debian@pusling.com>  Sat, 01 Nov 2008 17:44:00 +0100
 

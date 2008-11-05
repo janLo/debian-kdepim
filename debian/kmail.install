@@ -116,3 +116,6 @@ usr/share/icons/oxygen/48x48/actions/mail-reply-custom.png
 usr/share/icons/oxygen/48x48/status/mail-tagged.png
 usr/share/icons/oxygen/scalable/actions/mail-reply-custom.svgz
 usr/share/icons/oxygen/scalable/status/mail-tagged.svgz
+usr/bin/akonadiconsole
+usr/share/applications/kde4/akonadiconsole.desktop
+usr/share/kde4/apps/akonadiconsole/akonadiconsoleui.rc
