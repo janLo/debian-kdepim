@@ -1,0 +1,10 @@
+--- a/kmail/kmfoldermaildir.cpp
++++ b/kmail/kmfoldermaildir.cpp
+@@ -717,6 +717,7 @@
+       dateStr = dateStr.trimmed();
+       if (!dateStr.isEmpty())
+         mi->setDate(dateStr.constData());
++	uidStr = uidStr.trimmed();
+       if ( !uidStr.isEmpty() )
+          mi->setUID( uidStr.toULong() );
+       mi->setDirty(false);
