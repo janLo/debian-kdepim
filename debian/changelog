@@ -1,3 +1,46 @@
+kdepim (4:4.1.80+svn889885-0r1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot.
+  
+  * TODO: akonadi 1.80
+
+  +++ Changes by Modestas Vainius:
+
+  * Resync patches:
+    - 01_branch_imap_duplication_fix.diff - remove, stolen from upstream.
+    - 97_fix_target_link_libraries.diff - regenerate.
+  * Bump KDE build dependencies to 4.1.80 and later.
+  * Add README.source.
+  * Add debian/installgen.
+  * Remove explicit cmake build dependency.
+  * Add new build dependencies:
+    - libopensync1exp6-dev (>= 0.38);
+    - libglib2.0-dev;
+    - libpisock-dev;
+    - libmal has been removed from Debian some time ago.
+  * Binary package changes:
+    - reenable kpilot;
+    - disable korn;
+    - remove ktnef;
+    - libkabcommon4 - a common KDE address book library widely used by other
+      KDE PIM packages. Add strict (=) shlibs for this library;
+    - kdepim-groupwase - bundle all groupware related stuff into this
+      package. Previously, groupware stuff was scattered all over application
+      KDE PIM packages which resulted into complex and wrong interdependencies
+      kdepim-groupware package is self-contained dependency-wise;
+    - libkontactinterfaces4 - split off this kontact interface library to the
+      separate package. This allows to move kontact plugins to appropriate
+      owner packages with them getting dependency on this package instead of 
+      the whole 'kontact'.
+  * As mentioned earlier, move akregator, kmail etc. kontact plugins to the 
+    respective "owner" packages where they really belong.
+  * Make kdepim-wizards stricktly (=) depend on kdepim-groupware.
+  * Improve some package descriptions.
+  * Update install files.
+  * Tweak kontact Recommends/Suggest a bit.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 05:52:50 +0200
+
 kdepim (4:4.1.3-2) experimental; urgency=low
 
   * Add patch to avoid imap duplication. Pushed out to kde-packagers

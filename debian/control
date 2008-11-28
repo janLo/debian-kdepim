@@ -4,27 +4,27 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
-Build-Depends: cdbs, debhelper (>= 6), cmake (>= 2.6.0), quilt,
- kdelibs5-dev (>= 4:4.1.3), kdepimlibs5-dev (>= 4:4.1.3),
+Build-Depends: cdbs, debhelper (>= 6), quilt,
+ kdelibs5-dev (>= 4:4.1.80), kdepimlibs5-dev (>= 4:4.1.80+svn888995),
  libphonon-dev (>= 4:4.2.0), 
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
  libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
- libakonadi-dev (>= 1.0.0)
+ libakonadi-dev (>= 1.0.0), libopensync1exp6-dev (>= 0.38), libglib2.0-dev,
+ libpisock-dev 
 Standards-Version: 3.8.0
 Homepage: http://pim.kde.org/
 
 Package: kdepim
 Architecture: all
 Depends: akonadi-kde (>= ${source:Version}), akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), kalarm (>= ${source:Version}),
- kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}), kitchensync (>= ${source:Version}), kleopatra (>= ${source:Version}),
+ kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}), kitchensync (>= ${source:Version}),
  kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), kode (>= ${source:Version}),
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}),
- ktimetracker (>= ${source:Version}), ktnef (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version})
-#korn (>= ${source:Version}),
-# kmobiletools (>= ${source:Version}), kpilot (>= ${source:Version})
+ ktimetracker (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version}),
+ kpilot (>= ${source:Version}), kleopatra (>= ${source:Version}),
 Suggests: kdepim-doc
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
@@ -61,7 +61,7 @@ Package: akonadi-kde
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: libkdepim4 (<< 4:4.1.3)
+Replaces: libkdepim4 (<< 4:4.1.3), kmail (<< 4:4.1.80)
 Homepage: http://pim.kde.org/akonadi/
 Description: akonadi resources for KDE
  This package contains the akonadi resources and connectors for KDE.
@@ -75,6 +75,7 @@ Package: akregator
 Section: web
 Architecture: any
 Depends: ${shlibs:Depends}
+Replaces: kontact (<< 4:4.1.80)
 Homepage: http://akregator.kde.org/
 Description: RSS feed aggregator for KDE
  aKregator is a fast, lightweight, and intuitive feed reader program
@@ -84,11 +85,24 @@ Description: RSS feed aggregator for KDE
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
+Package: libkabcommon4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: kaddressbook (<< 4:4.1.80)
+Description: KDE PIM common addressbook library
+ This package contains common common address book library used by other
+ KDE PIM components.
+ .
+ This package is part of KDE, and a component of the KDE PIM module.
+ See the 'kde' and 'kdepim' packages for more information.
+
 Package: kaddressbook
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: kdepim-kresources
+Replaces: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE address book
  KAddressBook is the main address book application for KDE; it enables you
  to manage your contacts efficiently and comfortably. It can load and save
@@ -128,10 +142,26 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: korganizer
 Suggests: knotes
-Description: KDE pim resource plugins
- This package includes several plugins needed to interface with groupware
- servers. It also includes plugins for features such as blogging and
- tracking feature plans.
+Replaces: korganizer (<< 4:4.1.80)
+Description: KDE PIM resource plugins
+ This package adds more resource plugins for KDE PIM applications such as
+ blogging, tracking feature plans etc.
+ .
+ This package is part of KDE, and a component of the KDE PIM module.
+ See the 'kde' and 'kdepim' packages for more information.
+
+Package: kdepim-groupware
+Section: kde
+Architecture: any
+Recommends: kdepim-wizards
+Replaces: korganizer (<< 4:4.1.80), knotes (<< 4:4.1.80), kaddressbook (<< 4:4.1.80), libkdepim4 (<< 4:4.1.80),
+ kdepim-kresources (<< 4:4.1.80)
+Depends: ${shlibs:Depends}
+Description: KDE PIM Gruopware plugins
+ This package includes several plugins used by KDE PIM components to
+ interface with Groupware servers. Supported Groupware platforms include
+ eGroupware, Kolab 2, Scalix and SLOX (SuSE Linux Openexchange Server),
+ Novell GroupWise and GroupDAV.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
@@ -139,11 +169,12 @@ Description: KDE pim resource plugins
 Package: kdepim-wizards
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, kdepim-groupware (= ${binary:Version})
 Suggests: egroupware
 Description: KDE server configuration wizards
- This package contains KDE-based wizards for configuring eGroupware,
- Kolab, and SUSE Linux Openexchange servers.
+ This package contains KDE-based wizards for configuring KDE PIM applications
+ to access eGroupware, Kolab 2, Scalix and SLOX (SuSE Linux Openexchange
+ Server) and Novell GroupWise groupware servers.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
@@ -179,7 +210,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}
 Recommends: procmail
 Suggests: gnupg, gnupg-agent, pinentry-qt | pinentry-x11, kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer
-Replaces: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3)
+Replaces: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3), kontact (<< 4:4.1.80)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
 Description: KDE Email client
@@ -190,7 +221,6 @@ Description: KDE Email client
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-# Enabled for 4.2
 # Package: kmobiletools
 # Section: utils
 # Architecture: any
@@ -210,7 +240,7 @@ Package: knode
 Section: news
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: kdepim-dev (<< 4:3.4.0)
+Replaces: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80)
 Provides: news-reader
 Homepage: http://kontact.kde.org/knode/
 Description: KDE news reader
@@ -227,6 +257,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: kdepim-kresources
+Replaces: kontact (<< 4:4.1.80)
 Description: KDE sticky notes
  KNotes is a program that lets you write sticky notes. The notes are saved
  automatically when you exit the program, and they display when you open the
@@ -259,13 +290,27 @@ Description: KDE konsole personal organizer
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
+Package: libkontactinterfaces4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Homepage: http://kontact.kde.org/
+Replaces: kontact (<< 4:4.1.80)
+Description: KDE Kontact interface library
+ This package contains the plugin interface library for KDE Kontact. All
+ Kontact plugins link to this library.
+ .
+ This package is part of KDE, and a component of the KDE PIM module.
+ See the 'kde' and 'kdepim' packages for more information.
+
 Package: kontact
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Recommends: kitchensync, kmail, knode, knotes
-Suggests: akregator, knewsticker, kweather, gnokii
+Recommends: kitchensync, kmail, knotes, akregator, kaddressbook, korganizer
+Suggests: akregator, knewsticker, gnokii, kjots, ktimeticker, knode
 Homepage: http://kontact.kde.org/
+Replaces: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Description: KDE pim application
  Kontact is the integrated solution to your personal information management
  needs. It combines KDE applications like KMail, KOrganizer, and
@@ -280,6 +325,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}
 Homepage: http://kontact.kde.org/korganizer/
+Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
  .
@@ -295,43 +341,42 @@ Description: KDE personal organizer
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-#Package: korn
-#Section: kde
-#Architecture: any
-#Depends: ${shlibs:Depends}
-#Description: KDE mail checker
-# Korn is a KDE mail checker that can display a small summary in the Kicker
-# tray.  It supports checking mbox, pop3, imap4, and nntp sources.
-# .
-# Once mail is received you can have Korn run a third party program or change
-# the color/icon of the Kicker display.  In addition to this you can have
-# Korn run a program once you click on the docked icon in Kicker.
-# .
-# This package is part of KDE, and a component of the KDE PIM module.
-# See the 'kde' and 'kdepim' packages for more information.
-
-# Enabled for 4.2
-# Package: kpilot
-# Section: utils
+# Package: korn
+# Section: kde
 # Architecture: any
-# Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0
-# Suggests: knotes, korganizer
-# Homepage: http://cvs.codeyard.net/kpilot/
-# Description: KDE Palm Pilot hot-sync tool
-#  KPilot is an application that synchronizes your Palm Pilot or similar device
-#  (like the Handspring Visor) with your KDE desktop, much like the Palm HotSync
-#  software does for Windows.  KPilot can back-up and restore your Palm Pilot
-#  and synchronize the built-in applications with their KDE counterparts.
+# Depends: ${shlibs:Depends}
+# Description: KDE mail checker
+#  Korn is a KDE mail checker that can display a small summary in the Kicker
+#  tray.  It supports checking mbox, pop3, imap4, and nntp sources.
+#  .
+#  Once mail is received you can have Korn run a third party program or change
+#  the color/icon of the Kicker display.  In addition to this you can have
+#  Korn run a program once you click on the docked icon in Kicker.
 #  .
 #  This package is part of KDE, and a component of the KDE PIM module.
 #  See the 'kde' and 'kdepim' packages for more information.
+
+Package: kpilot
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0
+Suggests: knotes, korganizer
+Homepage: http://cvs.codeyard.net/kpilot/
+Description: KDE Palm Pilot hot-sync tool
+ KPilot is an application that synchronizes your Palm Pilot or similar device
+ (like the Handspring Visor) with your KDE desktop, much like the Palm HotSync
+ software does for Windows.  KPilot can back-up and restore your Palm Pilot
+ and synchronize the built-in applications with their KDE counterparts.
+ .
+ This package is part of KDE, and a component of the KDE PIM module.
+ See the 'kde' and 'kdepim' packages for more information.
 
 Package: ktimetracker
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Conflicts: karm
-Replaces: karm
+Replaces: karm, kontact (<< 4:4.1.80)
 Description: KDE time tracker tool
  KTimetracker is a time tracker for busy people who need to keep track of the amount of
  time they spend on various tasks.
@@ -339,23 +384,11 @@ Description: KDE time tracker tool
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: ktnef
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: KDE TNEF viewer
- The TNEF File Viewer allows you to handle mail attachments using the TNEF
- format. These attachments are usually found in mails coming from Microsoft
- mail servers and embed the mail properties as well as the actual attachments.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
-
 Package: libkdepim4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
+Replaces: kmail (<< 4:4.1.80)
 Description: KDE PIM library
  This is the runtime package for programs that use the libkdepim library.
  .
@@ -441,6 +474,7 @@ Description: PIM file format plugins for Strigi Desktop Search
 Package: kjots
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kontact (<< 4:4.1.80)
 Section: utils
 Description: note-taking utility for KDE 4
  Kjots is a notebook utility that organizes notes using groups of pages.
