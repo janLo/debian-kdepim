@@ -26,7 +26,7 @@ kdepim (4:4.1.80+svn889885-0r1) UNRELEASED; urgency=low
       KDE PIM packages. Add strict (=) shlibs for this library;
     - kdepim-groupwase - bundle all groupware related stuff into this
       package. Previously, groupware stuff was scattered all over application
-      KDE PIM packages which resulted into complex and wrong interdependencies
+      KDE PIM packages which resulted into complex and wrong interdependencies.
       kdepim-groupware package is self-contained dependency-wise;
     - libkontactinterfaces4 - split off this kontact interface library to the
       separate package. This allows to move kontact plugins to appropriate
@@ -34,7 +34,7 @@ kdepim (4:4.1.80+svn889885-0r1) UNRELEASED; urgency=low
       the whole 'kontact'.
   * As mentioned earlier, move akregator, kmail etc. kontact plugins to the 
     respective "owner" packages where they really belong.
-  * Make kdepim-wizards stricktly (=) depend on kdepim-groupware.
+  * Make kdepim-wizards strictly (=) depend on kdepim-groupware.
   * Improve some package descriptions.
   * Update install files.
   * Tweak kontact Recommends/Suggest a bit.
