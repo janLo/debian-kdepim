@@ -1,8 +1,6 @@
-kdepim (4:4.1.80+svn889885-0r1) UNRELEASED; urgency=low
+kdepim (4:4.1.81+svn890640-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-  
-  * TODO: akonadi 1.80
 
   +++ Changes by Modestas Vainius:
 
@@ -10,6 +8,7 @@ kdepim (4:4.1.80+svn889885-0r1) UNRELEASED; urgency=low
     - 01_branch_imap_duplication_fix.diff - remove, stolen from upstream.
     - 97_fix_target_link_libraries.diff - regenerate.
   * Bump KDE build dependencies to 4.1.80 and later.
+  * Build depend on akonadi >= 1.0.80.
   * Add README.source.
   * Add debian/installgen.
   * Remove explicit cmake build dependency.
@@ -39,7 +38,7 @@ kdepim (4:4.1.80+svn889885-0r1) UNRELEASED; urgency=low
   * Update install files.
   * Tweak kontact Recommends/Suggest a bit.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 05:52:50 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 02:11:31 +0200
 
 kdepim (4:4.1.3-2) experimental; urgency=low
 

@@ -6,13 +6,13 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs, debhelper (>= 6), quilt,
  kdelibs5-dev (>= 4:4.1.80), kdepimlibs5-dev (>= 4:4.1.80+svn888995),
- libphonon-dev (>= 4:4.2.0), 
+ libphonon-dev (>= 4:4.2.0),
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
  libassuan-dev,
  libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
  libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
- libakonadi-dev (>= 1.0.0), libopensync1exp6-dev (>= 0.38), libglib2.0-dev,
+ libakonadi-dev (>= 1.0.80), libopensync1exp6-dev (>= 0.38), libglib2.0-dev,
  libpisock-dev 
 Standards-Version: 3.8.0
 Homepage: http://pim.kde.org/
