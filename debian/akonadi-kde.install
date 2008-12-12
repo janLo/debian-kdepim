@@ -69,4 +69,3 @@ usr/share/kde4/services/kcm_akonadi_resources.desktop
 usr/share/kde4/services/kcm_akonadi_server.desktop
 usr/share/kde4/services/kresources/kabc/akonadi.desktop
 usr/share/kde4/services/kresources/kcal/akonadi.desktop
-usr/share/opensync-0.38/defaults/akonadi-sync

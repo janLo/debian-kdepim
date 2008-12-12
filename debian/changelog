@@ -1,4 +1,4 @@
-kdepim (4:4.1.81+svn890640-0r1) UNRELEASED; urgency=low
+kdepim (4:4.1.85+svn896105-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -6,18 +6,17 @@ kdepim (4:4.1.81+svn890640-0r1) UNRELEASED; urgency=low
 
   * Resync patches:
     - 01_branch_imap_duplication_fix.diff - remove, stolen from upstream.
-    - 97_fix_target_link_libraries.diff - regenerate.
+    - 97_fix_target_link_libraries.diff - remove, obsolete.
   * Bump KDE build dependencies to 4.1.80 and later.
   * Build depend on akonadi >= 1.0.80.
   * Add README.source.
   * Add debian/installgen.
   * Remove explicit cmake build dependency.
   * Add new build dependencies:
-    - libopensync1exp6-dev (>= 0.38);
-    - libglib2.0-dev;
     - libpisock-dev;
     - libmal has been removed from Debian some time ago.
   * Binary package changes:
+    - disable kitchensync;
     - reenable kpilot;
     - disable korn;
     - remove ktnef;
@@ -38,7 +37,7 @@ kdepim (4:4.1.81+svn890640-0r1) UNRELEASED; urgency=low
   * Update install files.
   * Tweak kontact Recommends/Suggest a bit.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 02:11:31 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Dec 2008 23:54:57 +0200
 
 kdepim (4:4.1.3-2) experimental; urgency=low
 

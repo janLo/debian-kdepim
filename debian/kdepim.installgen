@@ -1,4 +1,0 @@
-# Development stuff is excluded on purpose
-missing dst:usr/include/
-missing dst:usr/lib/.*\.so$
-missing dst:cmake/modules/

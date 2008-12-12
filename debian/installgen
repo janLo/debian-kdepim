@@ -109,8 +109,8 @@ from:/kpilot/
 [ktimetracker]
 from:/ktimetracker/
 
-[kitchensync]
-from:/kitchensync/
+#[kitchensync]
+#from:/kitchensync/
 
 [kontact]
 # Kontact needs to come last so its plugins get picked up
