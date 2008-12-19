@@ -1,4 +1,4 @@
-kdepim (4:4.1.85+svn896105-0r1) UNRELEASED; urgency=low
+kdepim (4:4.1.85+svn899135-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -37,7 +37,7 @@ kdepim (4:4.1.85+svn896105-0r1) UNRELEASED; urgency=low
   * Update install files.
   * Tweak kontact Recommends/Suggest a bit.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Dec 2008 23:54:57 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Dec 2008 01:07:49 +0200
 
 kdepim (4:4.1.3-2) experimental; urgency=low
 
