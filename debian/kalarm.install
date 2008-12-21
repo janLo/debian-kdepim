@@ -25,6 +25,8 @@ usr/share/icons/oxygen/22x22/actions/kalarm.png
 usr/share/icons/oxygen/22x22/apps/kalarm.png
 usr/share/icons/oxygen/32x32/apps/kalarm.png
 usr/share/icons/oxygen/48x48/apps/kalarm.png
+usr/share/icons/oxygen/128x128/apps/kalarm.png
+usr/share/icons/oxygen/64x64/apps/kalarm.png
 usr/share/kde4/apps/kalarm/kalarmui.rc
 usr/share/kde4/apps/kconf_update/kalarm-1.2.1-general.pl
 usr/share/kde4/apps/kconf_update/kalarm-1.9.5-defaults.pl
