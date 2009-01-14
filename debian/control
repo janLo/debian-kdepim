@@ -10,8 +10,8 @@ Build-Depends: cdbs, debhelper (>= 6), quilt,
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
  libassuan-dev,
- libstreams-dev, libstreamanalyzer-dev, libsearchclient-dev,
- libstrigihtmlgui-dev, libstrigiqtdbusclient-dev, zlib1g-dev,
+ libstreams-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libsearchclient-dev (>= 0.6.3),,
+ libstrigihtmlgui-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3), zlib1g-dev,
  libakonadi-dev (>= 1.0.80), libpisock-dev 
 Standards-Version: 3.8.0
 Homepage: http://pim.kde.org/

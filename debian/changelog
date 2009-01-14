@@ -1,4 +1,4 @@
-kdepim (4:4.1.96+svn907519-0r1) UNRELEASED; urgency=low
+kdepim (4:4.1.96+svn910734-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -36,6 +36,10 @@ kdepim (4:4.1.96+svn907519-0r1) UNRELEASED; urgency=low
   * Improve some package descriptions.
   * Update install files.
   * Tweak kontact Recommends/Suggest a bit.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Force versioned build depend on strigi -dev packages (>= 0.6.3).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Jan 2009 14:31:28 +0100
 
