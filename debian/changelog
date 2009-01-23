@@ -1,14 +1,15 @@
-kdepim (4:4.1.96+svn911714-0r1) UNRELEASED; urgency=low
+kdepim (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
   * Resync patches:
     - 01_branch_imap_duplication_fix.diff - remove, stolen from upstream.
     - 97_fix_target_link_libraries.diff - remove, obsolete.
-  * Bump KDE build dependencies to 4.1.96 or later.
-  * Build depend on akonadi >= 1.0.80.
+  * Bump KDE build dependencies to 4.2.0 or later.
+  * Build depend on akonadi >= 1.1.1
+  .
   * Add README.source.
   * Add debian/installgen.
   * Remove explicit cmake build dependency.
