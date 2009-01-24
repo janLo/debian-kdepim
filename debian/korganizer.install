@@ -1,7 +1,6 @@
 usr/bin/ical2vcal
 usr/bin/korgac
 usr/bin/korganizer
-usr/bin/thememain
 usr/lib/kde4/kcm_apptsummary.so
 usr/lib/kde4/kcm_korganizer.so
 usr/lib/kde4/kcm_planner.so
