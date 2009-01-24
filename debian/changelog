@@ -43,6 +43,10 @@ kdepim (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   * Force versioned build depend on strigi -dev packages (>= 0.6.3).
 
+  +++ Changes by Sune Vuorela:
+
+  * Copryright file update.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:34:50 +0200
 
 kdepim (4:4.1.3-2) experimental; urgency=low

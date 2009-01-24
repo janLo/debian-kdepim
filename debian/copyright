@@ -4,28 +4,29 @@ This package is fetched from svn.kde.org.
 
 
 Upstream authors and copyright holders:
-	Copyright (C) 2001-2008 David Jarvie <djarvie@kde.org>
+	Copyright (C) 2001-2009 David Jarvie <djarvie@kde.org>
 	Copyright (C) 2001-2004 Marc Mutz <mutz@kde.org>
 	Copyright (C) 1996-2002 Mirko Boehm <mirko@kde.org>
+	Copyright (C) 1997 Christoph Neerfeld <Christoph.Neerfeld@home.ivm.de>
 	Copyright (C) 2003-2008 Allen Winter <winter@kde.org>
 	Copyright (C) 2004-2008 Volker Krause <vkrause@kde.org>
-	Copyright (C) 2005-2007 Will Stephenson <wstephenson@kde.org>
+	Copyright (C) 2005-2008 Will Stephenson <wstephenson@kde.org>
 	Copyright (C) 2004-2008 Frank Osterfeld <osterfeld@kde.org>
 	Copyright (C) 2002-2008 Tobias Koenig <tokoe@kde.org>
-	Copyright (C) 2007-2008 Thomas McGuire <thomas.mcguire@gmx.net>
+	Copyright (C) 2007-2009 Thomas McGuire <thomas.mcguire@gmx.net>
 	Copyright (C) 2007-2008 Bruno Virlet <bruno@virlet.org>
 	Copyright (C) 2004-2007 Till Adam <adam@kde.org>
 	Copyright (C) 2001-2008 Klaraelvdalens Datakonsult AB
 	Copyright (C) 2000-2007 Adriaan de Groot <groot@kde.org>
-	Copyright (C) 2004-2007 Bertjan Broeksema
+	Copyright (C) 2004-2008 Bertjan Broeksema
 	Copyright (C) 1999-2006 Cornelius Schumacher <schumacher@kde.org>
 	Copyright (C) 2002-2005 Reinhold Kainhofer <reinhold@kainhofer.com>
-	Copyright (C) 2004-2007 Jason 'vanRijn' Kasper <vr@movingparts.net>
+	Copyright (C) 2004-2008 Jason 'vanRijn' Kasper <vr@movingparts.net>
 	Copyright (C) 2001-2007 Aaron J. Seigo <aseigo@kde.org>
 	Copyright (C) 2006-2008 Omat Holding B.V. <info@omat.nl>
 	Copyright (C) 2002-2006 Michael Brade <brade@kde.org>
 	Copyright (C) 2007 Brad Hards <bradh@frogmouth.net>
-	Copyright (C) 2004-2007 Thorsten Staerk <dev@staerk.de>
+	Copyright (C) 2004-2008 Thorsten Staerk <dev@staerk.de>
 	Copyright (C) 2001-2005 Frerich Raabe <raabe@kde.org>
 	Copyright (C) 1990 James Ashton-Sydney University-June
 	Copyright (C) 1991-1995 Stichting Mathematisch Centrum, Amsterdam,
@@ -42,7 +43,7 @@ Upstream authors and copyright holders:
 	Copyright (C) 1997-1998 Richard Moore <rich@kde.org>
 	Copyright (C) 1997-1998 Stefan Taferner <taferner@kde.org>
 	Copyright (C) 1997-1999 Preston Brown <pbrown@kde.org>
-	Copyright (C) 1997-2004 KMail Developers
+	Copyright (C) 1997-2009 KMail Developers
 	Copyright (C) 1997-2007, The KNotes Developers
 	Copyright (C) 1998 Barry D Benowitz <b.benowitz@telesciences.com>
 	Copyright (C) 1998 Herwin-Jan Steehouwer
@@ -50,10 +51,10 @@ Upstream authors and copyright holders:
 	Copyright (C) 1998 Preston Brown <pbrown@kde.org>
 	Copyright (C) 1998 Stefan Taferner
 	Copyright (C) 1998-2000 Preston Brown <pbrown@kde.org>
-	Copyright (C) 1998-2003 Dan Pilone <dan@kpilot.org>
+	Copyright (C) 1998-2008 Dan Pilone <dan@kpilot.org>
 	Copyright (C) 1998-99 Trolltech AS. All rights reserved.
 	Copyright (C) 1999 Christian Tismer.
-	Copyright (C) 1999 David Faure <faure@kde.org>
+	Copyright (C) 1999-2008 David Faure <faure@kde.org>
 	Copyright (C) 1999 Don Sanders <sanders@kde.org>
 	Copyright (C) 1999 Espen Sand <espensa@online.no>
 	Copyright (C) 1999 Ian Dawes <iadawes@globalserve.net>
@@ -120,12 +121,12 @@ Upstream authors and copyright holders:
 	Copyright (C) 2002-2004 Tuukka Pasanen <illuusio@mailcity.com> 
 	Copyright (C) 2002-2005 Daniel Molkentin <molkentin@kde.org>
 	Copyright (C) 2002-2007 The KNotes Developers
+	Copyright (C) 2003 Stanislav Kljuhhin <crz@hot.ee>
 	Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
 	Copyright (C) 2003 Andreas Gungl <a.gungl@gmx.de>
 	Copyright (C) 2003 Carsten Burghardt <burghardt@kde.org>
 	Copyright (C) 2003 Dan Pilone <dan@kpilot.org>
 	Copyright (C) 2003 Daniel Molkentin <molkentin@kde.org>
-	Copyright (C) 2003 David Faure <faure@kde.org>
 	Copyright (C) 2003 Don Sanders <sanders@kde.org>
 	Copyright (C) 2003 Free Software Foundation, Inc.
 	Copyright (C) 2003 Helge Deller <deller@kde.org>
@@ -149,7 +150,6 @@ Upstream authors and copyright holders:
 	Copyright (C) 2004 Carsten Burghardt <burghardt@kde.org>
 	Copyright (C) 2004 Chris Howells
 	Copyright (C) 2004 Daniel Molkentin <molkentin@kde.org>
-	Copyright (C) 2004 David Faure <faure@kde.org>
 	Copyright (C) 2004 David Vignoni.
 	Copyright (C) 2004 Fred Emmott <fred87@users.sf.net>
 	Copyright (C) 2004 Hendrik Muhs <Hendrik.Muhs@web.de>
@@ -157,7 +157,7 @@ Upstream authors and copyright holders:
 	Copyright (C) 2004 Jakob Schröter <js@camaya.net>
 	Copyright (C) 2004 Jakob Schr�er <js@camaya.net>
 	Copyright (C) 2004 Jason Keirstead <jason@keirstead.org>
-	Copyright (C) 2004 Kevin Ottens <ervin ipsquad net>
+	Copyright (C) 2004-2008 Kevin Ottens <ervin@kde.org>
 	Copyright (C) 2004 Lutz Rogowski <rogowski@kde.org>
 	Copyright (C) 2004 Mark Bucciarelli <mark@hubcapconsulting.com>
 	Copyright (C) 2004 Mark Kretschmann
@@ -167,17 +167,14 @@ Upstream authors and copyright holders:
 	Copyright (C) 2004 Stanislav Karchebny <Stanislav.Karchebny@kdemail.net>
 	Copyright (C) 2004 Teemu Rytilahti <tpr@d5k.net>
 	Copyright (C) 2004, Bo Thorsen <bo@sonofthor.dk>
-	Copyright (C) 2004, David Faure <faure@kde.org>
 	Copyright (C) 2004, Mart Kelder <mart.kde@hccnet.nl>
 	Copyright (C) 2004, Robert van Engelen, Genivia, Inc. All Rights Reserved.
 	Copyright (C) 2004-2005 Carsten Burghardt <burghardt@kde.org>
-	Copyright (C) 2004-2005 David Faure <faure@kde.org>
 	Copyright (C) 2004-2005, Robert van Engelen, Genivia Inc. 
 	Copyright (C) 2004-2006, Mart Kelder <mart@kelder31.nl>
 	Copyright (C) 2005 Andreas Gungl <a.gungl@gmx.de>
 	Copyright (C) 2005 Con Hennessy <cp.hennessy@iname.com>
 	Copyright (C) 2005 Danny Kukawka
-	Copyright (C) 2005 David Faure <faure@kde.org>
 	Copyright (C) 2005 Florian Schröder <florian@deltatauchi.de>
 	Copyright (C) 2005 George Staikos <staikos@kde.org>
 	Copyright (C) 2005 Gilles Caulier <caulier.gilles@free.fr>
@@ -191,10 +188,9 @@ Upstream authors and copyright holders:
 	Copyright (C) 2005 Stefan Bogner <bochi@kmobiletools.org>
 	Copyright (C) 2005 Thomas Zander <zander@kde.org>
 	Copyright (C) 2005, 2007 g10 Code GmbH
-	Copyright (C) 2005, David Faure <faure@kde.org>
 	Copyright (C) 2005, Mart Kelder <mart.kde@hccnet.nl>
 	Copyright (C) 2005, The KNotes Developers
-	Copyright (C) 2005-2006 Kevin Krammer <kevin.krammer@gmx.at>
+	Copyright (C) 2005-2006 Jaison Lee <lee.jaison@gmail.com>
 	Copyright (C) 2005-2008 Kevin Krammer <kevin.krammer@gmx.at>
 	Copyright (C) 2006 Christian Schaarschmidt <schaarsc@gmx.de>
 	Copyright (C) 2006 Daniel Gollub <dgollub@suse.de>
@@ -213,7 +209,6 @@ Upstream authors and copyright holders:
 	Copyright (C) 2007 Andre Duffeck <aduffeck@suse.de>
 	Copyright (C) 2007 Anirudh Ramesh <abattoir@abattoir.in>
 	Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
-	Copyright (C) 2007 David Faure <faure@kde.org>
 	Copyright (C) 2007 Ismail Onur Filiz <onurf@su.sabanciuniv.edu>
 	Copyright (C) 2007 Laurent Montel <montel@kde.org>
 	Copyright (C) 2007 Loïc Corbasson <loic.corbasson@gmail.com>
@@ -230,12 +225,17 @@ Upstream authors and copyright holders:
 	Copyright (C) 2007-2008 Laurent Montel <montel@kde.org>
 	Copyright (C) 2007-2008 Mike Arthur <mike@mikearthur.co.uk>
 	Copyright (C) 2008 Jaroslaw Staniek <js@iidea.pl>
-	Copyright (C) 2008 Kevin Krammer <kevin.krammer@gmx.at>
 	Copyright (C) 2008 Laurent Montel <montel@kde.org>
 	Copyright (C) 2008 Sebastian Trueg <trueg@kde.org>
-	Copyright (C) 2008 Stephen Kelly <steveire@gmailcom>
+	Copyright (C) 2007-2009 Stephen Kelly <steveire@gmailcom>
 	Copyright (C) 2008 Szymon Tomasz Stefanek <pragma@kvirc.net>
 	Copyright (C) 2008 Thomas Thrainer <tom_t@gmx.at>
+	Copyright (C) 2008 Didier Hoarau <did.hoarau@gmail.com>
+	Copyright (C) 2008 Szymon Tomasz Stefanek <pragma@kvirc.net>
+	Copyright (C) 2008 Rafael Fernandez Lopez <ereslibre@kde.org>
+	Copyright (C) 2008 Ron Goodheart <rong.dev@gmail.com>
+	Copyright (C) 2008 Pradeepto Bhattacharya <pradeepto@kde.org>
+	Copyright (C) 2008 Dag Andersen <kplato@kde.org>
 	Copyright (C) Don Sanders <sanders@kde.org>
 	Copyright (C) Kurt Granroth
 	Copyright (C) Mark Kretschmann
@@ -297,7 +297,6 @@ On Debian systems, the complete text of the GNU Library General
 Public License can be found in `/usr/share/common-licenses/LGPL-2'.
 
 LGPLv2.1+
-	Copyright (C)  2008 Laurent Montel <montel@kde.org>
 
 	This library is free software; you can redistribute it and/or
 	modify it under the terms of the GNU Lesser General Public
@@ -384,12 +383,17 @@ kalarm/
 
 kdgant/
 kdgant1/
-	GPLv20
+	GPLv2 or GPLv3
 
 kitchensync/libqopensync
 	LGPLv2+
 
 kitchensync/
+	rough mix of LGPLv2+ and GPLv2+, mostly GPLv2+, effectively GPLv2+
+
+kjots/
+	GPLv2+
+
 kleopatra/
 	rough mix of LGPLv2+ and GPLv2+, mostly GPLv2+, effectively GPLv2+
 
@@ -429,11 +433,12 @@ kpilot/
 kresources/
 	rough mix of LGPLv2+ and GPLv2+, mostly GPLv2+, effectively GPLv2+
 
+ksendemail/
+	lgplv2+
+
 ktimetracker/
 	GPLv2+
 
-ktnef/
-	GPLv2+
 
 libkdepim/
 	rough mix of LGPLv2+ and GPLv2+, mostly GPLv2+, effectively GPLv2+
@@ -448,7 +453,7 @@ libkgpg/
 	GPLv2+
 
 libksieve/
-	GPLv2+
+	GPLv2
 
 maildir/
 	GPLv2+
