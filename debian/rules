@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-include debian/cdbs/kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 DEBIANVERSION ?= $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //')
 

@@ -38,6 +38,11 @@ kdepim (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Tweak kontact Recommends/Suggest a bit.
   * Bump debian/compat and debhelper build dependency to v7 (to get more
     sophisticated debian/tmp handling).
+  * Switch from internal debian/cdbs/kde.mk to pkg-kde-tools:
+    - build depend on pkg-kde-tools 0.4;
+    - remove debian/cdbs directory;
+    - replace debian/cdbs/kde.mk with
+      /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
