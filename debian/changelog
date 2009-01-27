@@ -51,6 +51,7 @@ kdepim (4:4.2.0-1) experimental; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Copryright file update.
+  * Include late kpilot patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:34:50 +0200
 
