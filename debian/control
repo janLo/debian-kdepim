@@ -99,7 +99,7 @@ Description: KDE PIM common addressbook library
 Package: kaddressbook
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, akonadi-server (>= 1.1.1)
 Suggests: kdepim-kresources
 Replaces: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE address book
@@ -322,7 +322,7 @@ Description: KDE pim application
 Package: korganizer
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, ${perl:Depends}
+Depends: ${shlibs:Depends}, ${perl:Depends},  akonadi-server (>= 1.1.1 )
 Homepage: http://kontact.kde.org/korganizer/
 Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE personal organizer
@@ -358,7 +358,7 @@ Description: KDE personal organizer
 Package: kpilot
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0
+Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0, akonadi-server (>= 1.1.1) 
 Suggests: knotes, korganizer
 Homepage: http://cvs.codeyard.net/kpilot/
 Description: KDE Palm Pilot hot-sync tool

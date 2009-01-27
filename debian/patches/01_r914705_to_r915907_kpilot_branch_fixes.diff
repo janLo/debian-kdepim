@@ -1,0 +1,89 @@
+Index: kdepim/kpilot/conduits/akonadibase/akonadidataproxy.cc
+===================================================================
+--- kdepim/kpilot/conduits/akonadibase/akonadidataproxy.cc	(revision 914705)
++++ kdepim/kpilot/conduits/akonadibase/akonadidataproxy.cc	(revision 915907)
+@@ -136,6 +136,7 @@
+ 				// Well the record with id mPcId doesn't seem to be in the akonadi
+ 				// resource any more so it is deleted.
+ 				AkonadiRecord* ar = createDeletedAkonadiRecord( mPcId );
++				ar->setDummy();
+ 				Q_ASSERT( ar->isDeleted() );
+ 				Q_ASSERT( ar->isModified() );
+ 				Q_ASSERT( ar->id() == mPcId );
+Index: kdepim/kpilot/conduits/akonadibase/akonadirecord.cc
+===================================================================
+--- kdepim/kpilot/conduits/akonadibase/akonadirecord.cc	(revision 914705)
++++ kdepim/kpilot/conduits/akonadibase/akonadirecord.cc	(revision 915907)
+@@ -47,8 +47,13 @@
+ 	d->fItem = item;
+ 	d->fLastSyncDateTime = lastSync.toUTC(); // Item times are saved in UTC time.
+ 	d->fDeleted = false;
++	d->fDummy = false;
+ }
+ 
++/**
++ * This ctor is _only_ used for dummy records which are temporarily used to delete
++ * data.
++ */
+ AkonadiRecord::AkonadiRecord( const QString& id ) : d( new AkonadiRecordPrivate )
+ {
+ 	d->fTempId = id;
+@@ -122,6 +127,11 @@
+ 	d->fItem = item;
+ 	// Make sure that we return the right id after updating the itemobject.
+ 	setId( QString::number( item.id() ) );
++	/**
++	 * Assuming we're being passed a valid item to use, make sure fDummy
++	 * is not still false after this.
++	 */
++	setDummy( false );
+ }
+ 
+ void AkonadiRecord::synced()
+@@ -130,9 +140,17 @@
+ 	// Nothing to do here.
+ }
+ 
++void AkonadiRecord::setDummy(bool dummy)
++{
++	FUNCTIONSETUPL(5);
++	DEBUGKPILOT << "dummy: " << dummy;
++	d->fDummy = dummy;
++}
++
+ bool AkonadiRecord::isValid() const
+ {
+ 	FUNCTIONSETUPL(5);
+ 	bool valid = ! d->fDummy;
++	DEBUGKPILOT << "valid: " << valid;
+ 	return valid;
+ }
+Index: kdepim/kpilot/conduits/akonadibase/akonadirecord.h
+===================================================================
+--- kdepim/kpilot/conduits/akonadibase/akonadirecord.h	(revision 914705)
++++ kdepim/kpilot/conduits/akonadibase/akonadirecord.h	(revision 915907)
+@@ -103,6 +103,12 @@
+ 	 */
+ 	/* virtual */ bool isValid() const;
+ 
++	/**
++	  * Explicit set of whether this is a dummy (intended only for delete)
++	  * record.
++	  */
++	void setDummy( bool dummy = true );
++
+ private:
+ 	QSharedDataPointer<AkonadiRecordPrivate> d;
+ };
+Index: kdepim/kpilot/conduits/todo/todoconduit.cc
+===================================================================
+--- kdepim/kpilot/conduits/todo/todoconduit.cc	(revision 914705)
++++ kdepim/kpilot/conduits/todo/todoconduit.cc	(revision 915907)
+@@ -68,6 +68,7 @@
+ 	
+ 	TodoSettings::self()->readConfig();
+ 	d->fCollectionId = TodoSettings::akonadiCollection();
++	d->fPrevCollectionId = TodoSettings::prevAkonadiCollection();
+ }
+ 
+ bool TodoConduit::initDataProxies()
