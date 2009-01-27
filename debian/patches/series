@@ -1,4 +1,2 @@
-01_r915831_branch_kpilot.diff
-01_r915837_branch_kpilot.diff
-01_r915907_branch_kpilot.diff
+01_915830_915907_kpilot_branch_fixes.diff
 30_debianize_akregator_default.diff
