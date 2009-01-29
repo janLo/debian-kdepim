@@ -307,7 +307,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: kmail, knotes, akregator, kaddressbook, korganizer
-Suggests: akregator, knewsticker, gnokii, kjots, ktimeticker, knode
+Suggests: akregator, gnokii, kjots, ktimeticker, knode
 Homepage: http://kontact.kde.org/
 Replaces: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Description: KDE pim application

@@ -1,3 +1,11 @@
+kdepim (4:4.2.0-2) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * kontact should not suggest knewsticker. It no longer exists.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2009 22:25:30 +0200
+
 kdepim (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release.
