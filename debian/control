@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4),
- kdelibs5-dev (>= 4:4.2.0), kdepimlibs5-dev (>= 4:4.2.0),
+ kdelibs5-dev (>= 4:4.2.1), kdepimlibs5-dev (>= 4:4.2.1),
  libphonon-dev (>= 4:4.3.0),
  libgpgme11-dev, libboost-dev, libboost-graph-dev, libsasl2-dev,
  xsltproc, libgnokii3-dev, libxss-dev, libqca2-dev (>= 2.0.0),
@@ -15,6 +15,8 @@ Build-Depends: cdbs, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4),
  libakonadi-dev (>= 1.0.80), libpisock-dev 
 Standards-Version: 3.8.0
 Homepage: http://pim.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdepim
+Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdepim
 
 Package: kdepim
 Architecture: all

@@ -1,10 +1,17 @@
-kdepim (4:4.2.0-2) UNRELEASED; urgency=low
+kdepim (4:4.2.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
   * kontact should not suggest knewsticker. It no longer exists.
+  * Drop 01_r914705_to_r915907_kpilot_branch_fixes.diff patch which was stolen
+    from upstream.
+  * Add Vcs fields.
+  * Bump KDE build depends to 4.2.1.
+  * Update install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jan 2009 22:25:30 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Feb 2009 11:33:38 +0200
 
 kdepim (4:4.2.0-1) experimental; urgency=low
 
