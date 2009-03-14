@@ -1,0 +1,18 @@
+Support all possible sizes and still do the right thing
+when there's no korganizerrc.
+
+--- a/korganizer/views/agendaview/koagendaview.cpp
++++ b/korganizer/views/agendaview/koagendaview.cpp
+@@ -1544,7 +1544,11 @@
+   KConfigGroup group = config->group( "Views" );
+ 
+   QList<int> sizes = group.readEntry( "Separator AgendaView", QList<int>() );
+-  mSplitterAgenda->setSizes( sizes );
++
++  // the size depends on the number of plugins used
++  if ( sizes.count() >= 2 ) {
++    mSplitterAgenda->setSizes( sizes );
++  }
+ 
+   updateConfig();
+ }

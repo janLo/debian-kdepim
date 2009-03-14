@@ -1,3 +1,14 @@
+kdepim (4:4.2.1-2) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Add 02_r933657_korganizer_koagendaview.diff to fix a regression in
+    korganizer: The agendaview (also known as weekview) sometimes looks like
+    it is empty. Even though it  isn't.. most of the view is hidden behind
+    a splitter.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Mar 2009 13:39:22 +0100
+
 kdepim (4:4.2.1-1) experimental; urgency=low
 
   * New upstream release.
