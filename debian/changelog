@@ -1,3 +1,10 @@
+kdepim (4:4.2.2-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Remove merged patch 02_r933657_korganizer_koagendaview.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 01 Apr 2009 07:51:59 +0200
+
 kdepim (4:4.2.1-2) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
