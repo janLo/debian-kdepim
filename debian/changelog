@@ -1,10 +1,33 @@
-kdepim (4:4.2.2-0r1) UNRELEASED; urgency=low
+kdepim (4:4.2.2-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Kjots search function recoded. (Closes: #336634)
+    - Paste in composer does not longer ask for attachment name.  (Closes:#421292)
+    - Attachements files can be removed from an email. (Closes:#276015)
+    - Add SSL support for KNode. (Closes:#391491)
+    - KMail quits when disk is full. (Closes: #207456)
+    - Fix problem with corruption in sent-mail folder. (Closes: #280287)
+    - Fix crashes when using search folders for IMAP/dIMAP accounts. (Closes: #402112)
+    - No truncate attachements from IMAP folders. (Closes: #412629)
+    - Fix crash when applying filters to all messages in a folder. (Closes: #420000)
+    - Fix IMAP copy, it does not longer move instead of copying. (Closes: #425628)
+    - Fix crash when clicking OK in Configure KAlarm. (Closes: #464397)
+    - Kmail keeps user's toolbar after update. (Closes: #274843)
+    - Does not crash when changing spellchecking language. (Closes: #301966)
+    - Redone korganizer's time and date configuration windows. (Closes: #352747)
+    - Encryption status is kept in Draft folder. (Closes: #364008)
+    - Improvements in kwalletmanager/kmail integration. (Closes: #404228)
+    - mailto links include body and subject work correctly again. (Closes: #415454)
+    - kmail, don't ignore a change in the header style when printing. (Closes: #446912)
+    - Fix regression on IMAP with kmail 3.5.8. (Closes: #448528)
+    - Akregator's window size is now restored when restored after being iconized to taskbar. 
+      (Closes: #499802)
+    - Closing so much bugs was possible thanks to the work of Olivier Vitrat.
+  * Bump build dependencies.
   * Remove merged patch 02_r933657_korganizer_koagendaview.
   * Update installed files.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 01 Apr 2009 18:07:09 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 05 Apr 2009 23:03:43 +0200
 
 kdepim (4:4.2.1-2) experimental; urgency=low
 
