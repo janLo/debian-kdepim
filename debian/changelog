@@ -1,3 +1,9 @@
+kdepim (4:4.2.2-2) unstable; urgency=low
+
+  * Fix sections.
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 23:29:50 +0200
+
 kdepim (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release:

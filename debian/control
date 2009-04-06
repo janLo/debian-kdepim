@@ -38,7 +38,7 @@ Description: Personal Information Management apps from the official KDE release
 
 Package: kdepim-dbg
 Priority: extra
-Section: libdevel
+Section: debug
 Depends: kdepimlibs-dbg
 Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
