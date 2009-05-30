@@ -2,7 +2,10 @@ kdepim (4:4.2.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
     - Fixes a kmail crash (Closes: 514107)
-    - Columns now kept (Closes: 524178)
+    - Columns in kmail now kept (Closes: 524178)
+    - kaddressbook don't repedeatly open messagebox (Closes: 528284)
+    - kalarm don't have sayMessage failed anymore (Closes: 524503)
+    - korganizer don't crash when adding new events (Closes: 526135)
 
   +++ Changes by Sune Vuorela:
 
