@@ -1,6 +1,8 @@
 kdepim (4:4.2.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - Fixes a kmail crash (Closes: 514107)
+    - Columns now kept (Closes: 524178)
 
   +++ Changes by Sune Vuorela:
 
