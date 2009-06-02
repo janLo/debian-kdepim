@@ -1,4 +1,4 @@
-kdepim (4:4.2.4-1) UNRELEASED; urgency=low
+kdepim (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.
     - Fixes a kmail crash (Closes: 514107)
