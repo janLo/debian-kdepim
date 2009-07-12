@@ -1,3 +1,6 @@
+usr/share/kde4/apps/kleopatra/pics/gpg4win-compact.png
+usr/share/kde4/apps/kleopatra/pics/gpg4win.png
+usr/share/kde4/services/kleopatra_config_gnupgsystem.desktop
 usr/bin/kgpgconf
 usr/bin/kleopatra
 usr/bin/kwatchgnupg
@@ -25,6 +28,12 @@ usr/share/kde4/apps/kleopatra/pics/kleopatra_wizard.svgz
 usr/share/kde4/apps/kwatchgnupg/kwatchgnupgui.rc
 usr/share/kde4/apps/kwatchgnupg/pics/kwatchgnupg.png
 usr/share/kde4/apps/kwatchgnupg/pics/kwatchgnupg2.png
+usr/share/kde4/apps/libkleopatra/pics/hi16-app-gpg.png
+usr/share/kde4/apps/libkleopatra/pics/hi16-app-gpgsm.png
+usr/share/kde4/apps/libkleopatra/pics/hi22-app-gpg.png
+usr/share/kde4/apps/libkleopatra/pics/hi22-app-gpgsm.png
+usr/share/kde4/apps/libkleopatra/pics/hi32-app-gpg.png
+usr/share/kde4/apps/libkleopatra/pics/hi32-app-gpgsm.png
 usr/share/kde4/services/kleopatra_config_appear.desktop
 usr/share/kde4/services/kleopatra_config_dirserv.desktop
 usr/share/kde4/services/kleopatra_config_dnorder.desktop

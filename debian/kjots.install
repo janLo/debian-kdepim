@@ -1,4 +1,5 @@
 usr/bin/kjots
+usr/lib/kde4/kcm_kjots.so
 usr/lib/kde4/kjotspart.so
 usr/lib/kde4/kontact_kjotsplugin.so
 usr/share/applications/kde4/Kjots.desktop
@@ -21,5 +22,6 @@ usr/share/kde4/apps/kjots/kjotspartui.rc
 usr/share/kde4/apps/kjots/kjotsui.rc
 usr/share/kde4/apps/kontact/ksettingsdialog/kjots.setdlg
 usr/share/kde4/config.kcfg/kjots.kcfg
+usr/share/kde4/services/kjots_config_misc.desktop
 usr/share/kde4/services/kjotspart.desktop
 usr/share/kde4/services/kontact/kjots_plugin.desktop

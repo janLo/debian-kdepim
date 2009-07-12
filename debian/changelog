@@ -1,3 +1,14 @@
+kdepim (4:4.2.96-0r1) UNRELEASED; urgency=low
+
+  * New upstream
+    - kode gone
+    - akonadi-kde split at source level
+    - libkholidays in kdepimlibs
+    - libmaildir gone
+  * Readapt patch.
+
+ -- Sune Vuorela <debian@pusling.com>  Sun, 12 Jul 2009 11:11:20 +0200
+
 kdepim (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.

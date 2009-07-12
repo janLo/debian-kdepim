@@ -1,12 +1,8 @@
 usr/lib/kde4/kcal_blog.so
 usr/lib/kde4/kcal_kabc.so
 usr/lib/kde4/kcal_remote.so
-usr/lib/kde4/kcal_resourcefeatureplan_plugin.so
 usr/lib/libkcal_resourceblog.so.4
-usr/lib/libkcal_resourceblog.so.4.2.0
-usr/lib/libkcal_resourcefeatureplan.so.4
-usr/lib/libkcal_resourcefeatureplan.so.4.2.0
+usr/lib/libkcal_resourceblog.so.4.3.0
 usr/share/kde4/services/kresources/kcal/blog.desktop
 usr/share/kde4/services/kresources/kcal/kabc.desktop
-usr/share/kde4/services/kresources/kcal/kcal_resourcefeatureplan.desktop
 usr/share/kde4/services/kresources/kcal/remote.desktop

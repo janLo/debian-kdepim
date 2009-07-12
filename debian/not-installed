@@ -136,6 +136,7 @@
 ./usr/lib/libkode.so
 ./usr/lib/libkontactinterfaces.so
 ./usr/lib/libkorg_stdprinting.so
+./usr/lib/libkorganizer_core.so
 ./usr/lib/libkorganizer_calendar.so
 ./usr/lib/libkorganizer_eventviewer.so
 ./usr/lib/libkorganizer_interfaces.so

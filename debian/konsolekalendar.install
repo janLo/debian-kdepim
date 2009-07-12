@@ -1,5 +1,7 @@
 usr/bin/konsolekalendar
 usr/share/applications/kde4/konsolekalendar.desktop
-usr/share/doc/kde4/HTML/en/konsolekalendar/common
-usr/share/doc/kde4/HTML/en/konsolekalendar/index.cache.bz2
-usr/share/doc/kde4/HTML/en/konsolekalendar/index.docbook
+usr/share/kde4/apps/konsolekalendar/pics/hi128-apps-konsolekalendar.png
+usr/share/kde4/apps/konsolekalendar/pics/hi16-apps-konsolekalendar.png
+usr/share/kde4/apps/konsolekalendar/pics/hi22-apps-konsolekalendar.png
+usr/share/kde4/apps/konsolekalendar/pics/hi32-apps-konsolekalendar.png
+usr/share/kde4/apps/konsolekalendar/pics/hi48-apps-konsolekalendar.png

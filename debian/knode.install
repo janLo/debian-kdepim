@@ -3,11 +3,8 @@ usr/lib/kde4/kcm_knode.so
 usr/lib/kde4/knodepart.so
 usr/lib/kde4/kontact_knodeplugin.so
 usr/lib/libknodecommon.so.4
-usr/lib/libknodecommon.so.4.2.0
+usr/lib/libknodecommon.so.4.3.0
 usr/share/applications/kde4/KNode.desktop
-usr/share/doc/kde4/HTML/en/kioslave/news/common
-usr/share/doc/kde4/HTML/en/kioslave/news/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kioslave/news/index.docbook
 usr/share/doc/kde4/HTML/en/knode/commands.docbook
 usr/share/doc/kde4/HTML/en/knode/common
 usr/share/doc/kde4/HTML/en/knode/credits.docbook

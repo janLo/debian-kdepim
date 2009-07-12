@@ -12,7 +12,7 @@ Build-Depends: cdbs, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4),
  libassuan-dev,
  libstreams-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libsearchclient-dev (>= 0.6.3),
  libstrigihtmlgui-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3), zlib1g-dev,
- libakonadi-dev (>= 1.0.80), libpisock-dev
+ libakonadi-dev (>= 1.0.80), libpisock-dev, libknotificationitem-1-dev
 Standards-Version: 3.8.1
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdepim
@@ -20,9 +20,9 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdepim
 
 Package: kdepim
 Architecture: all
-Depends: akonadi-kde (>= ${source:Version}), akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), kalarm (>= ${source:Version}),
+Depends: akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), kalarm (>= ${source:Version}),
  kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}),
- kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), kode (>= ${source:Version}),
+ kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}), 
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}),
  ktimetracker (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version}),
  kpilot (>= ${source:Version}), kleopatra (>= ${source:Version}),
@@ -58,20 +58,6 @@ Description: KDE Personal Information Management library documentation
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: akonadi-kde
-Section: utils
-Architecture: any
-Depends: ${shlibs:Depends}
-Replaces: libkdepim4 (<< 4:4.1.3), kmail (<< 4:4.1.80)
-Homepage: http://pim.kde.org/akonadi/
-Description: akonadi resources for KDE
- This package contains the akonadi resources and connectors for KDE.
- .
- Akonadi is a personal information storage framework.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
 Package: akregator
 Section: web
 Architecture: any
@@ -101,7 +87,7 @@ Description: KDE PIM common addressbook library
 Package: kaddressbook
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, akonadi-server (>= 1.1.1)
+Depends: ${shlibs:Depends}, akonadi-server (>= 1.1.1), kdepim-runtime
 Suggests: kdepim-kresources
 Replaces: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE address book
@@ -267,18 +253,6 @@ Description: KDE sticky notes
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-Package: kode
-Section: devel
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: Helper library for programmatic generation of C++ code
- This package includes a program kode for generation of C++ template files
- and kxml_compiler for generation of C++ classes representing XML data
- described by RelaxNG schemes.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
 Package: konsolekalendar
 Section: kde
 Architecture: any
@@ -324,7 +298,7 @@ Description: KDE pim application
 Package: korganizer
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, ${perl:Depends},  akonadi-server (>= 1.1.1 )
+Depends: ${shlibs:Depends}, ${perl:Depends},  akonadi-server (>= 1.1.1 ), kdepim-runtime
 Homepage: http://kontact.kde.org/korganizer/
 Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE personal organizer
@@ -342,25 +316,10 @@ Description: KDE personal organizer
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.
 
-# Package: korn
-# Section: kde
-# Architecture: any
-# Depends: ${shlibs:Depends}
-# Description: KDE mail checker
-#  Korn is a KDE mail checker that can display a small summary in the Kicker
-#  tray.  It supports checking mbox, pop3, imap4, and nntp sources.
-#  .
-#  Once mail is received you can have Korn run a third party program or change
-#  the color/icon of the Kicker display.  In addition to this you can have
-#  Korn run a program once you click on the docked icon in Kicker.
-#  .
-#  This package is part of KDE, and a component of the KDE PIM module.
-#  See the 'kde' and 'kdepim' packages for more information.
-
 Package: kpilot
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0, akonadi-server (>= 1.1.1) 
+Depends: ${shlibs:Depends}, ${misc:Depends}, debconf (>= 0.5) | debconf-2.0, akonadi-server (>= 1.1.1) , kdepim-runtime
 Suggests: knotes, korganizer
 Homepage: http://cvs.codeyard.net/kpilot/
 Description: KDE Palm Pilot hot-sync tool
@@ -392,17 +351,6 @@ Depends: ${shlibs:Depends}
 Replaces: kmail (<< 4:4.1.80)
 Description: KDE PIM library
  This is the runtime package for programs that use the libkdepim library.
- .
- This package is part of KDE, and a component of the KDE PIM module.
- See the 'kde' and 'kdepim' packages for more information.
-
-Package: libkholidays4
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: holidays calculation library for KDE
- This package contains code to manage and calculate public holidays in 
- most parts of the world.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.

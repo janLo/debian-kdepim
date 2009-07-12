@@ -1,6 +1,6 @@
 usr/bin/karm
 usr/bin/ktimetracker
-usr/lib/kde4/kcm_ktimetrackerconfig.so
+usr/lib/kde4/kcm_ktimetracker.so
 usr/lib/kde4/kontact_ktimetrackerplugin.so
 usr/lib/kde4/ktimetrackerpart.so
 usr/share/applications/kde4/ktimetracker.desktop
@@ -52,5 +52,7 @@ usr/share/kde4/apps/ktimetracker/pics/watch-5.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-6.xpm
 usr/share/kde4/apps/ktimetracker/pics/watch-7.xpm
 usr/share/kde4/services/kontact/ktimetracker_plugin.desktop
-usr/share/kde4/services/ktimetrackerconfig.desktop
+usr/share/kde4/services/ktimetracker_config_behavior.desktop
+usr/share/kde4/services/ktimetracker_config_display.desktop
+usr/share/kde4/services/ktimetracker_config_storage.desktop
 usr/share/kde4/services/ktimetrackerpart.desktop

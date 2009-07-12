@@ -1,4 +1,5 @@
 usr/bin/knotes
+usr/lib/kde4/kcm_knote.so
 usr/lib/kde4/knotes_local.so
 usr/lib/kde4/kontact_knotesplugin.so
 usr/share/applications/kde4/knotes.desktop
@@ -21,6 +22,11 @@ usr/share/kde4/apps/knotes/knotesui.rc
 usr/share/kde4/apps/kontact/ksettingsdialog/knotes.setdlg
 usr/share/kde4/config.kcfg/knoteconfig.kcfg
 usr/share/kde4/config.kcfg/knotesglobalconfig.kcfg
+usr/share/kde4/services/knote_config_action.desktop
+usr/share/kde4/services/knote_config_display.desktop
+usr/share/kde4/services/knote_config_editor.desktop
+usr/share/kde4/services/knote_config_network.desktop
+usr/share/kde4/services/knote_config_style.desktop
 usr/share/kde4/services/kontact/knotesplugin.desktop
 usr/share/kde4/services/kresources/knotes/local.desktop
 usr/share/kde4/services/kresources/knotes_manager.desktop
