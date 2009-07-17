@@ -2,6 +2,7 @@ usr/bin/kontact
 usr/bin/ksendemail
 usr/lib/kde4/kcm_kontact.so
 usr/lib/kde4/kcm_kontactsummary.so
+usr/lib/kde4/kontact_ktimetrackerplugin.so
 usr/lib/kde4/kontact_summaryplugin.so
 usr/lib/libkontactprivate.so.4
 usr/lib/libkontactprivate.so.4.3.0

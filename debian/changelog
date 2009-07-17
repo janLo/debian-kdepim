@@ -1,10 +1,20 @@
+kdepim (4:4.2.96-2) experimental; urgency=low
+
+  * Bump build-dependencies. (Closes: #537166)
+  * Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
+  * Add ktimetracker plugin to kontact.
+  * Fix a typo in libkpgp4 description.
+  * Remove akregator duplicated entry in kontact recommends/suggests.
+
+ -- Fathi Boudra <fabo@debian.org>  Fri, 17 Jul 2009 13:23:47 +0200
+
 kdepim (4:4.2.96-1) experimental; urgency=low
 
-  * New upstream
-    - kode gone
-    - akonadi-kde split at source level
-    - libkholidays in kdepimlibs
-    - libmaildir gone
+  * New upstream release:
+    - kode is gone.
+    - akonadi-kde is splitted at source level.
+    - libkholidays is in kdepimlibs.
+    - libmaildir is gone.
   * Readapt patch.
 
  -- Sune Vuorela <debian@pusling.com>  Sun, 12 Jul 2009 11:11:20 +0200
@@ -50,7 +60,7 @@ kdepim (4:4.2.2-1) unstable; urgency=low
     - mailto links include body and subject work correctly again. (Closes: #415454)
     - kmail, don't ignore a change in the header style when printing. (Closes: #446912)
     - Fix regression on IMAP with kmail 3.5.8. (Closes: #448528)
-    - Akregator's window size is now restored when restored after being iconized to taskbar. 
+    - Akregator's window size is now restored when restored after being iconized to taskbar.
       (Closes: #499802)
     - Closing so much bugs was possible thanks to the work of Olivier Vitrat.
   * Bump build dependencies.
@@ -115,9 +125,9 @@ kdepim (4:4.2.0-1) experimental; urgency=low
       kdepim-groupware package is self-contained dependency-wise;
     - libkontactinterfaces4 - split off this kontact interface library to the
       separate package. This allows to move kontact plugins to appropriate
-      owner packages with them getting dependency on this package instead of 
+      owner packages with them getting dependency on this package instead of
       the whole 'kontact'.
-  * As mentioned earlier, move akregator, kmail etc. kontact plugins to the 
+  * As mentioned earlier, move akregator, kmail etc. kontact plugins to the
     respective "owner" packages where they really belong.
   * Make kdepim-wizards strictly (=) depend on kdepim-groupware.
   * Improve some package descriptions.
@@ -206,11 +216,11 @@ kdepim (4:4.1.0-1) experimental; urgency=low
   * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Update installed files and build depend versions.
   * Bump shlibs to 4:4.1.0 in debian/rules.
   * Disable korn that has been removed upstream.
-  * kjots is now a service and it is not shown in the menu anymore. 
+  * kjots is now a service and it is not shown in the menu anymore.
     (Closes: #491112)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Jul 2008 20:14:50 +0200
@@ -221,11 +231,11 @@ kdepim (4:4.0.98-1) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Add 30_debianize_akregator_default.diff to include planet debian 
+  * Add 30_debianize_akregator_default.diff to include planet debian
     and debian times as default in akregator.
   * Update patch 97_fix_target_link_libraries.
   * Update installed files.
-  
+
   +++ Changes by Modestas Vainius:
 
   * Drop usr/share/icons/oxygen/32x32/actions/appointment-new.png from
@@ -236,8 +246,8 @@ kdepim (4:4.0.98-1) experimental; urgency=low
 kdepim (4:4.0.84-1) experimental; urgency=low
 
   * New upstream snapshot.
-  * Remove some unneeded build-dependencies: 
-    -libplas-dev because plasmoid is gone. 
+  * Remove some unneeded build-dependencies:
+    -libplas-dev because plasmoid is gone.
     -libpisock-dev because kpilot is disabled.
 
  -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 16:14:02 +0000
@@ -359,7 +369,7 @@ kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
   * First KDE 4.1 snapshot packaged.
 
   +++ Changes by Matthew Rosewarne:
-  
+
   * Remove no longer need patch 04 to disable sqlplugin for akonadi.
   * Update build depends lines.
   * Add Homepage: to control.
