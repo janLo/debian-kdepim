@@ -2,7 +2,6 @@ kdepim (4:4.2.96-2) experimental; urgency=low
 
   * Bump build-dependencies. (Closes: #537166)
   * Bump Standards-Version from 3.8.1 to 3.8.2 (no changes needed).
-  * Add ktimetracker plugin to kontact.
   * Fix a typo in libkpgp4 description.
   * Remove akregator duplicated entry in kontact recommends/suggests.
 
