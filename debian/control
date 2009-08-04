@@ -12,7 +12,7 @@ Build-Depends: cdbs, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
  libassuan-dev,
  libstreams-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libsearchclient-dev (>= 0.6.3),
  libstrigihtmlgui-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3), zlib1g-dev,
- libakonadi-dev (>= 1.1.95), libpisock-dev, libknotificationitem-1-dev
+ libakonadi-dev (>= 1.2.0), libpisock-dev, libknotificationitem-1-dev
 Standards-Version: 3.8.2
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdepim

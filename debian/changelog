@@ -1,8 +1,8 @@
-kdepim (4:4.3.0-0r1) UNRELEASED; urgency=low
+kdepim (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Fathi Boudra <fabo@debian.org>  Sat, 01 Aug 2009 20:47:49 +0200
+ -- Fathi Boudra <fabo@debian.org>  Tue, 04 Aug 2009 09:19:18 +0200
 
 kdepim (4:4.2.96-2) experimental; urgency=low
 
