@@ -183,7 +183,7 @@ Description: KDE server configuration wizards
 Package: kleopatra
 Section: net
 Architecture: any
-Depends: ${shlibs:Depends}, gnupg-agent, gnupg2, gpgsm, dirmngr, pinentry-qt | pinentry-x11
+Depends: ${shlibs:Depends}, gnupg-agent, gnupg2, gpgsm, dirmngr, pinentry-qt4 | pinentry-x11
 Description: KDE Certificate Manager
  Kleopatra is the KDE tool for managing X.509 certificates in the gpgsm
  keybox and for retrieving certificates from LDAP servers.
@@ -196,7 +196,7 @@ Section: mail
 Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends}
 Recommends: procmail
-Suggests: gnupg, gnupg-agent, pinentry-qt | pinentry-x11, kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer
+Suggests: gnupg, gnupg-agent, pinentry-qt4 | pinentry-x11, kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer
 Replaces: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3), kontact (<< 4:4.1.80)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
