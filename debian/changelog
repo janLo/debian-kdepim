@@ -200,7 +200,7 @@ kdepim (4:4.1.1-2) experimental; urgency=low
   * Change shlibs to enforce a strict dependency on the libraries which
     are shipped with kdepim (Closes: #498371).
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 11 Sep 2008 00:32:32 +0200
+ -- Armin Berres <armin+debian@space-based.de>  Thu, 11 Sep 2008 00:32:32 +0200
 
 kdepim (4:4.1.1-1) experimental; urgency=low
 
@@ -369,7 +369,7 @@ kdepim (4:3.96.0-1) experimental; urgency=low
   * Move homepage into control field.
   * Add not-installed file.
 
- -- Armin Berres <trigger+debian@space-based.de>  Tue, 20 Nov 2007 13:13:47 +0100
+ -- Armin Berres <armin+debian@space-based.de>  Tue, 20 Nov 2007 13:13:47 +0100
 
 kdepim (4:3.90.1-1) unstable; urgency=low
 
@@ -396,4 +396,4 @@ kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
     Everything which should be used by external programms belongs into
     kdepimlibs according to upstream.
 
- -- Armin Berres <trigger+debian@space-based.de>  Tue, 29 Apr 2008 11:14:37 +0000
+ -- Armin Berres <armin+debian@space-based.de>  Tue, 29 Apr 2008 11:14:37 +0000
