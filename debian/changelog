@@ -1,8 +1,16 @@
-kdepim (4:4.3.0-2) UNRELEASED; urgency=low
+kdepim (4:4.3.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Pino Toscano:
 
   * Change depends/suggests on pinentry-qt to pinentry-qt4.
+
+  +++ Chnages by Fathi Boudra:
+
+  * Bump Standards-Version to 3.8.3 (no changes needed).
+  * Bump KDE build dependencies to 4.3.1.
+  * Update debian/kalarm.install file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 12 Aug 2009 22:48:40 +0200
 
