@@ -6,7 +6,7 @@ kdepim (4:4.3.1-0r1) UNRELEASED; urgency=low
 
   * Change depends/suggests on pinentry-qt to pinentry-qt4.
 
-  +++ Chnages by Fathi Boudra:
+  +++ Changes by Fathi Boudra:
 
   * Bump Standards-Version to 3.8.3 (no changes needed).
   * Bump KDE build dependencies to 4.3.1.
