@@ -1,3 +1,10 @@
+kdepim (4:4.3.1-2) unstable; urgency=low
+
+  * Add 01_crash_when_autocompleting_ldap_address_r1019115.diff patch:
+    - probable crash fix when autocompleting LDAP address.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 06 Sep 2009 09:29:11 +0200
+
 kdepim (4:4.3.1-1) unstable; urgency=low
 
   * New upstream release.
@@ -6,7 +13,7 @@ kdepim (4:4.3.1-1) unstable; urgency=low
 
   * Change depends/suggests on pinentry-qt to pinentry-qt4.
 
-  +++ Changes by Fathi Boudra:
+  +++ Chnages by Fathi Boudra:
 
   * Bump Standards-Version to 3.8.3 (no changes needed).
   * Bump KDE build dependencies to 4.3.1.

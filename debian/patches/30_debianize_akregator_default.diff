@@ -1,6 +1,6 @@
 --- a/akregator/src/akregator_part.cpp
 +++ b/akregator/src/akregator_part.cpp
-@@ -130,6 +130,20 @@ namespace {
+@@ -131,6 +131,20 @@ namespace {
          look.setAttribute("xmlUrl","http://www.kde.org/kde-look-content.rdf");
          mainFolder.appendChild(look);
  

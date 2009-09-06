@@ -1,0 +1,16 @@
+author: Allen Winter <winter@kde.org>
+KDE bug: 206024
+
+probable crash fix when autocompleting LDAP address.
+
+--- a/libkdepim/addresseelineedit.cpp
++++ b/libkdepim/addresseelineedit.cpp
+@@ -800,7 +800,7 @@ void AddresseeLineEdit::startLoadingLDAP
+ 
+ void AddresseeLineEdit::slotLDAPSearchData( const KPIM::LdapResultList &adrs )
+ {
+-  if ( s_LDAPLineEdit != this ) {
++  if ( adrs.isEmpty() || s_LDAPLineEdit != this ) {
+     return;
+   }
+ 
