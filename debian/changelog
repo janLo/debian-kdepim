@@ -1,3 +1,12 @@
+kdepim (4:4.3.2-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Update debian/control:
+    - replace libgnokii3-dev by libgnokii build dependency. (Closes: #549678)
+
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 05 Oct 2009 16:39:52 +0200
+
 kdepim (4:4.3.1-2) unstable; urgency=low
 
   * Add 01_crash_when_autocompleting_ldap_address_r1019115.diff patch:
