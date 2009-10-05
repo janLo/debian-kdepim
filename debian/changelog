@@ -1,9 +1,10 @@
 kdepim (4:4.3.2-0r1) UNRELEASED; urgency=low
 
+  * TODO: fix ftbfs wrt to boost python. (Closes: #548191)
+
   * New upstream release.
   * Update debian/control:
     - replace libgnokii3-dev by libgnokii build dependency. (Closes: #549678)
-
 
  -- Fathi Boudra <fabo@debian.org>  Mon, 05 Oct 2009 16:39:52 +0200
 
