@@ -1,4 +1,4 @@
-kdepim (4:4.3.2-0r1) UNRELEASED; urgency=low
+kdepim (4:4.3.2-1) unstable; urgency=low
 
   * TODO: fix ftbfs wrt to boost python. (Closes: #548191)
 
