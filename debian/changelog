@@ -8,6 +8,7 @@ kdepim (4:4.3.2-1) unstable; urgency=low
     - replace libgnokii3-dev by libgnokii build dependency. (Closes: #549678)
     - add versioned build dependency against libboost*-dev >= 1.40.2 to fix
       ftbfs wrt to boost python bug. (Closes: #548191)
+  * Remove some kmail icons, installed by oxygen-icons.
 
  -- Fathi Boudra <fabo@debian.org>  Mon, 05 Oct 2009 16:39:52 +0200
 
