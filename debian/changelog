@@ -2,6 +2,10 @@ kdepim (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders.
+
  -- Lukasz Janyst <janyst@gmail.com>  Tue, 10 Nov 2009 21:27:27 +0100
 
 kdepim (4:4.3.2-1) unstable; urgency=low
