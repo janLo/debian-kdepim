@@ -414,7 +414,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: PIM file format plugins for Strigi Desktop Search
- This packages contains plugins to allow Strigi Desktop Search to easily
+ This package contains plugins to allow Strigi Desktop Search to easily
  index your PIM-data (calendar, contacts, emails, ...).
  .
  This package is part of KDE, and a component of the KDE PIM module.
