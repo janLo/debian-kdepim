@@ -1,4 +1,4 @@
-kdepim (4:4.3.4-0r1) UNRELEASED; urgency=low
+kdepim (4:4.3.4-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -13,6 +13,7 @@ kdepim (4:4.3.4-0r1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Bump KDE build dependencies to current version.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:53 +0200
 

@@ -1,6 +1,3 @@
-usr/share/kde4/apps/kleopatra/pics/gpg4win-compact.png
-usr/share/kde4/apps/kleopatra/pics/gpg4win.png
-usr/share/kde4/services/kleopatra_config_gnupgsystem.desktop
 usr/bin/kgpgconf
 usr/bin/kleopatra
 usr/bin/kwatchgnupg
@@ -21,6 +18,8 @@ usr/share/icons/oxygen/48x48/apps/kleopatra.png
 usr/share/icons/oxygen/64x64/apps/kleopatra.png
 usr/share/icons/oxygen/scalable/apps/kleopatra.svgz
 usr/share/kde4/apps/kleopatra/kleopatra.rc
+usr/share/kde4/apps/kleopatra/pics/gpg4win-compact.png
+usr/share/kde4/apps/kleopatra/pics/gpg4win.png
 usr/share/kde4/apps/kleopatra/pics/kleopatra_splashscreen.png
 usr/share/kde4/apps/kleopatra/pics/kleopatra_splashscreen.svgz
 usr/share/kde4/apps/kleopatra/pics/kleopatra_wizard.png
@@ -37,6 +36,7 @@ usr/share/kde4/apps/libkleopatra/pics/hi32-app-gpgsm.png
 usr/share/kde4/services/kleopatra_config_appear.desktop
 usr/share/kde4/services/kleopatra_config_dirserv.desktop
 usr/share/kde4/services/kleopatra_config_dnorder.desktop
+usr/share/kde4/services/kleopatra_config_gnupgsystem.desktop
 usr/share/kde4/services/kleopatra_config_smimevalidation.desktop
 usr/share/kde4/services/kleopatra_decryptverifyfiles.desktop
 usr/share/kde4/services/kleopatra_decryptverifyfolders.desktop
