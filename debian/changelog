@@ -1,6 +1,7 @@
 kdepim (4:4.3.4-2) UNRELEASED; urgency=low
 
   * Change my email address to modax@debian.org in Uploaders field.
+  * Fix Vcs-Browser URL.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 16:57:14 +0200
 

@@ -15,7 +15,7 @@ Build-Depends: cdbs, debhelper (>= 7.3), quilt, pkg-kde-tools (>= 0.5),
  libakonadi-dev (>= 1.2.0), libpisock-dev, libknotificationitem-1-dev
 Standards-Version: 3.8.3
 Homepage: http://pim.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdepim
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdepim/#_trunk_packages_kdepim_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdepim
 
 Package: kdepim
