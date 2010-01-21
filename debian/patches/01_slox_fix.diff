@@ -155,3 +155,14 @@ diff --exclude debian -ruN kdepim-4.3.2/kresources/slox/sloxbase.h ../kdepim-4.3
      WebdavHandler::addSloxElement( this, doc, prop, "method", "DELETE" );
    }
  
+diff --exclude debian -ruN kdepim-4.3.2/kresources/slox/sloxaccounts.cpp ../kdepim-4.3.2/kresources/slox/sloxaccounts.cpp
+--- kdepim-4.3.2/kresources/slox/sloxaccounts.cpp	2009-06-23 13:15:33.000000000 +0200
++++ ../kdepim-4.3.2/kresources/slox/sloxaccounts.cpp	2009-11-27 13:51:26.000000000 +0100
+@@ -212,6 +212,7 @@
+       QString value = e.text();
+       if ( tag == "uid" ) id = value;
+       else if ( tag == "mail" ) a.insertEmail( value, true );
++      else if ( tag == "email1" ) a.insertEmail( value, true ); // for OX
+       else if ( tag == "forename" ) a.setGivenName( value );
+       else if ( tag == "surename" ) a.setFamilyName( value );
+     }
