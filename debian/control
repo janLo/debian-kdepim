@@ -40,6 +40,7 @@ Package: kdepim-dbg
 Priority: extra
 Section: debug
 Depends: kdepimlibs-dbg,
+         kdepim  (= ${source:Version}) |
          kaddressbook (= ${binary:Version}) |
          kalarm (= ${binary:Version}) |
          kdepim-groupware (= ${binary:Version}) |
