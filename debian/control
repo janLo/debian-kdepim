@@ -89,10 +89,13 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kontact (<< 4:4.1.80)
 Homepage: http://akregator.kde.org/
-Description: RSS feed aggregator for KDE
- aKregator is a fast, lightweight, and intuitive feed reader program
- for KDE.  It allows you to quickly browse through hundreds of
- thousands of internet feeds in a quick, efficient, and familiar way.
+Description: RSS/Atom feed aggregator for KDE
+ Akregator is a news feed reader for the KDE desktop. It enables you to follow  
+ news sites, blogs and other RSS/Atom-enabled websites without the need to 
+ manually check for updates using a web browser. Akregator is designed to be 
+ both easy to use and to be powerful enough to read hundreds of news sources 
+ conveniently. It comes with Konqueror integration for adding news feeds and 
+ with an internal browser for easy news reading.
  .
  This package is part of KDE, and a component of the KDE PIM module.
  See the 'kde' and 'kdepim' packages for more information.

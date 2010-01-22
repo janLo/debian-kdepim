@@ -10,8 +10,10 @@ kdepim (4:4.3.4-2) UNRELEASED; urgency=low
   [ Michael Meskes ]
   * Added lintian override files for stuff that is indeed correct.
   * Added missing dependencies for debug package.
+  * New akregator package description. (Closes: #437956) - thanks to Mark
+    Purcell <msp@debian.org>
 
- -- Michael Meskes <meskes@debian.org>  Fri, 22 Jan 2010 11:31:25 +0100
+ -- Michael Meskes <meskes@debian.org>  Fri, 22 Jan 2010 11:32:55 +0100
 
 kdepim (4:4.3.4-1) unstable; urgency=low
 
