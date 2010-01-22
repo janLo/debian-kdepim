@@ -7,7 +7,10 @@ kdepim (4:4.3.4-2) UNRELEASED; urgency=low
   [ Sune Vuorela ]
   * add a fix to slox resources. patch by Tobias Koenig
 
- -- Sune Vuorela <debian@pusling.com>  Fri, 15 Jan 2010 11:40:51 +0100
+  [ Michael Meskes ]
+  * Added lintian override files for stuff that is indeed correct.
+
+ -- Michael Meskes <meskes@debian.org>  Fri, 22 Jan 2010 10:45:54 +0100
 
 kdepim (4:4.3.4-1) unstable; urgency=low
 

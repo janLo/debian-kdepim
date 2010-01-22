@@ -1,0 +1,3 @@
+kpilot: package-name-doesnt-match-sonames libkpilot4 libkpilot-akonadibase libkpilot-conduit-base
+kpilot: shlib-without-versioned-soname usr/lib/libkpilot_conduit_base.so libkpilot_conduit_base.so
+kpilot: shlib-without-versioned-soname usr/lib/libkpilot_akonadibase.so libkpilot_akonadibase.so
