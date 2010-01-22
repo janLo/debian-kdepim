@@ -40,7 +40,31 @@ Description: Personal Information Management apps from the official KDE release
 Package: kdepim-dbg
 Priority: extra
 Section: debug
-Depends: kdepimlibs-dbg
+Depends: kdepimlibs-dbg,
+         kaddressbook (= ${binary:Version}) |
+         kalarm (= ${binary:Version}) |
+         kdepim-groupware (= ${binary:Version}) |
+         kdepim-kresources (= ${binary:Version}) |
+         kdepim-strigi-plugins (= ${binary:Version}) |
+         kdepim-wizards (= ${binary:Version}) |
+         kjots (= ${binary:Version}) |
+         kleopatra (= ${binary:Version}) |
+         kmail (= ${binary:Version}) |
+         knode (= ${binary:Version}) |
+         knotes (= ${binary:Version}) |
+         konsolekalendar (= ${binary:Version}) |
+         kontact (= ${binary:Version}) |
+         korganizer (= ${binary:Version}) |
+         kpilot (= ${binary:Version}) |
+         ktimetracker (= ${binary:Version}) |
+         libkabcommon4 (= ${binary:Version}) |
+         libkdepim4 (= ${binary:Version}) |
+         libkleo4 (= ${binary:Version}) |
+         libkontactinterfaces4 (= ${binary:Version}) |
+         libkpgp4 (= ${binary:Version}) |
+         libksieve4 (= ${binary:Version}) |
+         libmaildir4 (= ${binary:Version}) |
+         libmimelib4 (= ${binary:Version})
 Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
 Description: debugging symbols for kdepim
