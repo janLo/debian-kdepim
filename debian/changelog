@@ -13,6 +13,8 @@ kdepim (4:4.3.4-2) unstable; urgency=low
   * New akregator package description. (Closes: #437956) - thanks to Mark
     Purcell <msp@debian.org>
   * Removed no longer used package kdepim-doc. (Closes: #497908)
+  * Made korganizer suggest plugin packages kdepim-groupware and
+    kdepim-kresources. (Closes: #559756)
 
  -- Michael Meskes <meskes@debian.org>  Fri, 22 Jan 2010 11:41:29 +0100
 

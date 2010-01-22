@@ -315,6 +315,7 @@ Package: korganizer
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${perl:Depends},  akonadi-server (>= 1.1.1 ), kdepim-runtime
+Suggests: kdepim-kresources, kdepim-groupware
 Homepage: http://kontact.kde.org/korganizer/
 Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE personal organizer
