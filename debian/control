@@ -161,7 +161,7 @@ Recommends: kdepim-wizards
 Replaces: korganizer (<< 4:4.1.80), knotes (<< 4:4.1.80), kaddressbook (<< 4:4.1.80), libkdepim4 (<< 4:4.1.80),
  kdepim-kresources (<< 4:4.1.80)
 Depends: ${shlibs:Depends}
-Description: KDE PIM Gruopware plugins
+Description: KDE PIM Groupware plugins
  This package includes several plugins used by KDE PIM components to
  interface with Groupware servers. Supported Groupware platforms include
  eGroupware, Kolab 2, Scalix and SLOX (SuSE Linux Openexchange Server),
