@@ -4,6 +4,17 @@ kdepim (4:4.4.0-0r1) UNRELEASED; urgency=low
     - KMail no longer corrupts single attachment of multipart emails generated
       by MS Outlook or Outlook Express. (Closes: #505153)
     - KAddressBook requires Akonadi. (Closes: #535324)
+    - KMail no longer blocks on GPG operations. (Closes: #186164)
+    - Events can now be moved between calendars in KOrganizer.
+      (Closes: #308311)
+    - As-you-type spell checking can now be disabled in KNode.
+      (Closes: #327447)
+    - Akregator now renders first line break correctly. (Closes: #454137)
+    - Improved handling of (malformed) multi-line headers in KMail.
+      (Closes: #459831)
+    - KMail uses current locale settings for group header in aggregation.
+      (Closes: #532696)
+    - Custom fonts work again in KMail message list. (Closes: #541722)
 
   [ Pino Toscano ]
   * "mime" -> "MIME" in libmimelib4 descriptions. (Closes: #567159)
