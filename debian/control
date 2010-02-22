@@ -120,7 +120,7 @@ Package: kalarm
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Suggests: kmix, kttsd
+Suggests: kttsd
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: KDE alarm message, command and email scheduler
  KAlarm provides a graphical interface to schedule personal timed events -
