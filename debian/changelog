@@ -21,6 +21,10 @@ kdepim (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
   * kalarm does no more need to suggest kmix. Thanks David Jarvie for the
     heads up! (Closes: #514612)
 
+  [ Modestas Vainius ]
+  * Add cmake to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:43 +0200
 
 kdepim (4:4.3.4-2) unstable; urgency=low
