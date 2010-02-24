@@ -1,4 +1,4 @@
-kdepim (4:4.4.0-0r1) UNRELEASED; urgency=low
+kdepim (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - KMail no longer corrupts single attachment of multipart emails generated
@@ -21,7 +21,7 @@ kdepim (4:4.4.0-0r1) UNRELEASED; urgency=low
   * kalarm does no more need to suggest kmix. Thanks David Jarvie for the
     heads up! (Closes: #514612)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Feb 2010 02:45:18 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:43 +0200
 
 kdepim (4:4.3.4-2) unstable; urgency=low
 
