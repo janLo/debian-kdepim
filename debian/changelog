@@ -1,6 +1,6 @@
 kdepim (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
     - KMail no longer corrupts single attachment of multipart emails generated
       by MS Outlook or Outlook Express. (Closes: #505153)
     - KAddressBook requires Akonadi. (Closes: #535324)
