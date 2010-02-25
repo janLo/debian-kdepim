@@ -15,6 +15,8 @@ kdepim (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
     - KMail uses current locale settings for group header in aggregation.
       (Closes: #532696)
     - Custom fonts work again in KMail message list. (Closes: #541722)
+    - KTimeTracker's documentation does not refer to unexisting commands.
+      (Closes: #535689)
 
   [ Pino Toscano ]
   * "mime" -> "MIME" in libmimelib4 descriptions. (Closes: #567159)
@@ -25,7 +27,7 @@ kdepim (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:43 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 02:21:11 +0100
 
 kdepim (4:4.3.4-2) unstable; urgency=low
 
