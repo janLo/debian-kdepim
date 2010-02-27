@@ -26,6 +26,12 @@ kdepim (4:4.4.1-0) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1) | kde-sc-dev-maint to Build-Depends.
+  * Bump Standards-Version to 3.8.4: no changes needed.
+  * Bump KDE build dependencies to 4:4.4.
+  * Bump libphonon-dev build dependency to 4:4.4.6.0really4.3.80.
+  * Bump pkg-kde-tools build dependency to 0.6.4.
+  * Drop libknotificationitem-1-dev from Build-Depends: no longer needed.
+  * Bump akonadi build dependency to 1.3.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 02:21:11 +0100
 
