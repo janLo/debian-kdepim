@@ -25,7 +25,7 @@ kdepim (4:4.4.1-0) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Add cmake to Build-Depends.
-  * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.1) | kde-sc-dev-maint to Build-Depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 02:21:11 +0100
 
