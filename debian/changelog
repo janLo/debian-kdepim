@@ -1,4 +1,4 @@
-kdepim (4:4.4.1-0) UNRELEASED; urgency=low
+kdepim (4:4.4.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - KMail no longer corrupts single attachment of multipart emails generated
@@ -32,6 +32,9 @@ kdepim (4:4.4.1-0) UNRELEASED; urgency=low
   * Bump pkg-kde-tools build dependency to 0.6.4.
   * Drop libknotificationitem-1-dev from Build-Depends: no longer needed.
   * Bump akonadi build dependency to 1.3.0.
+  * Drop 01_slot_fix.diff patch, taken from upstream.
+  * Add DEP-3 headers to the 30_debianize_akregator_default.diff patch.
+  * Add shared-desktop-ontologies to Build-Depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 02:21:11 +0100
 

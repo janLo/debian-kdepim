@@ -1,3 +1,9 @@
+Author: Ana Beatriz Guerrero Lopez <ana@debian.org>
+Description: add a few Debian feeds to akregator
+ Include planet debian and debian times as default in akregator
+Forwarded: not-needed
+Origin: vendor
+
 --- a/akregator/src/akregator_part.cpp
 +++ b/akregator/src/akregator_part.cpp
 @@ -133,6 +133,20 @@ namespace {
