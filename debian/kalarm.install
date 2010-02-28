@@ -35,7 +35,7 @@ usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/document-new-from-template
 usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/kalarm.png
 usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/new-audio-alarm.png
 usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/new-command-alarm.png
-usr/share/kde4/apps/kalarm/icons/oxygen/22x22/emblems/partdisabled.png exists
+usr/share/kde4/apps/kalarm/icons/oxygen/22x22/emblems/partdisabled.png
 usr/share/kde4/apps/kalarm/kalarmui.rc
 usr/share/kde4/apps/kconf_update/kalarm-1.2.1-general.pl
 usr/share/kde4/apps/kconf_update/kalarm-1.9.5-defaults.pl
