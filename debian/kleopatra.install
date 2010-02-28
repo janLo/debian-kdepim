@@ -6,10 +6,14 @@ usr/lib/libkleopatraclientcore.so.0
 usr/lib/libkleopatraclientcore.so.0.2.1
 usr/lib/libkleopatraclientgui.so.0
 usr/lib/libkleopatraclientgui.so.0.2.1
+usr/share/applications/kde4/kleopatra.desktop
 usr/share/applications/kde4/kleopatra_import.desktop
 usr/share/doc/kde4/HTML/en/kleopatra/common
 usr/share/doc/kde4/HTML/en/kleopatra/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kleopatra/index.docbook
+usr/share/doc/kde4/HTML/en/kwatchgnupg/common
+usr/share/doc/kde4/HTML/en/kwatchgnupg/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kwatchgnupg/index.docbook
 usr/share/icons/oxygen/128x128/apps/kleopatra.png
 usr/share/icons/oxygen/16x16/apps/kleopatra.png
 usr/share/icons/oxygen/22x22/apps/kleopatra.png
@@ -33,6 +37,7 @@ usr/share/kde4/apps/libkleopatra/pics/hi22-app-gpg.png
 usr/share/kde4/apps/libkleopatra/pics/hi22-app-gpgsm.png
 usr/share/kde4/apps/libkleopatra/pics/hi32-app-gpg.png
 usr/share/kde4/apps/libkleopatra/pics/hi32-app-gpgsm.png
+usr/share/kde4/apps/libkleopatra/pics/smartcard.xpm
 usr/share/kde4/services/kleopatra_config_appear.desktop
 usr/share/kde4/services/kleopatra_config_dirserv.desktop
 usr/share/kde4/services/kleopatra_config_dnorder.desktop

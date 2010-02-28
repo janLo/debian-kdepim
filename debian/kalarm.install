@@ -3,8 +3,10 @@ usr/bin/kalarmautostart
 usr/lib/kde4/kalarm_local.so
 usr/lib/kde4/kalarm_localdir.so
 usr/lib/kde4/kalarm_remote.so
+usr/lib/libkalarm_calendar.so.4
+usr/lib/libkalarm_calendar.so.4.4.0
 usr/lib/libkalarm_resources.so.4
-usr/lib/libkalarm_resources.so.4.3.0
+usr/lib/libkalarm_resources.so.4.4.0
 usr/share/applications/kde4/kalarm.desktop
 usr/share/autostart/kalarm.autostart.desktop
 usr/share/doc/kde4/HTML/en/kalarm/alarmmessage.png
@@ -13,6 +15,7 @@ usr/share/doc/kde4/HTML/en/kalarm/editwindow-simple.png
 usr/share/doc/kde4/HTML/en/kalarm/editwindow.png
 usr/share/doc/kde4/HTML/en/kalarm/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kalarm/index.docbook
+usr/share/doc/kde4/HTML/en/kalarm/mainwindow-calendars.png
 usr/share/doc/kde4/HTML/en/kalarm/mainwindow.png
 usr/share/doc/kde4/HTML/en/kalarm/spinbox.png
 usr/share/icons/hicolor/16x16/apps/kalarm.png
@@ -26,10 +29,13 @@ usr/share/icons/oxygen/48x48/apps/kalarm.png
 usr/share/icons/oxygen/64x64/apps/kalarm.png
 usr/share/icons/oxygen/scalable/apps/kalarm.svgz
 usr/share/kde4/apps/kalarm/icons/oxygen/16x16/actions/document-new-from-template.png
+usr/share/kde4/apps/kalarm/icons/oxygen/16x16/actions/new-audio-alarm.png
 usr/share/kde4/apps/kalarm/icons/oxygen/16x16/actions/new-command-alarm.png
 usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/document-new-from-template.png
 usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/kalarm.png
+usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/new-audio-alarm.png
 usr/share/kde4/apps/kalarm/icons/oxygen/22x22/actions/new-command-alarm.png
+usr/share/kde4/apps/kalarm/icons/oxygen/22x22/emblems/partdisabled.png exists
 usr/share/kde4/apps/kalarm/kalarmui.rc
 usr/share/kde4/apps/kconf_update/kalarm-1.2.1-general.pl
 usr/share/kde4/apps/kconf_update/kalarm-1.9.5-defaults.pl

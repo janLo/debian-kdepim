@@ -4,8 +4,12 @@ usr/lib/kde4/kcm_kontact.so
 usr/lib/kde4/kcm_kontactsummary.so
 usr/lib/kde4/kontact_summaryplugin.so
 usr/lib/libkontactprivate.so.4
-usr/lib/libkontactprivate.so.4.3.0
+usr/lib/libkontactprivate.so.4.4.0
 usr/share/applications/kde4/Kontact.desktop
+usr/share/applications/kde4/kontact-admin.desktop
+usr/share/doc/kde4/HTML/en/kontact-admin/common
+usr/share/doc/kde4/HTML/en/kontact-admin/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kontact-admin/index.docbook
 usr/share/doc/kde4/HTML/en/kontact/calendar-sidebar-icon.png
 usr/share/doc/kde4/HTML/en/kontact/common
 usr/share/doc/kde4/HTML/en/kontact/configuration-components.png
