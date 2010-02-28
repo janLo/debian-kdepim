@@ -58,6 +58,10 @@ kdepim (4:4.4.1-0r1) UNRELEASED; urgency=low
     for libraries (there are no external ones anyway).
   * Add lintian overrides.
 
+  [ George Kiagiadakis ]
+  * libkdepim4 replaces kdepim-runtime (<< 4:4.4.0) due to moved
+    libakonadi_next.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 02:21:11 +0100
 
 kdepim (4:4.3.4-2) unstable; urgency=low
