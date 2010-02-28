@@ -25,7 +25,7 @@ Depends: akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), 
  kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}),
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}),
  ktimetracker (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version}),
- kpilot (>= ${source:Version}), kleopatra (>= ${source:Version}), blogilo (>= ${source:Version}),
+ kleopatra (>= ${source:Version}), blogilo (>= ${source:Version}),
  akonadiconsole (>= ${source:Version})
 Description: Personal Information Management apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
