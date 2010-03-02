@@ -1,6 +1,7 @@
 usr/bin/kabc2mutt
 usr/bin/kabcclient
 usr/bin/kaddressbook
+usr/lib/akonadi/contact/editorpageplugins/cryptopageplugin.so
 usr/lib/kde4/kaddressbookpart.so
 usr/lib/kde4/kcm_ldap.so
 usr/lib/kde4/kontact_kaddressbookplugin.so
