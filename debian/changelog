@@ -18,8 +18,6 @@ kdepim (4:4.4.1-0r2) UNRELEASED; urgency=low
     - KTimeTracker's documentation does not refer to unexisting commands.
       (Closes: #535689)
 
-  TODO: dependencies
-
   [ Pino Toscano ]
   * "mime" -> "MIME" in libmimelib4 descriptions. (Closes: #567159)
   * kalarm does no more need to suggest kmix. Thanks David Jarvie for the
