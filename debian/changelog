@@ -53,6 +53,9 @@ kdepim (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Use library-packages.mk from pkg-kde-tools and generate strict local shlibs
     for libraries (there are no external ones anyway).
   * Add lintian overrides.
+  * Bump dependencies on akonadi-server to 1.3.
+  * Add ${perl:Depends} to kalarm and kdepim-groupware Depends.
+  * Kill empty libmaildir4 package.
 
   [ George Kiagiadakis ]
   * libkdepim4 replaces kdepim-runtime (<< 4:4.4.0) due to moved
