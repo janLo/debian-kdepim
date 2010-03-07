@@ -1,4 +1,4 @@
-kdepim (4:4.4.1-0rc2) UNRELEASED; urgency=low
+kdepim (4:4.4.1-0rc3) UNRELEASED; urgency=low
 
   * New upstream release:
     - KMail no longer corrupts single attachment of multipart emails generated
@@ -53,7 +53,8 @@ kdepim (4:4.4.1-0rc2) UNRELEASED; urgency=low
   * Use library-packages.mk from pkg-kde-tools and generate strict local shlibs
     for libraries (there are no external ones anyway).
   * Add lintian overrides.
-  * Bump dependencies on akonadi-server to 1.3.
+  * Remove akonadi-server and kdepim-runtime from Depends of kaddressbook and
+    korganizer. They are injected via shlibs now.
   * Add ${perl:Depends} to kalarm and kdepim-groupware Depends.
   * Kill empty libmaildir4 package.
 

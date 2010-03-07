@@ -20,8 +20,8 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdepim
 
 Package: kdepim
 Architecture: all
-Depends: akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}), kalarm (>= ${source:Version}),
- kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}),
+Depends: ${misc:Depends}, akregator (>= ${source:Version}), kaddressbook (>= ${source:Version}),
+ kalarm (>= ${source:Version}), kdepim-kresources (>= ${source:Version}), kdepim-wizards (>= ${source:Version}),
  kmail (>= ${source:Version}), knode (>= ${source:Version}), knotes (>= ${source:Version}),
  konsolekalendar (>= ${source:Version}), kontact (>= ${source:Version}), korganizer (>= ${source:Version}),
  ktimetracker (>= ${source:Version}), kdepim-strigi-plugins (>= ${source:Version}), kjots (>= ${source:Version}),
@@ -39,7 +39,7 @@ Description: Personal Information Management apps from the official KDE release
 Package: kdepim-dbg
 Priority: extra
 Section: debug
-Depends: kdepimlibs-dbg,
+Depends: ${misc:Depends}, kdepimlibs-dbg,
  kdepim  (= ${source:Version}) |
  kaddressbook (= ${binary:Version}) |
  kalarm (= ${binary:Version}) |
@@ -92,7 +92,7 @@ Description: RSS/Atom feed aggregator for KDE
 Package: kaddressbook
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, akonadi-server (>= 1.3), kdepim-runtime
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdepim-kresources
 Replaces: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: KDE address book
@@ -280,7 +280,7 @@ Description: KDE pim application
 Package: korganizer
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, akonadi-server (>= 1.3), kdepim-runtime
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Suggests: kdepim-kresources, kdepim-groupware
 Homepage: http://kontact.kde.org/korganizer/
 Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
