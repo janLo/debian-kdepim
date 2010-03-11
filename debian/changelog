@@ -17,6 +17,7 @@ kdepim (4:4.4.1-0rc3) UNRELEASED; urgency=low
     - Custom fonts work again in KMail message list. (Closes: #541722)
     - KTimeTracker's documentation does not refer to unexisting commands.
       (Closes: #535689)
+    - KOrganizer seems to start for the user now. (Closes: #566251)
 
   [ Pino Toscano ]
   * "mime" -> "MIME" in libmimelib4 descriptions. (Closes: #567159)
