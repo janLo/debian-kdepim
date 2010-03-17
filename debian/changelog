@@ -66,6 +66,9 @@ kdepim (4:4.4.1-0rc3) UNRELEASED; urgency=low
   [ Xavier Vello ]
   * Remove kpilot from the kdepim deps
 
+  [ Eckhart Wörner ]
+  * kmail no longer recommends procmail but suggests it. (Closes: #573619)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 12:39:18 +0200
 
 kdepim (4:4.3.4-2) unstable; urgency=low
