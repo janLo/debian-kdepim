@@ -69,7 +69,11 @@ kdepim (4:4.4.1-0rc3) UNRELEASED; urgency=low
   [ Eckhart Wörner ]
   * kmail no longer recommends procmail but suggests it. (Closes: #573619)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 12:39:18 +0200
+  [ Ana Beatriz Guerrero Lopez ]
+  * Replace Debian Times with Debian News in the Debian feeds that akregator 
+    provides by default. (Closes: #573358)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Mar 2010 01:28:04 +0100
 
 kdepim (4:4.3.4-2) unstable; urgency=low
 

@@ -20,8 +20,8 @@ Origin: vendor
 +        debianFolder.appendChild(pland);
 +
 +        QDomElement dtimes = doc.createElement( "outline" );
-+        dtimes.setAttribute("text",i18n("Debian Times"));
-+        dtimes.setAttribute("xmlUrl","http://times.debian.net/?format=rss20.xml");
++        dtimes.setAttribute("text",i18n("Debian News"));
++        dtimes.setAttribute("xmlUrl","http://news.debian.net/feed/");
 +        debianFolder.appendChild(dtimes);
 +
          return doc;
