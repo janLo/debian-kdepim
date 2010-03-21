@@ -1,4 +1,4 @@
-usr/bin/akonadi_nepomuk_email_feeder
+#usr/bin/akonadi_nepomuk_email_feeder
 usr/bin/kmail
 usr/bin/kmail_antivir.sh
 usr/bin/kmail_clamav.sh
@@ -15,7 +15,7 @@ usr/lib/kde4/kmailpart.so
 usr/lib/kde4/kontact_kmailplugin.so
 usr/lib/libkmailprivate.so.4
 usr/lib/libkmailprivate.so.4.4.0
-usr/share/akonadi/agents/nepomukemailfeeder.desktop
+#usr/share/akonadi/agents/nepomukemailfeeder.desktop
 usr/share/applications/kde4/KMail.desktop
 usr/share/applications/kde4/kmail_view.desktop
 usr/share/doc/kde4/HTML/en/kmail/common
