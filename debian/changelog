@@ -18,6 +18,10 @@ kdepim (4:4.4.1+svn1105554-0rc1) UNRELEASED; urgency=low
     - KTimeTracker's documentation does not refer to unexisting commands.
       (Closes: #535689)
     - KOrganizer seems to start for the user now. (Closes: #566251)
+    - KAddressbook now correctly opens vCards with ENCODING=8BIT.
+      (Closes: #574092)
+    - KMail no longer caches possibly outdated UTC time zone offsets.
+      (Closes: #448643)
 
   [ Pino Toscano ]
   * "mime" -> "MIME" in libmimelib4 descriptions. (Closes: #567159)
