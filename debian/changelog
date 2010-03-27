@@ -30,7 +30,7 @@ kdepim (4:4.4.2-0rc1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Add cmake to Build-Depends.
-  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.2) to Build-Depends.
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump KDE build dependencies to 4:4.4.
   * Bump libphonon-dev build dependency to 4:4.4.6.0really4.3.80.
