@@ -73,6 +73,9 @@ kdepim (4:4.4.2-1) UNRELEASED; urgency=low
   [ Eckhart Wörner ]
   * kmail no longer recommends procmail but suggests it. (Closes: #573619)
 
+  [ Sten Heinze ]
+  * Updated copyright file
+
   [ Ana Beatriz Guerrero Lopez ]
   * Replace Debian Times with Debian News in the Debian feeds that akregator 
     provides by default. (Closes: #573358)
