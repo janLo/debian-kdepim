@@ -1,4 +1,4 @@
-kdepim (4:4.4.2-1) UNRELEASED; urgency=low
+kdepim (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release:
     - KMail no longer corrupts single attachment of multipart emails generated
@@ -80,7 +80,7 @@ kdepim (4:4.4.2-1) UNRELEASED; urgency=low
   * Replace Debian Times with Debian News in the Debian feeds that akregator 
     provides by default. (Closes: #573358)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Apr 2010 23:16:05 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Apr 2010 01:00:37 +0300
 
 kdepim (4:4.3.4-2) unstable; urgency=low
 
