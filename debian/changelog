@@ -1,4 +1,4 @@
-kdepim (4:4.4.2-1) experimental; urgency=low
+kdepim (4:4.4.2-1) UNRELEASED; urgency=low
 
   * New upstream release:
     - KMail no longer corrupts single attachment of multipart emails generated
