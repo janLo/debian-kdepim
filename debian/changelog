@@ -1,3 +1,10 @@
+kdepim (4:4.4.2-2) UNRELEASED; urgency=low
+
+  [ Fathi Boudra ]
+  * Suggest gnupg2 to kmail.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Apr 2010 10:29:34 +0300
+
 kdepim (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release:
