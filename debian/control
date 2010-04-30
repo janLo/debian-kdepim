@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>,
  Michael Meskes <meskes@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.4.2),
+Build-Depends: kde-sc-dev-latest (>= 4:4.4.3),
  cdbs, cmake, debhelper (>= 7.3), quilt, pkg-kde-tools (>= 0.6.4),
  kdelibs5-dev (>= 4:4.4), kdepimlibs5-dev (>= 4:4.4), libphonon-dev (>= 4:4.6.0really4.3.80),
  libgpgme11-dev, libboost-dev (>= 1.40.0-2), libboost-graph-dev (>= 1.40.0-2), libsasl2-dev,
