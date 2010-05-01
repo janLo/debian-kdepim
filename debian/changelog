@@ -1,4 +1,4 @@
-kdepim (4:4.4.3-0r1) UNRELEASED; urgency=low
+kdepim (4:4.4.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -7,8 +7,9 @@ kdepim (4:4.4.3-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Bump kde-sc-dev-latest build dependency to 4.4.3.
+  * Release KDE SC 4.4.3 to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:07 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 23:37:55 +0300
 
 kdepim (4:4.4.2-1) experimental; urgency=low
 
