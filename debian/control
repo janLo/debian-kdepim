@@ -2,7 +2,7 @@ Source: kdepim
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>,
+Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>,
  Michael Meskes <meskes@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.3),
