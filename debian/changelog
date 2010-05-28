@@ -7,6 +7,10 @@ kdepim (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Promote gnupg2 and friends to recommends.
   * Update my email.
 
+  [ Modestas Vainius ]
+  * Bump pkg-kde-tools build dependency to (>= 0.9) for HTML_INSTALL_DIR
+    switch and 3.0 (quilt) source format support.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:19 +0300
 
 kdepim (4:4.4.3-1) unstable; urgency=low
