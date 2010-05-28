@@ -13,6 +13,9 @@ kdepim (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Switch to 3.0 (quilt) source package format and original tar.bz2
     tarballs.
   * Replace usr/share/doc/kde4 references with usr/share/doc/kde.
+  * Drop quilt from Build-Depends, no longer needed for 3.0 (quilt).
+  * Remove debian/README.source. Patch support is part of source format
+    now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:19 +0300
 
