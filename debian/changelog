@@ -16,6 +16,7 @@ kdepim (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Drop quilt from Build-Depends, no longer needed for 3.0 (quilt).
   * Remove debian/README.source. Patch support is part of source format
     now.
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:19 +0300
 
