@@ -3,9 +3,9 @@ usr/lib/kde4/kcm_knote.so
 usr/lib/kde4/knotes_local.so
 usr/lib/kde4/kontact_knotesplugin.so
 usr/share/applications/kde4/knotes.desktop
-usr/share/doc/kde4/HTML/en/knotes/common
-usr/share/doc/kde4/HTML/en/knotes/index.cache.bz2
-usr/share/doc/kde4/HTML/en/knotes/index.docbook
+usr/share/doc/kde/HTML/en/knotes/common
+usr/share/doc/kde/HTML/en/knotes/index.cache.bz2
+usr/share/doc/kde/HTML/en/knotes/index.docbook
 usr/share/icons/hicolor/128x128/apps/knotes.png
 usr/share/icons/hicolor/16x16/apps/knotes.png
 usr/share/icons/hicolor/22x22/apps/knotes.png

@@ -9,10 +9,10 @@ usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/libkaddressbookprivate.so.4
 usr/lib/libkaddressbookprivate.so.4.4.0
 usr/share/applications/kde4/kaddressbook.desktop
-usr/share/doc/kde4/HTML/en/kabcclient/common
-usr/share/doc/kde4/HTML/en/kabcclient/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kabcclient/index.docbook
-usr/share/doc/kde4/HTML/en/kabcclient/man-kabcclient.1.docbook
+usr/share/doc/kde/HTML/en/kabcclient/common
+usr/share/doc/kde/HTML/en/kabcclient/index.cache.bz2
+usr/share/doc/kde/HTML/en/kabcclient/index.docbook
+usr/share/doc/kde/HTML/en/kabcclient/man-kabcclient.1.docbook
 usr/share/icons/hicolor/16x16/apps/kaddressbook.png
 usr/share/icons/hicolor/22x22/apps/kaddressbook.png
 usr/share/icons/hicolor/32x32/apps/kaddressbook.png

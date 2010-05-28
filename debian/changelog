@@ -12,6 +12,7 @@ kdepim (4:4.4.4-0r1) UNRELEASED; urgency=low
     switch and 3.0 (quilt) source format support.
   * Switch to 3.0 (quilt) source package format and original tar.bz2
     tarballs.
+  * Replace usr/share/doc/kde4 references with usr/share/doc/kde.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:19 +0300
 

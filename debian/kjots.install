@@ -3,9 +3,9 @@ usr/lib/kde4/kcm_kjots.so
 usr/lib/kde4/kjotspart.so
 usr/lib/kde4/kontact_kjotsplugin.so
 usr/share/applications/kde4/Kjots.desktop
-usr/share/doc/kde4/HTML/en/kjots/common
-usr/share/doc/kde4/HTML/en/kjots/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kjots/index.docbook
+usr/share/doc/kde/HTML/en/kjots/common
+usr/share/doc/kde/HTML/en/kjots/index.cache.bz2
+usr/share/doc/kde/HTML/en/kjots/index.docbook
 usr/share/icons/hicolor/128x128/apps/kjots.png
 usr/share/icons/hicolor/16x16/apps/kjots.png
 usr/share/icons/hicolor/22x22/apps/kjots.png
