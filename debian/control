@@ -413,7 +413,7 @@ Description: note-taking utility for KDE 4
 Package: blogilo
 Section: web
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-sql-sqlite
 Description: blogging client based on the KDE Platform
  Blogilo is a Free/Open Source Blogging client, focused on simplicity and
  usability. Currently featured:
