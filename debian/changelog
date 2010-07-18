@@ -6,6 +6,7 @@ kdepim (4:4.4.5-1) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Make blogilo depend on libqt4-sql-sqlite (Closes: #584614)
+  * Update descriptions
 
  -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 10:19:25 +0200
 
