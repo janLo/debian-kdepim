@@ -1,3 +1,9 @@
+kdepim (4:4.4.5-2) UNRELEASED; urgency=low
+
+  * Point debian/control Vcs fields to the new Git repository.
+
+ -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:36 +0300
+
 kdepim (4:4.4.5-1) unstable; urgency=low
 
   [ Modestas Vainius ]
