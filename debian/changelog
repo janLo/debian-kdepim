@@ -124,7 +124,7 @@ kdepim (4:4.4.2-1) experimental; urgency=low
   * Updated copyright file
 
   [ Ana Beatriz Guerrero Lopez ]
-  * Replace Debian Times with Debian News in the Debian feeds that akregator 
+  * Replace Debian Times with Debian News in the Debian feeds that akregator
     provides by default. (Closes: #573358)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Apr 2010 01:00:37 +0300
