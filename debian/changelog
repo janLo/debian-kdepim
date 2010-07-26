@@ -487,25 +487,18 @@ kdepim (4:4.0.82+svn819867-1) experimental; urgency=low
   * Add myself to Uploaders.
   * Merge 01_ and 97_ patches.
   * Updated installed files.
+  * Bump shlibs of the libraries.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Remove Recommends: kghostview from korganizer. It does not exist in KDE4.
   * Rename source package as kdepim, named kde4pim due to a misuderstanding.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 21:18:47 +0200
-
-kde4pim (4:4.0.80-2) experimental; urgency=low
-
-  +++ Changes by Modestas Vainius:
-
-  * Bump shlibs of the libraries.
-
   +++ Changes by Armin Berres:
 
   * kdepim-dbg must replace kdeutils-dbg after the kjots move.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 May 2008 10:06:53 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 21:18:47 +0200
 
 kde4pim (4:4.0.80-1) experimental; urgency=low
 
@@ -563,12 +556,6 @@ kde4pim (4:4.0.74-1) experimental; urgency=low
   * Remove some useless conflicts and replaces for libraries with a raised
     soname.
   * Move kmail and korganizer kontact plugins into the kontact package.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 May 2008 14:55:52 +0200
-
-kdepim (4:3.96.0-1) experimental; urgency=low
-
-  * New upstream release.
   * Split source package in all the needed binary packages.
   * Add build dependencies on libqca2-dev, libpisock-dev,
     libstrigiqtdbusclient0, libplasma-dev and
@@ -577,31 +564,4 @@ kdepim (4:3.96.0-1) experimental; urgency=low
   * Move homepage into control field.
   * Add not-installed file.
 
- -- Armin Berres <armin+debian@space-based.de>  Tue, 20 Nov 2007 13:13:47 +0100
-
-kdepim (4:3.90.1-1) unstable; urgency=low
-
-  * Initial release.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 22 May 2007 17:26:24 +0200
-
-kdepim (4:4.0.68+svn794641-1) experimental; urgency=low
-
-  * First KDE 4.1 snapshot packaged.
-
-  +++ Changes by Matthew Rosewarne:
-
-  * Remove no longer need patch 04 to disable sqlplugin for akonadi.
-  * Update build depends lines.
-  * Add Homepage: to control.
-
-  +++ Changes by Armin Berres:
-
-  * Update installed files.
-  * Build depend on libopensync1exp2 instead of libopensync1exp1. Otherwise
-    we are hit by #458569.
-  * Remove all development packages with include files and .so links.
-    Everything which should be used by external programms belongs into
-    kdepimlibs according to upstream.
-
- -- Armin Berres <armin+debian@space-based.de>  Tue, 29 Apr 2008 11:14:37 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 May 2008 14:55:52 +0200
