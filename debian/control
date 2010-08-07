@@ -114,7 +114,7 @@ Description: alarm message, command and email scheduler
  range of options for configuring recurring events.
  .
  A pop-up alarm can show either a simple text message, or the contents of a
- text or image file, It can optionally be spoken, or play a sound file. You
+ text or image file. It can optionally be spoken, or play a sound file. You
  can choose its appearance, and set reminders. Among KAlarm's other
  facilities, you can set up templates to allow KAlarm to be used as a 'tea
  timer'.
