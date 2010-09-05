@@ -3,7 +3,7 @@ usr/lib/kde4/kcm_knode.so
 usr/lib/kde4/knodepart.so
 usr/lib/kde4/kontact_knodeplugin.so
 usr/lib/libknodecommon.so.4
-usr/lib/libknodecommon.so.4.4.0
+usr/lib/libknodecommon.so.4.5.0
 usr/share/applications/kde4/KNode.desktop
 usr/share/doc/kde/HTML/en/kioslave/news/common
 usr/share/doc/kde/HTML/en/kioslave/news/index.cache.bz2
@@ -61,6 +61,7 @@ usr/share/icons/hicolor/48x48/apps/knode.png
 usr/share/icons/hicolor/48x48/apps/knode2.png
 usr/share/icons/hicolor/64x64/apps/knode.png
 usr/share/icons/hicolor/64x64/apps/knode2.png
+usr/share/kde4/apps/kconf_update/knode.upd
 usr/share/kde4/apps/knode/filters/1.fltr
 usr/share/kde4/apps/knode/filters/2.fltr
 usr/share/kde4/apps/knode/filters/3.fltr

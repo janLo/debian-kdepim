@@ -9,9 +9,9 @@ usr/lib/kde4/akregator_mk4storage_plugin.so
 usr/lib/kde4/akregatorpart.so
 usr/lib/kde4/kontact_akregatorplugin.so
 usr/lib/libakregatorinterfaces.so.4
-usr/lib/libakregatorinterfaces.so.4.4.0
+usr/lib/libakregatorinterfaces.so.4.5.0
 usr/lib/libakregatorprivate.so.4
-usr/lib/libakregatorprivate.so.4.4.0
+usr/lib/libakregatorprivate.so.4.5.0
 usr/share/applications/kde4/akregator.desktop
 usr/share/doc/kde/HTML/en/akregator/add-feed.png
 usr/share/doc/kde/HTML/en/akregator/add-feed2.png

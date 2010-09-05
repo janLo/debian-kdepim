@@ -58,15 +58,18 @@ Depends: ${misc:Depends}, kdepimlibs-dbg,
  korganizer (= ${binary:Version}) |
  ktimetracker (= ${binary:Version}) |
  blogilo (= ${binary:Version}) |
+ libincidenceeditors4 (= ${binary:Version}) |
  libkdepim4 (= ${binary:Version}) |
+ libkdepimdbusinterfaces4 (= ${binary:Version}) |
  libkleo4 (= ${binary:Version}) |
  libkpgp4 (= ${binary:Version}) |
  libksieve4 (= ${binary:Version}) |
  libmaildir4 (= ${binary:Version}) |
- libmimelib4 (= ${binary:Version}) |
+ libmessagecomposer4 (= ${binary:Version}) |
  libmessagecore4 (= ${binary:Version}) |
  libmessagelist4 (= ${binary:Version}) |
- libmessageviewer0 (= ${binary:Version})
+ libmessageviewer0 (= ${binary:Version}) |
+ libtemplateparser4 (= ${binary:Version})
 Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
 Description: debugging symbols for kdepim
@@ -302,6 +305,13 @@ Description: time tracker tool
  .
  This package is part of the KDE PIM module.
 
+Package: libincidenceeditors4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: incidence editors library
+ This package is part of the KDE PIM module.
+
 Package: libkdepim4
 Section: libs
 Architecture: any
@@ -310,6 +320,13 @@ Replaces: kmail (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
 Description: KDE PIM library
  This is the runtime package for programs that use the libkdepim library.
  .
+ This package is part of the KDE PIM module.
+
+Package: libkdepimdbusinterfaces4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: KDE PIM D-Bus interfaces library
  This package is part of the KDE PIM module.
 
 Package: libkleo4
@@ -341,14 +358,13 @@ Description: mail/news message filtering library
  .
  This package is part of the KDE PIM module.
 
-Package: libmimelib4
+Package: libmessagecomposer4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: MIME library
- This library is used by several applications from KDE PIM module to handle MIME types.
- .
- This is the runtime package for programs that use the libmimelib library.
+Description: message composer library
+ This package contains the message composer library. It provides basic e-mail
+ message composing facilities.
  .
  This package is part of KDE PIM module.
 
@@ -380,6 +396,13 @@ Description: message viewer library
  This package contains the message viewer library which implements feature-rich
  and highly configurable widget for viewing e-mail messages.
  .
+ This package is part of the KDE PIM module.
+
+Package: libtemplateparser4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: template parser library
  This package is part of the KDE PIM module.
 
 Package: kdepim-strigi-plugins
