@@ -19,6 +19,9 @@ kdepim (4:4.4.93-0r1) UNRELEASED; urgency=low
     - libmessagecomposer4
     - libtemplateparser4
   * Update lintian overrides.
+  * Bump build dependencies on kdelibs5-dev and
+    kdepimlibs5-dev to version 4:4.5.
+  * Bump build dependency on libakonadi-dev to version 1.3.80.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
