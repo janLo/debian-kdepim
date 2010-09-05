@@ -6,7 +6,7 @@ Origin: vendor
 
 --- a/akregator/src/akregator_part.cpp
 +++ b/akregator/src/akregator_part.cpp
-@@ -133,6 +133,20 @@ namespace {
+@@ -139,6 +139,20 @@
          look.setAttribute("xmlUrl","http://www.kde.org/kde-look-content.rdf");
          mainFolder.appendChild(look);
  
