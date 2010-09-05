@@ -18,6 +18,7 @@ kdepim (4:4.4.93-0r1) UNRELEASED; urgency=low
     - libkdepimdbusinterfaces4
     - libmessagecomposer4
     - libtemplateparser4
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
 
