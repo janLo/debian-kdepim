@@ -2,12 +2,6 @@ kdepim (4:4.4.93-0r1) UNRELEASED; urgency=low
 
   * New upstream beta release.
 
-  [ Modestas Vainius ]
-  * Point debian/control Vcs fields to the new Git repository.
-
-  [ Pino Toscano ]
-  * Fix a typo in the description of kalarm. (Closes: #591958)
-
   [ George Kiagiadakis ]
   * Add myself to uploaders.
   * Refresh patches.
@@ -24,6 +18,18 @@ kdepim (4:4.4.93-0r1) UNRELEASED; urgency=low
   * Bump build dependency on libakonadi-dev to version 1.3.80.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
+
+kdepim (4:4.4.6-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+  [ Modestas Vainius ]
+  * Point debian/control Vcs fields to the new Git repository.
+
+  [ Pino Toscano ]
+  * Fix a typo in the description of kalarm. (Closes: #591958)
+
+ -- Modestas Vainius <modax@debian.org>  Tue, 21 Sep 2010 16:59:27 +0300
 
 kdepim (4:4.4.5-1) unstable; urgency=low
 
