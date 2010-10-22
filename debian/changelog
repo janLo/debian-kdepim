@@ -1,3 +1,9 @@
+kdepim (4:4.4.7-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Modestas Vainius <modax@debian.org>  Fri, 22 Oct 2010 21:45:11 +0300
+
 kdepim (4:4.4.6-1) unstable; urgency=low
 
   * New upstream bugfix release.
