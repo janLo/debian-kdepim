@@ -1,3 +1,9 @@
+kdepim (4:4.4.7-2) unstable; urgency=low
+
+  * Release to unstable.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 13 Nov 2010 00:54:38 +0200
+
 kdepim (4:4.4.7-1) experimental; urgency=low
 
   * New upstream release.
