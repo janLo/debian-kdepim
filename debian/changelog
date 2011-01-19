@@ -1,8 +1,9 @@
-kdepim (4:4.4.7-3) UNRELEASED; urgency=low
+kdepim (4:4.4.7-3) unstable; urgency=high
 
   * Do not crash when the feed being added does not exist. (Closes: #605094)
+  * Urgency=high, aimed at squeeze.
 
- -- Modestas Vainius <modax@debian.org>  Thu, 20 Jan 2011 00:53:26 +0200
+ -- Modestas Vainius <modax@debian.org>  Thu, 20 Jan 2011 00:55:09 +0200
 
 kdepim (4:4.4.7-2) unstable; urgency=low
 
