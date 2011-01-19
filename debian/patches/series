@@ -1,1 +1,2 @@
+backport_dont_crash_when_adding_feed.diff
 30_debianize_akregator_default.diff

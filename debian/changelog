@@ -1,5 +1,6 @@
 kdepim (4:4.4.7-3) UNRELEASED; urgency=low
 
+  * Do not crash when the feed being added does not exist. (Closes: #605094)
 
  -- Modestas Vainius <modax@debian.org>  Thu, 20 Jan 2011 00:53:26 +0200
 
