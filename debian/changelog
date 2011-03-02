@@ -1,3 +1,9 @@
+kdepim (4:4.4.10-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 02 Mar 2011 23:39:39 +0000
+
 kdepim (4:4.4.7-3) unstable; urgency=high
 
   * Do not crash when the feed being added does not exist. (Closes: #605094)
