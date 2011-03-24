@@ -10,6 +10,7 @@ kdepim (4:4.4.10-0r0) UNRELEASED; urgency=low
     - Don't capitalize akonadiconsole short description, remove starting
       article
   * Update lintian overrides.
+  * Bump S-V to 3.9.1; update Breaks/Conflicts/Replaces.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 02 Mar 2011 23:39:39 +0000
 
