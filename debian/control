@@ -180,7 +180,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  gnupg-agent, gnupg2, gpgsm, dirmngr, pinentry-qt4 | pinentry-x11
 Description: certificate Manager
- Kleopatra is a tool for managing X.509 certificates ang pgp keys.
+ Kleopatra is a tool for managing X.509 certificates and pgp keys.
  .
  This package is part of the KDE PIM module.
 
