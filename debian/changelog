@@ -1,4 +1,4 @@
-kdepim (4:4.4.10-0r0) UNRELEASED; urgency=low
+kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Delete backport_dont_crash_when_adding_feed.diff, no longer needed.
