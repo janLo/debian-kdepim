@@ -9,6 +9,7 @@ kdepim (4:4.4.10-0r0) UNRELEASED; urgency=low
     - Fix typo in kleopatra description.
     - Don't capitalize akonadiconsole short description, remove starting
       article
+    - Make libmimelib4 long description smaller than 80 columns.
   * Update lintian overrides.
   * Bump S-V to 3.9.1; update Breaks/Conflicts/Replaces.
 

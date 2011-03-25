@@ -357,7 +357,8 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: MIME library
- This library is used by several applications from KDE PIM module to handle MIME types.
+ This library is used by several applications from KDE PIM module to handle MIME
+ types.
  .
  This is the runtime package for programs that use the libmimelib library.
  .
