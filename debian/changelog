@@ -15,6 +15,9 @@ kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
   * Update lintian overrides.
   * Bump S-V to 3.9.1; update Breaks/Conflicts/Replaces.
 
+  [ Pino Toscano ]
+  * Add jovie alternative to kttsd suggest.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Mar 2011 23:39:39 +0000
 
 kdepim (4:4.4.7-3) unstable; urgency=high
