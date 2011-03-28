@@ -1,6 +1,8 @@
 kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
   * Delete backport_dont_crash_when_adding_feed.diff, no longer needed.
   * Bump KDE SC build dependencies to 4:4.6.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
@@ -13,7 +15,7 @@ kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
   * Update lintian overrides.
   * Bump S-V to 3.9.1; update Breaks/Conflicts/Replaces.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 02 Mar 2011 23:39:39 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Mar 2011 23:39:39 +0000
 
 kdepim (4:4.4.7-3) unstable; urgency=high
 
