@@ -1,4 +1,4 @@
-kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
+kdepim (4:4.4.10-0r3) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -23,7 +23,7 @@ kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Strip sequence numbers from debian/patches/*.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Mar 2011 23:39:39 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Mar 2011 01:02:48 +0300
 
 kdepim (4:4.4.7-3) unstable; urgency=high
 
