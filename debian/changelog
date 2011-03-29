@@ -19,6 +19,9 @@ kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
   * Add jovie alternative to kttsd suggest.
   * Small touches at blogilo's description.
 
+  [ Modestas Vainius ]
+  * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Mar 2011 23:39:39 +0000
 
 kdepim (4:4.4.7-3) unstable; urgency=high
