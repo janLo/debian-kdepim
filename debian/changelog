@@ -21,6 +21,7 @@ kdepim (4:4.4.10-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
+  * Strip sequence numbers from debian/patches/*.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Mar 2011 23:39:39 +0000
 
