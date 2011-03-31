@@ -269,7 +269,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kmail, knotes, akregator, kaddressbook, korganizer
-Suggests: gnokii, kjots, ktimeticker, knode
+Suggests: gnokii, kjots, ktimetracker, knode
 Homepage: http://kontact.kde.org/
 Breaks: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)

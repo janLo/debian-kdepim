@@ -18,6 +18,7 @@ kdepim (4:4.4.10-0r3) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add jovie alternative to kttsd suggest.
   * Small touches at blogilo's description.
+  * Fix ktimetracker suggest in kontact. (Closes: #611201)
 
   [ Modestas Vainius ]
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
