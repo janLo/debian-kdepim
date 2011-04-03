@@ -8,7 +8,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 # Strict local dependencies (there are no external ones anyway)
 override_dh_makeshlibs:
-	$(overriden_command) -V
+	$(overridden_command) -V
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdepim-dbg
+	$(overridden_command) --dbg-package=kdepim-dbg
