@@ -5,7 +5,7 @@ kdepim (4:4.4.10-0r3) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Delete backport_dont_crash_when_adding_feed.diff, no longer needed.
   * Bump KDE SC build dependencies to 4:4.6.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Update installed files.
   * Little touches in descriptions:
     - Fix typo in kleopatra description.
