@@ -259,7 +259,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
- Konsolekalendar complements KOrganizer by providing a console
+ KonsoleKalendar complements KOrganizer by providing a console
  frontend to manage your calendars.
  .
  This package is part of the KDE PIM module.
@@ -275,7 +275,7 @@ Breaks: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Description: integrated application for personal information management
  Kontact is the integrated solution to your personal information management
- needs. It combines applications like KMail, KOrganizer, and
+ needs. It combines applications like KMail, KOrganizer and
  KAddressBook into a single interface to provide easy access to mail,
  scheduling, address book and other PIM functionality.
  .
@@ -328,8 +328,8 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: certificate based crypto library
- This package contains libkleo, a library for kleopatra and other parts
- of KDE using certificate based crypto.
+ This package contains libkleo, a library for Kleopatra and other parts
+ of KDE using certificate-based crypto.
  .
  This package is part of the KDE PIM module.
 
@@ -338,7 +338,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: gpg based crypto library
- This package contains libkpgp4, a gnupg-library for kmail and other parts of
+ This package contains libkpgp4, a gnupg-library for KMail and other parts of
  kdepim using gpg-based crypto.
  .
  This package is part of the KDE PIM module.
