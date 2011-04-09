@@ -89,7 +89,7 @@ Description: RSS/Atom feed aggregator
  conveniently. It comes with Konqueror integration for adding news feeds and 
  with an internal browser for easy news reading.
  .
- This package is partof the KDE PIM module.
+ This package is part of the KDE PIM module.
 
 Package: kaddressbook
 Section: utils
