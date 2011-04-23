@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>,
- Michael Meskes <meskes@debian.org>
+ Michael Meskes <meskes@debian.org>, José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.6.2),
  cmake, debhelper (>= 7.3), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.6), kdepimlibs5-dev (>= 4:4.6), libphonon-dev (>= 4:4.6.0really4.3.80),

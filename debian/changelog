@@ -14,6 +14,7 @@ kdepim (4:4.4.10-0r3) UNRELEASED; urgency=low
     - Make libmimelib4 long description smaller than 80 columns.
   * Update lintian overrides.
   * Bump S-V to 3.9.1; update Breaks/Conflicts/Replaces.
+  * Add myself to Uploaders.
 
   [ Pino Toscano ]
   * Add jovie alternative to kttsd suggest.
