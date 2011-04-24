@@ -25,6 +25,9 @@ kdepim (4:4.4.11.1-0r0) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Strip sequence numbers from debian/patches/*.
 
+  [ Frederik Schwarzer ]
+  * Fix typos in package descriptions. (Closes: #623895)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Mar 2011 01:02:48 +0300
 
 kdepim (4:4.4.7-3) unstable; urgency=high
