@@ -1,4 +1,4 @@
-kdepim (4:4.4.11.1-0r0) UNRELEASED; urgency=low
+kdepim (4:4.4.11.1-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -28,7 +28,7 @@ kdepim (4:4.4.11.1-0r0) UNRELEASED; urgency=low
   [ Frederik Schwarzer ]
   * Fix typos in package descriptions. (Closes: #623895)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Mar 2011 01:02:48 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:43 +0300
 
 kdepim (4:4.4.7-3) unstable; urgency=high
 
