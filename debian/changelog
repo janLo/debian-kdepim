@@ -1,3 +1,14 @@
+kdepim (4:4.6-git20110505) UNRELEASED; urgency=low
+
+  * New upstream beta release.
+
+  [ Jan Losinski ]
+  * Update installed files.
+  * Bump build dependencies on kdelibs5-dev and
+    kdepimlibs5-dev to version 4:4.6.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 May 2011 22:27:05 +0200
+
 kdepim (4:4.4.93-0r1) UNRELEASED; urgency=low
 
   * New upstream beta release.
@@ -18,6 +29,57 @@ kdepim (4:4.4.93-0r1) UNRELEASED; urgency=low
   * Bump build dependency on libakonadi-dev to version 1.3.80.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Sep 2010 12:51:05 +0300
+
+kdepim (4:4.4.11.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Delete backport_dont_crash_when_adding_feed.diff, no longer needed.
+  * Bump KDE SC build dependencies to 4:4.6.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
+  * Update installed files.
+  * Little touches in descriptions:
+    - Fix typo in kleopatra description.
+    - Don't capitalize akonadiconsole short description, remove starting
+      article
+    - Make libmimelib4 long description smaller than 80 columns.
+  * Update lintian overrides.
+  * Bump S-V to 3.9.1; update Breaks/Conflicts/Replaces.
+  * Add myself to Uploaders.
+
+  [ Pino Toscano ]
+  * Add jovie alternative to kttsd suggest.
+  * Small touches at blogilo's description.
+  * Fix ktimetracker suggest in kontact. (Closes: #611201)
+
+  [ Modestas Vainius ]
+  * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
+  * Strip sequence numbers from debian/patches/*.
+
+  [ Frederik Schwarzer ]
+  * Fix typos in package descriptions. (Closes: #623895)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:43 +0300
+
+kdepim (4:4.4.7-3) unstable; urgency=high
+
+  * Do not crash when the feed being added does not exist. (Closes: #605094)
+  * Urgency=high, aimed at squeeze.
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 20 Jan 2011 00:55:09 +0200
+
+kdepim (4:4.4.7-2) unstable; urgency=low
+
+  * Release to unstable.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 13 Nov 2010 00:54:38 +0200
+
+kdepim (4:4.4.7-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Modestas Vainius <modax@debian.org>  Fri, 22 Oct 2010 21:51:06 +0300
 
 kdepim (4:4.4.6-1) unstable; urgency=low
 

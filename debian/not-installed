@@ -1,3 +1,7 @@
+# Manpages are compressed.
+./usr/share/man/man1/kabcclient.1
+
+# These files would belong to -dev package, don't install.
 ./usr/lib/libakonadi-kcal_next.so
 ./usr/lib/libakonadi_next.so
 ./usr/lib/libakregatorinterfaces.so
@@ -10,8 +14,6 @@
 ./usr/lib/libkcalgroupwise.so
 ./usr/lib/libkdepim.so
 ./usr/lib/libkleo.so
-./usr/lib/libkleopatraclientcore.so
-./usr/lib/libkleopatraclientgui.so
 ./usr/lib/libknodecommon.so
 ./usr/lib/libkorganizer_core.so
 ./usr/lib/libkorganizer_interfaces.so

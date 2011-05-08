@@ -2,10 +2,6 @@ usr/bin/kgpgconf
 usr/bin/kleopatra
 usr/bin/kwatchgnupg
 usr/lib/kde4/kcm_kleopatra.so
-usr/lib/libkleopatraclientcore.so.0
-usr/lib/libkleopatraclientcore.so.0.3.0
-usr/lib/libkleopatraclientgui.so.0
-usr/lib/libkleopatraclientgui.so.0.3.0
 usr/share/applications/kde4/kleopatra.desktop
 usr/share/applications/kde4/kleopatra_import.desktop
 usr/share/doc/kde/HTML/en/kleopatra/common
@@ -43,7 +39,6 @@ usr/share/kde4/services/kleopatra_config_appear.desktop
 usr/share/kde4/services/kleopatra_config_cryptooperations.desktop
 usr/share/kde4/services/kleopatra_config_dirserv.desktop
 usr/share/kde4/services/kleopatra_config_gnupgsystem.desktop
-usr/share/kde4/services/kleopatra_config_smimevalidation.desktop
 usr/share/kde4/services/kleopatra_decryptverifyfiles.desktop
 usr/share/kde4/services/kleopatra_decryptverifyfolders.desktop
 usr/share/kde4/services/kleopatra_signencryptfiles.desktop

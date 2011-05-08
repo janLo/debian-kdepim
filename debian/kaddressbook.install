@@ -7,7 +7,7 @@ usr/lib/kde4/kcm_ldap.so
 usr/lib/kde4/kontact_kaddressbookplugin.so
 usr/lib/kde4/ktexteditorkabcbridge.so
 usr/lib/libkaddressbookprivate.so.4
-usr/lib/libkaddressbookprivate.so.4.5.0
+usr/lib/libkaddressbookprivate.so.4.6.0
 usr/share/applications/kde4/kaddressbook.desktop
 usr/share/doc/kde/HTML/en/kabcclient/common
 usr/share/doc/kde/HTML/en/kabcclient/index.cache.bz2

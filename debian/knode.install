@@ -3,7 +3,7 @@ usr/lib/kde4/kcm_knode.so
 usr/lib/kde4/knodepart.so
 usr/lib/kde4/kontact_knodeplugin.so
 usr/lib/libknodecommon.so.4
-usr/lib/libknodecommon.so.4.5.0
+usr/lib/libknodecommon.so.4.6.0
 usr/share/applications/kde4/KNode.desktop
 usr/share/doc/kde/HTML/en/kioslave/news/common
 usr/share/doc/kde/HTML/en/kioslave/news/index.cache.bz2

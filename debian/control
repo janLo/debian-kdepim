@@ -4,17 +4,18 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>,
  Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>,
- Michael Meskes <meskes@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
- cdbs, cmake, debhelper (>= 7.3), pkg-kde-tools (>= 0.9),
- kdelibs5-dev (>= 4:4.5), kdepimlibs5-dev (>= 4:4.5), libphonon-dev (>= 4:4.6.0really4.3.80),
+ Michael Meskes <meskes@debian.org>, José Manuel Santamaría Lema <panfaust@gmail.com>,
+ George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.6.2),
+ cdbs, cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6), kdepimlibs5-dev (>= 4:4.6), libphonon-dev (>= 4:4.6.0really4.3.80),
  libgpgme11-dev, libboost-dev (>= 1.40.0-2), libboost-graph-dev (>= 1.40.0-2), libsasl2-dev,
  xsltproc, libgnokii-dev, libxss-dev, libqca2-dev (>= 2.0.0), libassuan-dev,
  libstreams-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libsearchclient-dev (>= 0.6.3),
  libstrigihtmlgui-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3), zlib1g-dev,
  libakonadi-dev (>= 1.3.80), libpisock-dev, shared-desktop-ontologies (>= 0.2),
  libgrantlee-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepim.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdepim.git
@@ -70,6 +71,7 @@ Depends: ${misc:Depends}, kdepimlibs-dbg,
  libmessagelist4 (= ${binary:Version}) |
  libmessageviewer0 (= ${binary:Version}) |
  libtemplateparser4 (= ${binary:Version})
+Breaks: kdeutils-dbg (<< 4:4.0.80)
 Replaces: kdeutils-dbg (<< 4:4.0.80)
 Architecture: any
 Description: debugging symbols for kdepim
@@ -81,6 +83,7 @@ Package: akregator
 Section: web
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
 Homepage: http://akregator.kde.org/
 Description: RSS/Atom feed aggregator 
@@ -91,13 +94,14 @@ Description: RSS/Atom feed aggregator
  conveniently. It comes with Konqueror integration for adding news feeds and 
  with an internal browser for easy news reading.
  .
- This package is partof the KDE PIM module.
+ This package is part of the KDE PIM module.
 
 Package: kaddressbook
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdepim-kresources
+Breaks: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: address book and contact data manager
  KAddressBook enables you to manage your contacts efficiently and comfortably. 
@@ -110,7 +114,7 @@ Package: kalarm
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Suggests: kttsd
+Suggests: kttsd | jovie
 Homepage: http://www.astrojar.org.uk/kalarm/
 Description: alarm message, command and email scheduler
  KAlarm provides a graphical interface to schedule personal timed events -
@@ -131,6 +135,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: korganizer
 Suggests: knotes
+Breaks: korganizer (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80)
 Description: KDE PIM resource plugins
  This package adds more resource plugins for KDE PIM applications such as
@@ -142,6 +147,8 @@ Package: kdepim-groupware
 Section: kde
 Architecture: any
 Recommends: kdepim-wizards
+Breaks: korganizer (<< 4:4.1.80), knotes (<< 4:4.1.80), kaddressbook (<< 4:4.1.80), libkdepim4 (<< 4:4.1.80),
+ kdepim-kresources (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), knotes (<< 4:4.1.80), kaddressbook (<< 4:4.1.80), libkdepim4 (<< 4:4.1.80),
  kdepim-kresources (<< 4:4.1.80)
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
@@ -184,7 +191,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  gnupg-agent, gnupg2, gpgsm, dirmngr, pinentry-qt4 | pinentry-x11
 Description: certificate Manager
- Kleopatra is a tool for managing X.509 certificates ang pgp keys.
+ Kleopatra is a tool for managing X.509 certificates and pgp keys.
  .
  This package is part of the KDE PIM module.
 
@@ -194,6 +201,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Recommends: gnupg2, gnupg-agent, pinentry-qt4 | pinentry-x11
 Suggests: kaddressbook, kleopatra, spamassassin | bogofilter | annoyance-filter | spambayes | bsfilter | crm114, clamav | f-prot-installer, procmail
+Breaks: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3), kontact (<< 4:4.1.80)
 Replaces: kmailcvt (<< 4:3.90.0), akonadi-kde (<< 4:4.1.3), kontact (<< 4:4.1.80)
 Provides: imap-client, mail-reader
 Homepage: http://kontact.kde.org/kmail/
@@ -224,6 +232,7 @@ Package: knode
 Section: news
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80)
 Replaces: kdepim-dev (<< 4:3.4.0), kontact (<< 4:4.1.80)
 Provides: news-reader
 Homepage: http://kontact.kde.org/knode/
@@ -240,6 +249,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdepim-kresources
+Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
 Description: sticky notes application
  KNotes is a program that lets you write sticky notes. The notes are saved
@@ -254,7 +264,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: konsole personal organizer
  KonsoleKalendar is a command-line interface to KDE calendars.
- Konsolekalendar complements KOrganizer by providing a console
+ KonsoleKalendar complements KOrganizer by providing a console
  frontend to manage your calendars.
  .
  This package is part of the KDE PIM module.
@@ -264,12 +274,13 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kmail, knotes, akregator, kaddressbook, korganizer
-Suggests: gnokii, kjots, ktimeticker, knode
+Suggests: gnokii, kjots, ktimetracker, knode
 Homepage: http://kontact.kde.org/
+Breaks: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), akregator (<< 4:4.1.80)
 Description: integrated application for personal information management
  Kontact is the integrated solution to your personal information management
- needs. It combines applications like KMail, KOrganizer, and
+ needs. It combines applications like KMail, KOrganizer and
  KAddressBook into a single interface to provide easy access to mail,
  scheduling, address book and other PIM functionality.
  .
@@ -281,6 +292,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Suggests: kdepim-kresources, kdepim-groupware
 Homepage: http://kontact.kde.org/korganizer/
+Breaks: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Replaces: kaddressbook (<< 4:4.1.80), kontact (<< 4:4.1.80)
 Description: calendar and personal organizer
  This package contains KOrganizer, a calendar and scheduling program.
@@ -297,7 +309,7 @@ Package: ktimetracker
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: karm
+Breaks: karm, kontact (<< 4:4.1.80)
 Replaces: karm, kontact (<< 4:4.1.80)
 Description: time tracker tool
  KTimetracker is a time tracker for busy people who need to keep track
@@ -316,6 +328,7 @@ Package: libkdepim4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kmail (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
 Replaces: kmail (<< 4:4.1.80), kdepim-runtime (<< 4:4.4.0)
 Description: KDE PIM library
  This is the runtime package for programs that use the libkdepim library.
@@ -334,8 +347,8 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: certificate based crypto library
- This package contains libkleo, a library for kleopatra and other parts
- of KDE using certificate based crypto.
+ This package contains libkleo, a library for Kleopatra and other parts
+ of KDE using certificate-based crypto.
  .
  This package is part of the KDE PIM module.
 
@@ -344,7 +357,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: gpg based crypto library
- This package contains libkpgp4, a gnupg-library for kmail and other parts of
+ This package contains libkpgp4, a gnupg-library for KMail and other parts of
  kdepim using gpg-based crypto.
  .
  This package is part of the KDE PIM module.
@@ -418,6 +431,7 @@ Description: PIM file format plugins for Strigi Desktop Search
 Package: kjots
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kontact (<< 4:4.1.80)
 Replaces: kontact (<< 4:4.1.80)
 Section: utils
 Description: note-taking utility 
@@ -433,23 +447,23 @@ Description: graphical blogging client
  Blogilo is a Free/Open Source Blogging client, focused on simplicity and
  usability. Currently featured:
  .
-  * A full featured WYSIWYG editor + An HTML editor.
-  * Previewing your post with your blog style! like when you are visiting it at
+  * A full featured WYSIWYG editor and an HTML editor.
+  * Previewing your post with your blog style, like when you are visiting it at
     your blog.
-  * Support for Blogger1.0, MetaWeblog, MovableType (Wordpress supports All of
-    these!) and Google GData (used on Blogspot.com blogs) APIs!
-  * Support for Creating/Modifying/Deleting posts.
-  * Support for creating drafts and scheduled posts!
-  * Support for uploading media files to your blog (Just on supported APIs e.g.
+  * Support for Blogger1.0, MetaWeblog, MovableType (Wordpress supports all of
+    these) and Google GData (used on Blogspot.com blogs) APIs.
+  * Support for creating/modifying/deleting posts.
+  * Support for creating drafts and scheduled posts.
+  * Support for uploading media files to your blog (only on supported APIs e.g.
     MetaWeblog and MovableType).
-  * Support for Fetching your recent blog entries.
-  * Support for adding Images to post from your system. It will upload them on
-    Submitting post to blog (Just on supported APIs e.g. MetaWeblog and
+  * Support for fetching your recent blog entries.
+  * Support for adding images to post from your system. It will upload them on
+    Submitting post to blog (only on supported APIs e.g. MetaWeblog and
     MovableType).
   * Support for saving local entries before publishing.
   * Saving your writing copy to prevent data loss, at configurable intervals.
   * Internal auto spell checker. (KDE spell checker used so most of languages
-    are supported).
+    are supported.)
  .
  This package is part of the KDE PIM module.
 
@@ -457,8 +471,9 @@ Package: akonadiconsole
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: akonadi-kde (<< 4:4.3.0), kdepim-runtime (<< 4:4.4.0)
 Replaces: akonadi-kde (<< 4:4.3.0), kdepim-runtime (<< 4:4.4.0)
-Description: the Management and Debugging Console for Akonadi
+Description: management and debugging console for akonadi
  Akonadi Console is a useful utility that can be used to explore or manage
  Akonadi. Since this utility exposes Akonadi internals, it is very useful for
  debugging but may also prove handy in other cases.

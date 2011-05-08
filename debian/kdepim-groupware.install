@@ -2,11 +2,11 @@ usr/lib/kde4/kabc_groupwise.so
 usr/lib/kde4/kcal_groupwise.so
 usr/lib/kde4/kio_groupwise.so
 usr/lib/libgwsoap.so.4
-usr/lib/libgwsoap.so.4.5.0
+usr/lib/libgwsoap.so.4.6.0
 usr/lib/libkabcgroupwise.so.4
-usr/lib/libkabcgroupwise.so.4.5.0
+usr/lib/libkabcgroupwise.so.4.6.0
 usr/lib/libkcalgroupwise.so.4
-usr/lib/libkcalgroupwise.so.4.5.0
+usr/lib/libkcalgroupwise.so.4.6.0
 usr/share/kde4/services/groupwise.protocol
 usr/share/kde4/services/groupwises.protocol
 usr/share/kde4/services/kresources/kabc/kabc_groupwise.desktop

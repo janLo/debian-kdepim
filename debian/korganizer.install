@@ -17,11 +17,11 @@ usr/lib/kde4/korg_thisdayinhistory.so
 usr/lib/kde4/korg_yearprint.so
 usr/lib/kde4/korganizerpart.so
 usr/lib/libkorganizer_core.so.4
-usr/lib/libkorganizer_core.so.4.5.0
+usr/lib/libkorganizer_core.so.4.6.0
 usr/lib/libkorganizer_interfaces.so.4
-usr/lib/libkorganizer_interfaces.so.4.5.0
+usr/lib/libkorganizer_interfaces.so.4.6.0
 usr/lib/libkorganizerprivate.so.4
-usr/lib/libkorganizerprivate.so.4.5.0
+usr/lib/libkorganizerprivate.so.4.6.0
 usr/share/applications/kde4/korganizer-import.desktop
 usr/share/applications/kde4/korganizer.desktop
 usr/share/autostart/korgac.desktop
