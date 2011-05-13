@@ -14,7 +14,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.2),
  libstreams-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libsearchclient-dev (>= 0.6.3),
  libstrigihtmlgui-dev (>= 0.6.3), libstrigiqtdbusclient-dev (>= 0.6.3), zlib1g-dev,
  libakonadi-dev (>= 1.5), libpisock-dev, shared-desktop-ontologies (>= 0.2),
- libgrantlee-dev
+ libgrantlee-dev, libqtwebkit-dev, libqt4-opengl-dev
 Standards-Version: 3.9.1
 Homepage: http://pim.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdepim.git
