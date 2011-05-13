@@ -7,6 +7,20 @@ kdepim (4:4.6-git20110505) UNRELEASED; urgency=low
   * Bump build dependencies on kdelibs5-dev and
     kdepimlibs5-dev to version 4:4.6.
 
+  [ Adrian von Bidder ]
+  * Adapt to 4.6 git snapshot
+    - Adjust build dependencies
+  * Add new library packages:
+    - libcalendarsupport4
+    - libincidenceeditorsng4 (renamed from libincidenceeditors4)
+    - libeventviews4
+    - libkdgantt2-0
+    - libkmanagesieve4
+    - libksieveui4
+    - libmailcommon4
+    - libmessageviewer4 (renamed from libmessageviewer0)
+  * Don't install the mobile components for now.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 May 2011 22:27:05 +0200
 
 kdepim (4:4.4.93-0r1) UNRELEASED; urgency=low
