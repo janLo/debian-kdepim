@@ -66,6 +66,8 @@ Depends: ${misc:Depends}, kdepimlibs-dbg,
  libkdepimdbusinterfaces4 (= ${binary:Version}) |
  libkdgantt2-0 (= ${binary:Version}) |
  libkleo4 (= ${binary:Version}) |
+ libkleopatraclientgui0 (= ${binary:Version}) |
+ libkleopatraclientcore0 (= ${binary:Version}) |
  libkmanagesieve4 (= ${binary:Version}) |
  libkpgp4 (= ${binary:Version}) |
  libksieve4 (= ${binary:Version}) |
@@ -321,6 +323,20 @@ Description: time tracker tool
  KTimetracker is a time tracker for busy people who need to keep track
  of the amount of time they spend on various tasks.
  .
+ This package is part of the KDE PIM module.
+
+Package: libkleopatraclientgui0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kleopatra support library
+ This package is part of the KDE PIM module.
+
+Package: libkleopatraclientcore0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kleopatra support library
  This package is part of the KDE PIM module.
 
 Package: libcalendarsupport4
