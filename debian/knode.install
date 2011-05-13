@@ -53,9 +53,11 @@ usr/share/doc/kde/HTML/en/knode/using-morefeatures.docbook
 usr/share/doc/kde/HTML/en/knode/using-subscribing.docbook
 usr/share/icons/hicolor/128x128/apps/knode.png
 usr/share/icons/hicolor/16x16/apps/knode.png
+usr/share/icons/hicolor/22x22/apps/knode.png
 usr/share/icons/hicolor/32x32/apps/knode.png
 usr/share/icons/hicolor/48x48/apps/knode.png
 usr/share/icons/hicolor/64x64/apps/knode.png
+usr/share/icons/hicolor/scalable/apps/knode.svgz
 usr/share/kde4/apps/kconf_update/knode.upd
 usr/share/kde4/apps/knode/filters/1.fltr
 usr/share/kde4/apps/knode/filters/2.fltr

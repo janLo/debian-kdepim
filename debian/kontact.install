@@ -41,10 +41,12 @@ usr/share/icons/hicolor/22x22/apps/kontact.png
 usr/share/icons/hicolor/32x32/apps/kontact.png
 usr/share/icons/hicolor/48x48/apps/kontact.png
 usr/share/icons/hicolor/64x64/apps/kontact.png
+usr/share/icons/hicolor/scalable/apps/kontact.svgz
 usr/share/kde4/apps/kontact/about/kontact.css
 usr/share/kde4/apps/kontact/about/main.html
 usr/share/kde4/apps/kontact/about/top-left-kontact.png
 usr/share/kde4/apps/kontact/kontactui.rc
+usr/share/kde4/apps/kontact/ktimetrackerui.rc
 usr/share/kde4/apps/kontact/ksettingsdialog/summary.setdlg
 usr/share/kde4/apps/kontactsummary/kontactsummary_part.rc
 usr/share/kde4/config.kcfg/kontact.kcfg

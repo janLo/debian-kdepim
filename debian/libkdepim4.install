@@ -5,10 +5,13 @@ usr/lib/libkcal_resourceremote.so.4
 usr/lib/libkcal_resourceremote.so.4.6.0
 usr/lib/libkdepim.so.4
 usr/lib/libkdepim.so.4.6.0
+usr/share/icons/oxygen/128x128/mimetypes/x-mail-distribution-list.png
 usr/share/icons/oxygen/16x16/mimetypes/x-mail-distribution-list.png
 usr/share/icons/oxygen/22x22/mimetypes/x-mail-distribution-list.png
+usr/share/icons/oxygen/256x256/mimetypes/x-mail-distribution-list.png
 usr/share/icons/oxygen/32x32/mimetypes/x-mail-distribution-list.png
 usr/share/icons/oxygen/48x48/mimetypes/x-mail-distribution-list.png
+usr/share/icons/oxygen/512x512/mimetypes/x-mail-distribution-list.png
 usr/share/icons/oxygen/scalable/mimetypes/x-mail-distribution-list.svgz
 usr/share/kde4/apps/kdepimwidgets/pics/addresseelineedit.png
 usr/share/kde4/apps/kdepimwidgets/pics/clicklineedit.png

@@ -159,7 +159,7 @@ Breaks: korganizer (<< 4:4.1.80), knotes (<< 4:4.1.80), kaddressbook (<< 4:4.1.8
  kdepim-kresources (<< 4:4.1.80)
 Replaces: korganizer (<< 4:4.1.80), knotes (<< 4:4.1.80), kaddressbook (<< 4:4.1.80), libkdepim4 (<< 4:4.1.80),
  kdepim-kresources (<< 4:4.1.80)
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KDE PIM Groupware plugins
  This package includes several plugins used by KDE PIM components to
  interface with Groupware servers. Supported Groupware platforms include

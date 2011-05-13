@@ -137,6 +137,8 @@
 ./usr/lib/libkdepimmobileui.so.4.6.0
 ./usr/lib/libkdgantt2.so
 ./usr/lib/libkleo.so
+./usr/lib/libkleopatraclientcore.so
+./usr/lib/libkleopatraclientgui.so
 ./usr/lib/libkmanagesieve.so
 ./usr/lib/libknodecommon.so
 ./usr/lib/libkorganizer_core.so
@@ -218,6 +220,7 @@
 ./usr/share/kde4/apps/kontact-touch/en/mail/templateshelp.html
 ./usr/share/kde4/apps/kontact-touch/en/manual/index.html
 ./usr/share/kde4/apps/kontact-touch/licenses.pdf
+./usr/share/kde4/apps/kontact-touch/licenses.html
 ./usr/share/kde4/apps/korganizer-mobile/BulkActionComponent.qml
 ./usr/share/kde4/apps/korganizer-mobile/ConfigDialog.qml
 ./usr/share/kde4/apps/korganizer-mobile/EventListComponent.qml
@@ -238,6 +241,7 @@
 ./usr/share/kde4/apps/messageviewer/about/messageviewer_mobile.css
 ./usr/share/kde4/apps/mobileui/add-button.png
 ./usr/share/kde4/apps/mobileui/back-to-list-button.png
+./usr/share/kde4/apps/mobileui/built-on-the-kde-platform.png
 ./usr/share/kde4/apps/mobileui/delete-button.png
 ./usr/share/kde4/apps/mobileui/edit-button.png
 ./usr/share/kde4/apps/mobileui/incidence-editor.qml
