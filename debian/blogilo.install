@@ -31,5 +31,6 @@ usr/share/icons/hicolor/48x48/actions/upload-media.png
 usr/share/icons/hicolor/48x48/apps/blogilo.png
 usr/share/icons/hicolor/64x64/actions/upload-media.png
 usr/share/icons/hicolor/64x64/apps/blogilo.png
+usr/share/kde4/apps/blogilo/TextEditorInitialHtml
 usr/share/kde4/apps/blogilo/blogiloui.rc
 usr/share/kde4/config.kcfg/blogilo.kcfg

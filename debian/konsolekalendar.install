@@ -3,8 +3,8 @@ usr/share/applications/kde4/konsolekalendar.desktop
 usr/share/doc/kde/HTML/en/konsolekalendar/common
 usr/share/doc/kde/HTML/en/konsolekalendar/index.cache.bz2
 usr/share/doc/kde/HTML/en/konsolekalendar/index.docbook
-usr/share/kde4/apps/konsolekalendar/pics/hi128-apps-konsolekalendar.png
-usr/share/kde4/apps/konsolekalendar/pics/hi16-apps-konsolekalendar.png
-usr/share/kde4/apps/konsolekalendar/pics/hi22-apps-konsolekalendar.png
-usr/share/kde4/apps/konsolekalendar/pics/hi32-apps-konsolekalendar.png
-usr/share/kde4/apps/konsolekalendar/pics/hi48-apps-konsolekalendar.png
+usr/share/icons/hicolor/128x128/apps/konsolekalendar.png
+usr/share/icons/hicolor/16x16/apps/konsolekalendar.png
+usr/share/icons/hicolor/22x22/apps/konsolekalendar.png
+usr/share/icons/hicolor/32x32/apps/konsolekalendar.png
+usr/share/icons/hicolor/48x48/apps/konsolekalendar.png

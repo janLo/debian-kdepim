@@ -1,2 +1,7 @@
 usr/lib/libmessagelist.so.4
 usr/lib/libmessagelist.so.4.6.0
+usr/share/kde4/apps/messagelist/pics/mail-deleted.png
+usr/share/kde4/apps/messagelist/pics/mail-horizontal-space.png
+usr/share/kde4/apps/messagelist/pics/mail-thread-ignored.png
+usr/share/kde4/apps/messagelist/pics/mail-thread-watch.png
+usr/share/kde4/apps/messagelist/pics/mail-vertical-separator-line.png
